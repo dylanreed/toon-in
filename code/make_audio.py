@@ -31,7 +31,7 @@ def text_to_speech(api_key, voice_id, text, output_file):
 # Main script
 def main():
     # Path to your CSV file
-    csv_file = "/Users/nervous/Documents/GitHub/speech-aligner/inputs/jokes/jokes_test.csv"
+    csv_file = "/Users/nervous/Documents/GitHub/toon-in/input/transcript.csv"
     
     # Read the CSV file
     df = pd.read_csv(csv_file)
@@ -41,14 +41,14 @@ def main():
 
     # Eleven Labs API settings
     api_key = "sk_176192a20220752b5863e294703ea73200898bf126ebb3e2"  # Replace with your API key
-    voice_id = "i1CsF0dbxtrr78piuktK"           # Replace with the desired voice ID
+    voice_id = "Z8U8jX2xdS3eT0YWoo6y"           # Replace with the desired voice ID
 
     # Iterate through lines in the CSV and generate audio for each
-    output_dir = "/Users/nervous/Documents/GitHub/speech-aligner/output/jokes_audio/output.wav"
+    output_dir = "/Users/nervous/Documents/GitHub/toon-in/data/audio"
     os.makedirs(output_dir, exist_ok=True)
     
     for idx, line in enumerate(lines):
-        output_file = os.path.join(output_dir, f"joke_{idx + 1}.mp3")
+        output_file = os.path.join(output_dir, f"audio_{idx + 1}.mp3")
         print(f"Generating audio for line {idx + 1}: {line}")
         text_to_speech(api_key, voice_id, line, output_file)
 

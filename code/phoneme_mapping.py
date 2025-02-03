@@ -60,11 +60,11 @@ def map_words_to_phonemes(word_data, cmu_dict):
 
 def main():
     # Path to CMU dictionary
-    cmu_dict_path = "/Users/nervous/Documents/GitHub/speech-aligner/.venv/lib/python3.10/site-packages/pocketsphinx/model/en-us/cmudict-en-us.dict"  # Replace with your actual path
+    cmu_dict_path = "/Users/nervous/Documents/GitHub/toon-in/.venv/lib/python3.10/site-packages/pocketsphinx/model/en-us/cmudict-en-us.dict"  # Replace with your actual path
     cmu_dict = load_cmu_dict(cmu_dict_path)
 
     # Load the word data JSON
-    word_data_path = "/Users/nervous/Documents/GitHub/speech-aligner/output/word_data.json"  # Replace with your word data JSON file path
+    word_data_path = "/Users/nervous/Documents/GitHub/toon-in/data/word_data.json"  # Replace with your word data JSON file path
     with open(word_data_path, "r", encoding="utf-8") as json_file:
         word_data = json.load(json_file)
 
@@ -72,7 +72,7 @@ def main():
     phoneme_data = map_words_to_phonemes(word_data, cmu_dict)
 
     # Save the phoneme data to JSON
-    output_path = "/Users/nervous/Documents/GitHub/speech-aligner/output/phoneme_data.json"
+    output_path = "/Users/nervous/Documents/GitHub/toon-in/data/phoneme_data.json"
     with open(output_path, "w", encoding="utf-8") as json_file:
         json.dump(phoneme_data, json_file, indent=4, ensure_ascii=False)
 

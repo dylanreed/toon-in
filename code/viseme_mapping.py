@@ -33,7 +33,7 @@ def map_phonemes_to_visemes(phoneme_data):
 
 if __name__ == "__main__":
     # Load phoneme data from the JSON file
-    phoneme_data_path = "/Users/nervous/Documents/GitHub/speech-aligner/output/phoneme_data.json"  # Replace with the actual file path
+    phoneme_data_path = "/Users/nervous/Documents/GitHub/toon-in/data/phoneme_data.json"  # Replace with the actual file path
     with open(phoneme_data_path, "r", encoding="utf-8") as json_file:
         phoneme_data = json.load(json_file)
 
@@ -41,7 +41,7 @@ if __name__ == "__main__":
     viseme_data = map_phonemes_to_visemes(phoneme_data)
 
     # Save viseme data to a new JSON file
-    viseme_data_path = "/Users/nervous/Documents/GitHub/speech-aligner/output/viseme_data.json"
+    viseme_data_path = "/Users/nervous/Documents/GitHub/toon-in/data/viseme_data.json"
     with open(viseme_data_path, "w", encoding="utf-8") as json_file:
         json.dump(viseme_data, json_file, indent=4)
 

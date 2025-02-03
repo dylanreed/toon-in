@@ -46,7 +46,7 @@ def extract_emotions_with_pyaudioanalysis(audio_path, model_path, model_type="sv
 # Example usage
 if __name__ == "__main__":
     # Path to the audio file
-    audio_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/output_audio.wav"
+    audio_file = "/Users/nervous/Documents/GitHub/toon-in/output/output_audio.wav"
 
     # Path to the pretrained model (replace with your actual model path)
     model_path = "path_to_pretrained_model"  # e.g., svmModel

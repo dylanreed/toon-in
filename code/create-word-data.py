@@ -2,7 +2,7 @@ import whisper
 import json
 
 model = whisper.load_model("medium")
-result = model.transcribe("/Users/nervous/Documents/GitHub/speech-aligner/output/converted_jokes/audio.wav", word_timestamps=True)
+result = model.transcribe("/Users/nervous/Documents/GitHub/toon-in/data/audio/audio_1.wav", word_timestamps=True)
 
 # Print the entire result to understand its structure
 print(result)
@@ -17,7 +17,7 @@ for segment in result['segments']:
         })
 
 # Export word data to a JSON file
-output_path = "/Users/nervous/Documents/GitHub/speech-aligner/output/word_data.json"
+output_path = "/Users/nervous/Documents/GitHub/toon-in/data/word_data.json"
 with open(output_path, "w", encoding="utf-8") as json_file:
     json.dump(word_data, json_file, indent=4, ensure_ascii=False)
 

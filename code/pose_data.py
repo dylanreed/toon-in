@@ -1,15 +1,10 @@
 import re
 import json
 import os
+import sys
 
 def load_file(file_path):
-    """
-    Load text or JSON file content.
-    Args:
-        file_path (str): Path to the file.
-    Returns:
-        str or dict: File content (string for text files, dict for JSON files).
-    """
+    """Load text or JSON file content."""
     if file_path.endswith(".txt"):
         with open(file_path, "r", encoding="utf-8") as f:
             return f.read()
@@ -25,51 +20,46 @@ def parse_transcript_with_poses(transcript, words_timing):
 
     Args:
         transcript (str): The transcript text with pose tags (e.g., "<wave>").
-        words_timing (list): List of dictionaries with word timings, e.g.:
-            [{"word": "Hello", "start_time": 0.0, "end_time": 0.5}, ...]
+        words_timing (list): List of dictionaries with word timings.
 
     Returns:
-        list: Pose data with start and end times, e.g.:
-            [{"pose": "wave", "start_time": 1.0, "end_time": 1.5}, ...]
+        list: Pose data with start and end times.
     """
-    # Pose tag regex
     pose_pattern = re.compile(r"<(.*?)>")
-    
-    # Match pose tags and associate them with word timings
     pose_data = []
+
     for match in re.finditer(pose_pattern, transcript):
         pose = match.group(1)  # Extract pose name
-        # Approximate the position of the tag in the timeline
         position = match.start() / len(transcript) * words_timing[-1]["end_time"]
-        # Find the closest word timing
-        closest_word = min(
-            words_timing,
-            key=lambda x: abs(x["start_time"] - position)
-        )
+
+        closest_word = min(words_timing, key=lambda x: abs(x["start_time"] - position))
+
+        # Dynamically determine pose folder
+        if "att_2" in pose:  # Assign pose_2 to att_2
+            pose_folder = "pose_2"
+        else:
+            pose_folder = "pose_1"
+
         pose_data.append({
-            "pose_image": pose + ".png",
+            "pose_folder": pose_folder,
+            "pose_image": f"{pose_folder}/{pose}.png",
             "pose_start_time": closest_word["start_time"],
-            "pose_end_time": closest_word["end_time"] + 0.5  # Extend duration by 0.5s
+            "pose_end_time": closest_word["end_time"] + 0.5  # Extend duration slightly
         })
-    
+
     return pose_data
 
 def save_pose_data(pose_data, output_file):
-    """
-    Save the pose data to a JSON file.
-    Args:
-        pose_data (list): Pose data to save.
-        output_file (str): Path to the output JSON file.
-    """
+    """Save the pose data to a JSON file."""
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(pose_data, f, indent=4)
     print(f"Pose data saved to: {output_file}")
 
 if __name__ == "__main__":
     # File paths
-    transcript_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/transcript_poses.txt"
-    words_timing_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/word_data.json"
-    output_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/pose_data.json"
+    transcript_file = "/Users/nervous/Documents/GitHub/toon-in/data/transcript.txt"
+    words_timing_file = "/Users/nervous/Documents/GitHub/toon-in/data/word_data.json"
+    output_file = "/Users/nervous/Documents/GitHub/toon-in/data/pose_data.json"
 
     # Load input files
     transcript = load_file(transcript_file)
@@ -78,5 +68,5 @@ if __name__ == "__main__":
     # Parse poses from the transcript
     pose_data = parse_transcript_with_poses(transcript, words_timing)
 
-    # Save the pose data to a JSON file
+    # Save the pose data
     save_pose_data(pose_data, output_file)

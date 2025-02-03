@@ -6,8 +6,8 @@ def align_words(audio_file, transcript):
     config = {
         'verbose': True,
         'hmm': os.path.join(model_path, 'en-us', 'en-us'),
-        'lm': os.path.join(model_path, '/Users/nervous/Documents/GitHub/speech-aligner/.venv/lib/python3.10/site-packages/pocketsphinx/model/en-us/en-us-phone.lm.bin'),
-        'dict': '/Users/nervous/Documents/GitHub/speech-aligner/.venv/lib/python3.10/site-packages/pocketsphinx/model/en-us/cmudict-en-us.dict',
+        'lm': os.path.join(model_path, '/Users/nervous/Documents/GitHub/toon-in/.venv/lib/python3.10/site-packages/pocketsphinx/model/en-us/en-us-phone.lm.bin'),
+        'dict': '/Users/nervous/Documents/GitHub/toon-in/.venv/lib/python3.10/site-packages/pocketsphinx/model/en-us/cmudict-en-us.dict',
         'bestpath': True,  # Enable best path decoding
     }
 
@@ -36,8 +36,8 @@ def align_words(audio_file, transcript):
     return word_data
 
 if __name__ == "__main__":
-    audio_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/converted_jokes/audio.wav"  # Replace with your WAV file
-    transcript = "/Users/nervous/Documents/GitHub/speech-aligner/output/transcript.txt"  # Replace with your transcript
+    audio_file = "/Users/nervous/Documents/GitHub/toon-in/data/audio/audio_1.wav"  # Replace with your WAV file
+    transcript = "/Users/nervous/Documents/GitHub/toon-in/data/clean_transcript.txt"  # Replace with your transcript
     aligned_words = align_words(audio_file, transcript)
     print("Aligned Words:")
     print(aligned_words)

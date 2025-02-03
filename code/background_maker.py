@@ -33,7 +33,7 @@ duration = 5  # Video duration in seconds
 num_frames = fps * duration
 
 # Initialize Video Writer
-video_writer = cv2.VideoWriter("/Users/nervous/Documents/GitHub/speech-aligner/output/animated_background.mp4", cv2.VideoWriter_fourcc(*"mp4v"), fps, frame_size)
+video_writer = cv2.VideoWriter("/Users/nervous/Documents/GitHub/toon-in/output/animated_background.mp4", cv2.VideoWriter_fourcc(*"mp4v"), fps, frame_size)
 
 print("Generating frames...")
 

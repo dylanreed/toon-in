@@ -46,8 +46,8 @@ def convert_to_wav(input_file, output_file):
 
 def main():
     # Input and output directories
-    input_dir = "/Users/nervous/Documents/GitHub/speech-aligner/output/jokes_audio"
-    output_dir = "/Users/nervous/Documents/GitHub/speech-aligner/output/converted_jokes"
+    input_dir = "/Users/nervous/Documents/GitHub/toon-in/data/audio/"
+    output_dir = "/Users/nervous/Documents/GitHub/toon-in/data/audio/"
     os.makedirs(output_dir, exist_ok=True)
 
     # Iterate over all audio files in the input directory

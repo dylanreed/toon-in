@@ -24,7 +24,7 @@ def add_grain_to_video(input_video, output_video):
         print(f"Error applying grain effect: {e}")
 
 # Example usage
-input_video = "/Users/nervous/Documents/GitHub/speech-aligner/output/with_audio.mp4"
-output_video = "/Users/nervous/Documents/GitHub/speech-aligner/output/black_and_white.mp4"
+input_video = "/Users/nervous/Documents/GitHub/toon-in/output/with_audio.mp4"
+output_video = "/Users/nervous/Documents/GitHub/toon-in/output/black_and_white.mp4"
 
 add_grain_to_video(input_video, output_video)
