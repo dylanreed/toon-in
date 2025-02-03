@@ -1,0 +1,7 @@
+*.png
+assets/.DS_Store
+assets/body/.DS_Store
+assets/pose_1/.DS_Store
+assets/pose_1/right_eye_1/.DS_Store
+assets/pose_1/visemes_1/.DS_Store
+.DS_Store
