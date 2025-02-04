@@ -1,992 +1,117 @@
 [
     {
-        "word": " In",
-        "start_time": 0.7399999999999993,
-        "end_time": 1.38
+        "word": " Painting",
+        "start_time": 1.0200000000000005,
+        "end_time": 1.58
     },
     {
-        "word": " today's",
-        "start_time": 1.38,
-        "end_time": 1.86
+        "word": " some",
+        "start_time": 1.58,
+        "end_time": 1.8
     },
     {
-        "word": " world",
-        "start_time": 1.86,
-        "end_time": 2.12
+        "word": " kill",
+        "start_time": 1.8,
+        "end_time": 2.08
     },
     {
-        "word": " where",
-        "start_time": 2.12,
-        "end_time": 2.4
-    },
-    {
-        "word": " stress,",
-        "start_time": 2.4,
-        "end_time": 2.78
-    },
-    {
-        "word": " uncertainty,",
-        "start_time": 2.98,
-        "end_time": 3.38
+        "word": " teams",
+        "start_time": 2.08,
+        "end_time": 2.36
     },
     {
         "word": " and",
-        "start_time": 3.56,
+        "start_time": 2.36,
+        "end_time": 2.64
+    },
+    {
+        "word": " watching",
+        "start_time": 2.64,
+        "end_time": 2.88
+    },
+    {
+        "word": " Jurassic",
+        "start_time": 2.88,
+        "end_time": 3.3
+    },
+    {
+        "word": " Park",
+        "start_time": 3.3,
         "end_time": 3.62
     },
     {
-        "word": " health",
+        "word": " movies.",
         "start_time": 3.62,
-        "end_time": 3.9
+        "end_time": 4.02
     },
     {
-        "word": " challenges",
-        "start_time": 3.9,
-        "end_time": 4.34
+        "word": " So",
+        "start_time": 4.36,
+        "end_time": 4.52
     },
     {
-        "word": " are",
-        "start_time": 4.34,
-        "end_time": 4.6
+        "word": " I",
+        "start_time": 4.52,
+        "end_time": 4.58
     },
     {
-        "word": " ever",
-        "start_time": 4.6,
-        "end_time": 4.86
+        "word": " guess",
+        "start_time": 4.58,
+        "end_time": 4.76
     },
     {
-        "word": " present,",
-        "start_time": 4.86,
-        "end_time": 5.44
+        "word": " you",
+        "start_time": 4.76,
+        "end_time": 4.9
     },
     {
-        "word": " staying",
-        "start_time": 5.66,
-        "end_time": 5.96
+        "word": " could",
+        "start_time": 4.9,
+        "end_time": 5.06
     },
     {
-        "word": " hydrated",
-        "start_time": 5.96,
-        "end_time": 6.46
+        "word": " say",
+        "start_time": 5.06,
+        "end_time": 5.24
     },
     {
-        "word": " is",
-        "start_time": 6.46,
-        "end_time": 6.7
+        "word": " I",
+        "start_time": 5.24,
+        "end_time": 5.42
     },
     {
-        "word": " more",
-        "start_time": 6.7,
+        "word": " am",
+        "start_time": 5.42,
+        "end_time": 5.58
+    },
+    {
+        "word": " escaping",
+        "start_time": 5.58,
+        "end_time": 5.94
+    },
+    {
+        "word": " into",
+        "start_time": 5.94,
+        "end_time": 6.24
+    },
+    {
+        "word": " fantasy",
+        "start_time": 6.24,
+        "end_time": 6.68
+    },
+    {
+        "word": " worlds",
+        "start_time": 6.68,
         "end_time": 6.96
     },
     {
-        "word": " crucial",
-        "start_time": 6.96,
-        "end_time": 7.32
-    },
-    {
-        "word": " than",
-        "start_time": 7.32,
-        "end_time": 7.6
-    },
-    {
-        "word": " ever.",
-        "start_time": 7.6,
-        "end_time": 7.96
-    },
-    {
-        "word": " Proper",
-        "start_time": 8.42,
-        "end_time": 8.7
-    },
-    {
-        "word": " hydration",
-        "start_time": 8.7,
-        "end_time": 9.24
-    },
-    {
-        "word": " supports",
-        "start_time": 9.24,
-        "end_time": 9.74
-    },
-    {
-        "word": " overall",
-        "start_time": 9.74,
-        "end_time": 10.28
-    },
-    {
-        "word": " well",
-        "start_time": 10.28,
-        "end_time": 10.54
-    },
-    {
-        "word": "-being,",
-        "start_time": 10.54,
-        "end_time": 11.04
-    },
-    {
-        "word": " strengthening",
-        "start_time": 11.34,
-        "end_time": 11.64
-    },
-    {
-        "word": " both",
-        "start_time": 11.64,
-        "end_time": 12.02
-    },
-    {
-        "word": " physical",
-        "start_time": 12.02,
-        "end_time": 12.38
-    },
-    {
-        "word": " and",
-        "start_time": 12.38,
-        "end_time": 12.56
-    },
-    {
-        "word": " mental",
-        "start_time": 12.56,
-        "end_time": 12.92
-    },
-    {
-        "word": " resilience.",
-        "start_time": 12.92,
-        "end_time": 13.52
-    },
-    {
-        "word": " Water",
-        "start_time": 14.08,
-        "end_time": 14.32
-    },
-    {
-        "word": " is",
-        "start_time": 14.32,
-        "end_time": 14.58
-    },
-    {
-        "word": " essential",
-        "start_time": 14.58,
-        "end_time": 14.94
-    },
-    {
-        "word": " for",
-        "start_time": 14.94,
-        "end_time": 15.26
-    },
-    {
-        "word": " regulating",
-        "start_time": 15.26,
-        "end_time": 15.62
-    },
-    {
-        "word": " body",
-        "start_time": 15.62,
-        "end_time": 15.98
-    },
-    {
-        "word": " temperature,",
-        "start_time": 15.98,
-        "end_time": 16.58
-    },
-    {
-        "word": " aiding",
-        "start_time": 16.96,
-        "end_time": 17.22
-    },
-    {
-        "word": " digestion,",
-        "start_time": 17.22,
-        "end_time": 17.88
-    },
-    {
-        "word": " and",
-        "start_time": 18.32,
-        "end_time": 18.52
-    },
-    {
-        "word": " flushing",
-        "start_time": 18.52,
-        "end_time": 18.8
-    },
-    {
-        "word": " out",
-        "start_time": 18.8,
-        "end_time": 19.1
-    },
-    {
-        "word": " toxins.",
-        "start_time": 19.1,
-        "end_time": 19.54
-    },
-    {
-        "word": " When",
-        "start_time": 20.06,
-        "end_time": 20.32
-    },
-    {
-        "word": " stress",
-        "start_time": 20.32,
-        "end_time": 20.6
-    },
-    {
-        "word": " levels",
-        "start_time": 20.6,
-        "end_time": 20.86
-    },
-    {
-        "word": " are",
-        "start_time": 20.86,
-        "end_time": 21.1
-    },
-    {
-        "word": " high,",
-        "start_time": 21.1,
-        "end_time": 21.42
-    },
-    {
-        "word": " the",
-        "start_time": 21.72,
-        "end_time": 21.86
-    },
-    {
-        "word": " body",
-        "start_time": 21.86,
-        "end_time": 22.04
-    },
-    {
-        "word": " tends",
-        "start_time": 22.04,
-        "end_time": 22.3
-    },
-    {
-        "word": " to",
-        "start_time": 22.3,
-        "end_time": 22.56
-    },
-    {
-        "word": " dehydrate",
-        "start_time": 22.56,
-        "end_time": 23.06
-    },
-    {
-        "word": " more",
-        "start_time": 23.06,
-        "end_time": 23.4
-    },
-    {
-        "word": " quickly,",
-        "start_time": 23.4,
-        "end_time": 23.74
-    },
-    {
-        "word": " leading",
-        "start_time": 24.12,
-        "end_time": 24.32
-    },
-    {
-        "word": " to",
-        "start_time": 24.32,
-        "end_time": 24.54
-    },
-    {
-        "word": " fatigue,",
-        "start_time": 24.54,
-        "end_time": 25.04
-    },
-    {
-        "word": " headaches,",
-        "start_time": 25.46,
-        "end_time": 25.72
-    },
-    {
-        "word": " and",
-        "start_time": 26.16,
-        "end_time": 26.36
-    },
-    {
-        "word": " weakened",
-        "start_time": 26.36,
-        "end_time": 26.66
-    },
-    {
-        "word": " immune",
-        "start_time": 26.66,
-        "end_time": 27.02
-    },
-    {
-        "word": " function,",
-        "start_time": 27.02,
-        "end_time": 27.5
-    },
-    {
-        "word": " things",
-        "start_time": 27.82,
-        "end_time": 28.1
-    },
-    {
-        "word": " no",
-        "start_time": 28.1,
-        "end_time": 28.3
-    },
-    {
-        "word": " one",
-        "start_time": 28.3,
-        "end_time": 28.44
-    },
-    {
-        "word": " can",
-        "start_time": 28.44,
-        "end_time": 28.64
-    },
-    {
-        "word": " afford",
-        "start_time": 28.64,
-        "end_time": 28.98
-    },
-    {
-        "word": " during",
-        "start_time": 28.98,
-        "end_time": 29.28
-    },
-    {
-        "word": " difficult",
-        "start_time": 29.28,
-        "end_time": 29.66
-    },
-    {
-        "word": " times.",
-        "start_time": 29.66,
-        "end_time": 30.16
-    },
-    {
-        "word": " Mental",
-        "start_time": 30.6,
-        "end_time": 30.88
-    },
-    {
-        "word": " clarity",
-        "start_time": 30.88,
-        "end_time": 31.24
-    },
-    {
-        "word": " also",
-        "start_time": 31.24,
-        "end_time": 31.58
-    },
-    {
-        "word": " depends",
-        "start_time": 31.58,
-        "end_time": 31.94
-    },
-    {
-        "word": " on",
-        "start_time": 31.94,
-        "end_time": 32.16
-    },
-    {
-        "word": " hydration.",
-        "start_time": 32.16,
-        "end_time": 32.68
-    },
-    {
-        "word": " Dehydration",
-        "start_time": 33.47,
-        "end_time": 33.82
-    },
-    {
-        "word": " can",
-        "start_time": 33.82,
-        "end_time": 34.08
-    },
-    {
-        "word": " cause",
-        "start_time": 34.08,
-        "end_time": 34.28
-    },
-    {
-        "word": " brain",
-        "start_time": 34.28,
-        "end_time": 34.64
-    },
-    {
-        "word": " fog,",
-        "start_time": 34.64,
-        "end_time": 34.94
-    },
-    {
-        "word": " irritability,",
-        "start_time": 35.32,
-        "end_time": 35.86
-    },
-    {
-        "word": " and",
-        "start_time": 36.0,
-        "end_time": 36.12
-    },
-    {
-        "word": " difficulty",
-        "start_time": 36.12,
-        "end_time": 36.66
-    },
-    {
-        "word": " concentrating,",
-        "start_time": 36.66,
-        "end_time": 37.24
-    },
-    {
-        "word": " making",
-        "start_time": 37.8,
-        "end_time": 37.92
-    },
-    {
-        "word": " it",
-        "start_time": 37.92,
-        "end_time": 38.16
-    },
-    {
-        "word": " harder",
-        "start_time": 38.16,
-        "end_time": 38.36
-    },
-    {
-        "word": " to",
-        "start_time": 38.36,
-        "end_time": 38.62
-    },
-    {
-        "word": " navigate",
-        "start_time": 38.62,
-        "end_time": 38.98
-    },
-    {
-        "word": " daily",
-        "start_time": 38.98,
-        "end_time": 39.3
-    },
-    {
-        "word": " challenges.",
-        "start_time": 39.3,
-        "end_time": 39.9
-    },
-    {
-        "word": " Whether",
-        "start_time": 40.28,
-        "end_time": 40.48
-    },
-    {
-        "word": " facing",
-        "start_time": 40.48,
-        "end_time": 40.86
-    },
-    {
-        "word": " financial",
-        "start_time": 40.86,
-        "end_time": 41.42
-    },
-    {
-        "word": " struggles,",
-        "start_time": 41.42,
-        "end_time": 41.82
-    },
-    {
-        "word": " health",
-        "start_time": 42.06,
-        "end_time": 42.2
-    },
-    {
-        "word": " concerns,",
-        "start_time": 42.2,
-        "end_time": 42.68
-    },
-    {
         "word": " or",
-        "start_time": 42.8,
-        "end_time": 43.0
+        "start_time": 6.96,
+        "end_time": 7.18
     },
     {
-        "word": " emotional",
-        "start_time": 43.0,
-        "end_time": 43.38
-    },
-    {
-        "word": " hardships,",
-        "start_time": 43.38,
-        "end_time": 43.88
-    },
-    {
-        "word": " drinking",
-        "start_time": 44.36,
-        "end_time": 44.64
-    },
-    {
-        "word": " enough",
-        "start_time": 44.64,
-        "end_time": 44.94
-    },
-    {
-        "word": " water",
-        "start_time": 44.94,
-        "end_time": 45.2
-    },
-    {
-        "word": " helps",
-        "start_time": 45.2,
-        "end_time": 45.46
-    },
-    {
-        "word": " maintain",
-        "start_time": 45.46,
-        "end_time": 46.0
-    },
-    {
-        "word": " focus",
-        "start_time": 46.0,
-        "end_time": 46.42
-    },
-    {
-        "word": " and",
-        "start_time": 46.42,
-        "end_time": 46.66
-    },
-    {
-        "word": " emotional",
-        "start_time": 46.66,
-        "end_time": 47.08
-    },
-    {
-        "word": " stability.",
-        "start_time": 47.08,
-        "end_time": 47.6
-    },
-    {
-        "word": " Additionally,",
-        "start_time": 48.2,
-        "end_time": 48.82
-    },
-    {
-        "word": " with",
-        "start_time": 49.2,
-        "end_time": 49.38
-    },
-    {
-        "word": " increased",
-        "start_time": 49.38,
-        "end_time": 49.74
-    },
-    {
-        "word": " illness",
-        "start_time": 49.74,
-        "end_time": 50.14
-    },
-    {
-        "word": " and",
-        "start_time": 50.14,
-        "end_time": 50.38
-    },
-    {
-        "word": " global",
-        "start_time": 50.38,
-        "end_time": 50.7
-    },
-    {
-        "word": " health",
-        "start_time": 50.7,
-        "end_time": 50.98
-    },
-    {
-        "word": " concerns,",
-        "start_time": 50.98,
-        "end_time": 51.5
-    },
-    {
-        "word": " keeping",
-        "start_time": 51.9,
-        "end_time": 52.16
-    },
-    {
-        "word": " the",
-        "start_time": 52.16,
-        "end_time": 52.42
-    },
-    {
-        "word": " body",
-        "start_time": 52.42,
-        "end_time": 52.6
-    },
-    {
-        "word": " hydrated",
-        "start_time": 52.6,
-        "end_time": 53.14
-    },
-    {
-        "word": " ensures",
-        "start_time": 53.14,
-        "end_time": 53.7
-    },
-    {
-        "word": " that",
-        "start_time": 53.7,
-        "end_time": 54.02
-    },
-    {
-        "word": " organs",
-        "start_time": 54.02,
-        "end_time": 54.34
-    },
-    {
-        "word": " function",
-        "start_time": 54.34,
-        "end_time": 54.78
-    },
-    {
-        "word": " optimally.",
-        "start_time": 54.78,
-        "end_time": 55.54
-    },
-    {
-        "word": " It",
-        "start_time": 55.86,
-        "end_time": 55.92
-    },
-    {
-        "word": " aids",
-        "start_time": 55.92,
-        "end_time": 56.2
-    },
-    {
-        "word": " in",
-        "start_time": 56.2,
-        "end_time": 56.42
-    },
-    {
-        "word": " nutrient",
-        "start_time": 56.42,
-        "end_time": 56.74
-    },
-    {
-        "word": " absorption",
-        "start_time": 56.74,
-        "end_time": 57.26
-    },
-    {
-        "word": " and",
-        "start_time": 57.26,
-        "end_time": 57.56
-    },
-    {
-        "word": " keeps",
-        "start_time": 57.56,
-        "end_time": 57.76
-    },
-    {
-        "word": " joints",
-        "start_time": 57.76,
-        "end_time": 58.1
-    },
-    {
-        "word": " lubricated,",
-        "start_time": 58.1,
-        "end_time": 58.94
-    },
-    {
-        "word": " reducing",
-        "start_time": 59.22,
-        "end_time": 59.6
-    },
-    {
-        "word": " the",
-        "start_time": 59.6,
-        "end_time": 59.8
-    },
-    {
-        "word": " risk",
-        "start_time": 59.8,
-        "end_time": 59.98
-    },
-    {
-        "word": " of",
-        "start_time": 59.98,
-        "end_time": 60.26
-    },
-    {
-        "word": " inflammation",
-        "start_time": 60.26,
-        "end_time": 60.74
-    },
-    {
-        "word": " and",
-        "start_time": 60.74,
-        "end_time": 61.04
-    },
-    {
-        "word": " discomfort.",
-        "start_time": 61.04,
-        "end_time": 61.56
-    },
-    {
-        "word": " In",
-        "start_time": 62.22,
-        "end_time": 62.38
-    },
-    {
-        "word": " these",
-        "start_time": 62.38,
-        "end_time": 62.7
-    },
-    {
-        "word": " trying",
-        "start_time": 62.7,
-        "end_time": 62.98
-    },
-    {
-        "word": " times,",
-        "start_time": 62.98,
-        "end_time": 63.62
-    },
-    {
-        "word": " self",
-        "start_time": 64.08,
-        "end_time": 64.18
-    },
-    {
-        "word": "-care",
-        "start_time": 64.18,
-        "end_time": 64.44
-    },
-    {
-        "word": " is",
-        "start_time": 64.44,
-        "end_time": 64.64
-    },
-    {
-        "word": " essential,",
-        "start_time": 64.64,
-        "end_time": 65.12
-    },
-    {
-        "word": " and",
-        "start_time": 65.48,
-        "end_time": 65.58
-    },
-    {
-        "word": " one",
-        "start_time": 65.58,
-        "end_time": 65.76
-    },
-    {
-        "word": " of",
-        "start_time": 65.76,
-        "end_time": 65.92
-    },
-    {
-        "word": " the",
-        "start_time": 65.92,
-        "end_time": 66.0
-    },
-    {
-        "word": " simplest",
-        "start_time": 66.0,
-        "end_time": 66.4
-    },
-    {
-        "word": " yet",
-        "start_time": 66.4,
-        "end_time": 66.62
-    },
-    {
-        "word": " most",
-        "start_time": 66.62,
-        "end_time": 66.94
-    },
-    {
-        "word": " powerful",
-        "start_time": 66.94,
-        "end_time": 67.38
-    },
-    {
-        "word": " acts",
-        "start_time": 67.38,
-        "end_time": 67.72
-    },
-    {
-        "word": " of",
-        "start_time": 67.72,
-        "end_time": 68.0
-    },
-    {
-        "word": " self",
-        "start_time": 68.0,
-        "end_time": 68.18
-    },
-    {
-        "word": "-care",
-        "start_time": 68.18,
-        "end_time": 68.5
-    },
-    {
-        "word": " is",
-        "start_time": 68.5,
-        "end_time": 69.0
-    },
-    {
-        "word": " drinking",
-        "start_time": 69.0,
-        "end_time": 69.36
-    },
-    {
-        "word": " water.",
-        "start_time": 69.36,
-        "end_time": 69.9
-    },
-    {
-        "word": " Carry",
-        "start_time": 70.36,
-        "end_time": 70.56
-    },
-    {
-        "word": " a",
-        "start_time": 70.56,
-        "end_time": 70.76
-    },
-    {
-        "word": " bottle,",
-        "start_time": 70.76,
-        "end_time": 71.0
-    },
-    {
-        "word": " set",
-        "start_time": 71.14,
-        "end_time": 71.24
-    },
-    {
-        "word": " reminders,",
-        "start_time": 71.24,
-        "end_time": 71.7
-    },
-    {
-        "word": " and",
-        "start_time": 71.9,
-        "end_time": 72.14
-    },
-    {
-        "word": " prioritize",
-        "start_time": 72.14,
-        "end_time": 72.68
-    },
-    {
-        "word": " hydration",
-        "start_time": 72.68,
-        "end_time": 73.2
-    },
-    {
-        "word": " to",
-        "start_time": 73.2,
-        "end_time": 73.68
-    },
-    {
-        "word": " keep",
-        "start_time": 73.68,
-        "end_time": 73.88
-    },
-    {
-        "word": " your",
-        "start_time": 73.88,
-        "end_time": 74.14
-    },
-    {
-        "word": " body",
-        "start_time": 74.14,
-        "end_time": 74.4
-    },
-    {
-        "word": " and",
-        "start_time": 74.4,
-        "end_time": 74.64
-    },
-    {
-        "word": " mind",
-        "start_time": 74.64,
-        "end_time": 74.8
-    },
-    {
-        "word": " strong.",
-        "start_time": 74.8,
-        "end_time": 75.38
-    },
-    {
-        "word": " Staying",
-        "start_time": 75.94,
-        "end_time": 76.42
-    },
-    {
-        "word": " hydrated",
-        "start_time": 76.42,
-        "end_time": 76.76
-    },
-    {
-        "word": " is",
-        "start_time": 76.76,
-        "end_time": 77.06
-    },
-    {
-        "word": " a",
-        "start_time": 77.06,
-        "end_time": 77.3
-    },
-    {
-        "word": " small",
-        "start_time": 77.3,
-        "end_time": 77.52
-    },
-    {
-        "word": " but",
-        "start_time": 77.52,
-        "end_time": 77.78
-    },
-    {
-        "word": " vital",
-        "start_time": 77.78,
-        "end_time": 78.08
-    },
-    {
-        "word": " step",
-        "start_time": 78.08,
-        "end_time": 78.42
-    },
-    {
-        "word": " toward",
-        "start_time": 78.42,
-        "end_time": 78.66
-    },
-    {
-        "word": " resilience,",
-        "start_time": 78.66,
-        "end_time": 79.24
-    },
-    {
-        "word": " energy,",
-        "start_time": 79.42,
-        "end_time": 79.82
-    },
-    {
-        "word": " and",
-        "start_time": 80.12,
-        "end_time": 80.36
-    },
-    {
-        "word": " overall",
-        "start_time": 80.36,
-        "end_time": 80.72
-    },
-    {
-        "word": " well",
-        "start_time": 80.72,
-        "end_time": 81.0
-    },
-    {
-        "word": "-being.",
-        "start_time": 81.0,
-        "end_time": 81.42
+        "word": " something.",
+        "start_time": 7.18,
+        "end_time": 7.42
     }
 ]

@@ -29,7 +29,7 @@ def convert_to_wav(input_file, output_file):
         audio = AudioSegment.from_file(input_file)
 
         # Apply the analog tape effect
-        audio = add_analog_tape_effect(audio)
+        #audio = add_analog_tape_effect(audio)
 
         # Add 1 second of silence to the beginning and end
         silence = AudioSegment.silent(duration=1000)  # 1 second of silence

@@ -29,7 +29,7 @@ def load_pose_data(pose_data_path):
 
         return data
 
-def render_animation_to_video(viseme_data, output_video, fps, resolution, temp_dir, head_image_path, blink_image_path, pose_data, background_path, eye_image, pupil_image):
+def render_animation_to_video(viseme_data, output_video, fps, resolution, temp_dir, head_image_path, blink_image_path, pose_data, background_path, eye_image):
     """Render animation frames and encode them into a video, dynamically switching viseme and pose folders."""
     pygame.init()
 
@@ -42,9 +42,6 @@ def render_animation_to_video(viseme_data, output_video, fps, resolution, temp_d
 
     # Load Eye Image
     eye_image = pygame.image.load(eye_image)
-
-    # Load Pupil Image
-    pupil_image = pygame.image.load(pupil_image)
 
     # Load head image
     if os.path.exists(head_image_path):
@@ -88,13 +85,6 @@ def render_animation_to_video(viseme_data, output_video, fps, resolution, temp_d
         head_y = resolution[1] // 2 - head_image.get_height() // 2 + resolution[1] // 4
         screen.blit(head_image, (head_x, head_y))
 
-        # Render Eyes
-        eye_image_x = 375
-        eye_image_y = 1450
-        screen.blit(eye_image, (eye_image_x, eye_image_y))
-
-        # Render Pupil
-        screen.blit(pupil_image, (eye_image_x+50, eye_image_y+50))
 
         # Keep track of last active pose image
         last_active_pose = "pose_1/att_1.png"  # Default pose
@@ -132,7 +122,10 @@ def render_animation_to_video(viseme_data, output_video, fps, resolution, temp_d
             screen.blit(pose_img, (head_x, head_y))
         else:
             print(f"Warning: Pose image not found: {pose_image_path}")
+        
+        # Render Eyes
 
+        screen.blit(eye_image, (head_x, head_y))
 
         # Load visemes from the correct pose folder
         viseme_directory = f"/Users/nervous/Documents/GitHub/toon-in/assets/{last_active_pose_folder}/visemes_{last_active_pose_folder[-1]}"
@@ -218,15 +211,14 @@ if __name__ == "__main__":
     temp_dir = "/Users/nervous/Documents/GitHub/toon-in/data/tmp_frames/"
     output_video = "/Users/nervous/Documents/GitHub/toon-in/data/without_audio.mp4"
     head_image_path = "/Users/nervous/Documents/GitHub/toon-in/assets/body/body.png"
-    blink_image_path = "/Users/nervous/Documents/GitHub/toon-in/assets/pose_1/left_eye_1/pupil.png"
+    blink_image_path = "/Users/nervous/Documents/GitHub/toon-in/assets/pose_1/eye/close_1.png"
     pose_data_path = "/Users/nervous/Documents/GitHub/toon-in/data/pose_data.json"
     background_path = "/Users/nervous/Documents/GitHub/toon-in/assets/background/background.png"
-    eye_image = "/Users/nervous/Documents/GitHub/toon-in/assets/pose_1/left_eye_1/pupil.png"
-    pupil_image = "/Users/nervous/Documents/GitHub/toon-in/assets/pose_1/left_eye_1/pupil.png"
+    eye_image = "/Users/nervous/Documents/GitHub/toon-in/assets/pose_1/eye/eye_1.png"
     fps = 30
-    resolution = (1320, 2868)
+    resolution = (600, 600)
 
     viseme_data = load_viseme_data(viseme_file)
     pose_data = load_pose_data(pose_data_path)
 
-render_animation_to_video(viseme_data, output_video, fps, resolution, temp_dir, head_image_path, blink_image_path, pose_data, background_path, eye_image, pupil_image)
+render_animation_to_video(viseme_data, output_video, fps, resolution, temp_dir, head_image_path, blink_image_path, pose_data, background_path, eye_image)
