@@ -1,117 +1,4177 @@
 [
     {
-        "word": " Painting",
-        "start_time": 1.0200000000000005,
-        "end_time": 1.58
+        "word": " Congress",
+        "start_time": 1.039999999999997,
+        "end_time": 1.56
     },
     {
-        "word": " some",
-        "start_time": 1.58,
-        "end_time": 1.8
+        "word": " of",
+        "start_time": 1.56,
+        "end_time": 1.74
     },
     {
-        "word": " kill",
-        "start_time": 1.8,
-        "end_time": 2.08
+        "word": " the",
+        "start_time": 1.74,
+        "end_time": 1.9
     },
     {
-        "word": " teams",
-        "start_time": 2.08,
-        "end_time": 2.36
+        "word": " United",
+        "start_time": 1.9,
+        "end_time": 2.22
+    },
+    {
+        "word": " States",
+        "start_time": 2.22,
+        "end_time": 2.54
+    },
+    {
+        "word": " begun",
+        "start_time": 2.54,
+        "end_time": 3.06
     },
     {
         "word": " and",
-        "start_time": 2.36,
-        "end_time": 2.64
+        "start_time": 3.06,
+        "end_time": 3.36
     },
     {
-        "word": " watching",
-        "start_time": 2.64,
-        "end_time": 2.88
+        "word": " held",
+        "start_time": 3.36,
+        "end_time": 3.58
     },
     {
-        "word": " Jurassic",
-        "start_time": 2.88,
-        "end_time": 3.3
+        "word": " at",
+        "start_time": 3.58,
+        "end_time": 3.78
     },
     {
-        "word": " Park",
-        "start_time": 3.3,
-        "end_time": 3.62
+        "word": " the",
+        "start_time": 3.78,
+        "end_time": 3.9
     },
     {
-        "word": " movies.",
-        "start_time": 3.62,
-        "end_time": 4.02
+        "word": " city",
+        "start_time": 3.9,
+        "end_time": 4.08
     },
     {
-        "word": " So",
-        "start_time": 4.36,
-        "end_time": 4.52
+        "word": " of",
+        "start_time": 4.08,
+        "end_time": 4.24
     },
     {
-        "word": " I",
-        "start_time": 4.52,
-        "end_time": 4.58
+        "word": " New",
+        "start_time": 4.24,
+        "end_time": 4.44
     },
     {
-        "word": " guess",
-        "start_time": 4.58,
-        "end_time": 4.76
+        "word": " York",
+        "start_time": 4.44,
+        "end_time": 4.82
     },
     {
-        "word": " you",
-        "start_time": 4.76,
-        "end_time": 4.9
+        "word": " on",
+        "start_time": 4.82,
+        "end_time": 5.34
     },
     {
-        "word": " could",
-        "start_time": 4.9,
-        "end_time": 5.06
+        "word": " Wednesday",
+        "start_time": 5.34,
+        "end_time": 5.72
     },
     {
-        "word": " say",
-        "start_time": 5.06,
-        "end_time": 5.24
+        "word": " the",
+        "start_time": 5.72,
+        "end_time": 5.96
     },
     {
-        "word": " I",
-        "start_time": 5.24,
-        "end_time": 5.42
+        "word": " 4th",
+        "start_time": 5.96,
+        "end_time": 6.22
     },
     {
-        "word": " am",
-        "start_time": 5.42,
-        "end_time": 5.58
+        "word": " of",
+        "start_time": 6.22,
+        "end_time": 6.36
     },
     {
-        "word": " escaping",
-        "start_time": 5.58,
-        "end_time": 5.94
+        "word": " March",
+        "start_time": 6.36,
+        "end_time": 6.82
     },
     {
-        "word": " into",
-        "start_time": 5.94,
-        "end_time": 6.24
+        "word": " 1789.",
+        "start_time": 6.82,
+        "end_time": 9.08
     },
     {
-        "word": " fantasy",
-        "start_time": 6.24,
-        "end_time": 6.68
+        "word": " The",
+        "start_time": 10.42,
+        "end_time": 10.62
     },
     {
-        "word": " worlds",
-        "start_time": 6.68,
-        "end_time": 6.96
+        "word": " conventions",
+        "start_time": 10.62,
+        "end_time": 11.04
+    },
+    {
+        "word": " of",
+        "start_time": 11.04,
+        "end_time": 11.24
+    },
+    {
+        "word": " a",
+        "start_time": 11.24,
+        "end_time": 11.34
+    },
+    {
+        "word": " number",
+        "start_time": 11.34,
+        "end_time": 11.5
+    },
+    {
+        "word": " of",
+        "start_time": 11.5,
+        "end_time": 11.66
+    },
+    {
+        "word": " the",
+        "start_time": 11.66,
+        "end_time": 11.88
+    },
+    {
+        "word": " states",
+        "start_time": 11.88,
+        "end_time": 12.2
+    },
+    {
+        "word": " having",
+        "start_time": 12.2,
+        "end_time": 12.66
+    },
+    {
+        "word": " at",
+        "start_time": 12.66,
+        "end_time": 12.82
+    },
+    {
+        "word": " the",
+        "start_time": 12.82,
+        "end_time": 13.0
+    },
+    {
+        "word": " time",
+        "start_time": 13.0,
+        "end_time": 13.14
+    },
+    {
+        "word": " of",
+        "start_time": 13.14,
+        "end_time": 13.3
+    },
+    {
+        "word": " their",
+        "start_time": 13.3,
+        "end_time": 13.52
+    },
+    {
+        "word": " adopting",
+        "start_time": 13.52,
+        "end_time": 13.82
+    },
+    {
+        "word": " the",
+        "start_time": 13.82,
+        "end_time": 14.08
+    },
+    {
+        "word": " Constitution",
+        "start_time": 14.08,
+        "end_time": 14.9
+    },
+    {
+        "word": " expressed",
+        "start_time": 14.9,
+        "end_time": 15.62
+    },
+    {
+        "word": " a",
+        "start_time": 15.62,
+        "end_time": 15.92
+    },
+    {
+        "word": " desire",
+        "start_time": 15.92,
+        "end_time": 16.26
+    },
+    {
+        "word": " in",
+        "start_time": 16.26,
+        "end_time": 16.54
+    },
+    {
+        "word": " order",
+        "start_time": 16.54,
+        "end_time": 16.76
+    },
+    {
+        "word": " to",
+        "start_time": 16.76,
+        "end_time": 17.04
+    },
+    {
+        "word": " prevent",
+        "start_time": 17.04,
+        "end_time": 17.24
+    },
+    {
+        "word": " misconstruction",
+        "start_time": 17.24,
+        "end_time": 17.96
     },
     {
         "word": " or",
-        "start_time": 6.96,
-        "end_time": 7.18
+        "start_time": 17.96,
+        "end_time": 18.22
     },
     {
-        "word": " something.",
-        "start_time": 7.18,
-        "end_time": 7.42
+        "word": " abuse",
+        "start_time": 18.22,
+        "end_time": 18.48
+    },
+    {
+        "word": " of",
+        "start_time": 18.48,
+        "end_time": 18.64
+    },
+    {
+        "word": " its",
+        "start_time": 18.64,
+        "end_time": 18.84
+    },
+    {
+        "word": " powers",
+        "start_time": 18.84,
+        "end_time": 19.26
+    },
+    {
+        "word": " that",
+        "start_time": 19.26,
+        "end_time": 20.0
+    },
+    {
+        "word": " further",
+        "start_time": 20.0,
+        "end_time": 20.32
+    },
+    {
+        "word": " declaratory",
+        "start_time": 20.32,
+        "end_time": 21.0
+    },
+    {
+        "word": " and",
+        "start_time": 21.0,
+        "end_time": 21.3
+    },
+    {
+        "word": " restrictive",
+        "start_time": 21.3,
+        "end_time": 21.68
+    },
+    {
+        "word": " clauses",
+        "start_time": 21.68,
+        "end_time": 22.2
+    },
+    {
+        "word": " should",
+        "start_time": 22.2,
+        "end_time": 22.46
+    },
+    {
+        "word": " be",
+        "start_time": 22.46,
+        "end_time": 22.72
+    },
+    {
+        "word": " added.",
+        "start_time": 22.72,
+        "end_time": 23.08
+    },
+    {
+        "word": " And",
+        "start_time": 23.84,
+        "end_time": 24.04
+    },
+    {
+        "word": " as",
+        "start_time": 24.04,
+        "end_time": 24.26
+    },
+    {
+        "word": " extending",
+        "start_time": 24.26,
+        "end_time": 24.6
+    },
+    {
+        "word": " the",
+        "start_time": 24.6,
+        "end_time": 24.88
+    },
+    {
+        "word": " ground",
+        "start_time": 24.88,
+        "end_time": 25.02
+    },
+    {
+        "word": " of",
+        "start_time": 25.02,
+        "end_time": 25.26
+    },
+    {
+        "word": " public",
+        "start_time": 25.26,
+        "end_time": 25.52
+    },
+    {
+        "word": " confidence",
+        "start_time": 25.52,
+        "end_time": 25.98
+    },
+    {
+        "word": " in",
+        "start_time": 25.98,
+        "end_time": 26.14
+    },
+    {
+        "word": " the",
+        "start_time": 26.14,
+        "end_time": 26.32
+    },
+    {
+        "word": " government",
+        "start_time": 26.32,
+        "end_time": 26.7
+    },
+    {
+        "word": " will",
+        "start_time": 26.7,
+        "end_time": 27.16
+    },
+    {
+        "word": " best",
+        "start_time": 27.16,
+        "end_time": 27.44
+    },
+    {
+        "word": " ensure",
+        "start_time": 27.44,
+        "end_time": 27.86
+    },
+    {
+        "word": " the",
+        "start_time": 27.86,
+        "end_time": 28.08
+    },
+    {
+        "word": " beneficent",
+        "start_time": 28.08,
+        "end_time": 28.56
+    },
+    {
+        "word": " ends",
+        "start_time": 28.56,
+        "end_time": 28.8
+    },
+    {
+        "word": " of",
+        "start_time": 28.8,
+        "end_time": 28.96
+    },
+    {
+        "word": " its",
+        "start_time": 28.96,
+        "end_time": 29.18
+    },
+    {
+        "word": " institution.",
+        "start_time": 29.18,
+        "end_time": 29.76
+    },
+    {
+        "word": " Resolved",
+        "start_time": 30.96,
+        "end_time": 31.3
+    },
+    {
+        "word": " by",
+        "start_time": 31.3,
+        "end_time": 31.54
+    },
+    {
+        "word": " the",
+        "start_time": 31.54,
+        "end_time": 31.72
+    },
+    {
+        "word": " Senate",
+        "start_time": 31.72,
+        "end_time": 31.9
+    },
+    {
+        "word": " and",
+        "start_time": 31.9,
+        "end_time": 32.08
+    },
+    {
+        "word": " House",
+        "start_time": 32.08,
+        "end_time": 32.34
+    },
+    {
+        "word": " of",
+        "start_time": 32.34,
+        "end_time": 32.6
+    },
+    {
+        "word": " Representatives",
+        "start_time": 32.6,
+        "end_time": 33.06
+    },
+    {
+        "word": " of",
+        "start_time": 33.06,
+        "end_time": 33.28
+    },
+    {
+        "word": " the",
+        "start_time": 33.28,
+        "end_time": 33.4
+    },
+    {
+        "word": " United",
+        "start_time": 33.4,
+        "end_time": 33.72
+    },
+    {
+        "word": " States",
+        "start_time": 33.72,
+        "end_time": 33.94
+    },
+    {
+        "word": " of",
+        "start_time": 33.94,
+        "end_time": 34.12
+    },
+    {
+        "word": " America",
+        "start_time": 34.12,
+        "end_time": 34.54
+    },
+    {
+        "word": " in",
+        "start_time": 34.54,
+        "end_time": 35.1
+    },
+    {
+        "word": " Congress",
+        "start_time": 35.1,
+        "end_time": 35.42
+    },
+    {
+        "word": " assembled",
+        "start_time": 35.42,
+        "end_time": 35.94
+    },
+    {
+        "word": " two",
+        "start_time": 35.94,
+        "end_time": 36.4
+    },
+    {
+        "word": "-thirds",
+        "start_time": 36.4,
+        "end_time": 36.66
+    },
+    {
+        "word": " of",
+        "start_time": 36.66,
+        "end_time": 36.86
+    },
+    {
+        "word": " both",
+        "start_time": 36.86,
+        "end_time": 37.04
+    },
+    {
+        "word": " houses",
+        "start_time": 37.04,
+        "end_time": 37.42
+    },
+    {
+        "word": " concurring",
+        "start_time": 37.42,
+        "end_time": 37.7
+    },
+    {
+        "word": " that",
+        "start_time": 38.24,
+        "end_time": 38.52
+    },
+    {
+        "word": " the",
+        "start_time": 38.52,
+        "end_time": 38.68
+    },
+    {
+        "word": " following",
+        "start_time": 38.68,
+        "end_time": 38.94
+    },
+    {
+        "word": " articles",
+        "start_time": 38.94,
+        "end_time": 39.34
+    },
+    {
+        "word": " be",
+        "start_time": 39.34,
+        "end_time": 39.62
+    },
+    {
+        "word": " proposed",
+        "start_time": 39.62,
+        "end_time": 40.02
+    },
+    {
+        "word": " to",
+        "start_time": 40.02,
+        "end_time": 40.2
+    },
+    {
+        "word": " the",
+        "start_time": 40.2,
+        "end_time": 40.44
+    },
+    {
+        "word": " legislatures",
+        "start_time": 40.44,
+        "end_time": 40.88
+    },
+    {
+        "word": " of",
+        "start_time": 40.88,
+        "end_time": 41.08
+    },
+    {
+        "word": " the",
+        "start_time": 41.08,
+        "end_time": 41.26
+    },
+    {
+        "word": " several",
+        "start_time": 41.26,
+        "end_time": 41.54
+    },
+    {
+        "word": " states",
+        "start_time": 41.54,
+        "end_time": 42.02
+    },
+    {
+        "word": " as",
+        "start_time": 42.02,
+        "end_time": 42.66
+    },
+    {
+        "word": " amendments",
+        "start_time": 42.66,
+        "end_time": 43.02
+    },
+    {
+        "word": " to",
+        "start_time": 43.02,
+        "end_time": 43.26
+    },
+    {
+        "word": " the",
+        "start_time": 43.26,
+        "end_time": 43.42
+    },
+    {
+        "word": " Constitution",
+        "start_time": 43.42,
+        "end_time": 43.9
+    },
+    {
+        "word": " of",
+        "start_time": 43.9,
+        "end_time": 44.1
+    },
+    {
+        "word": " the",
+        "start_time": 44.1,
+        "end_time": 44.26
+    },
+    {
+        "word": " United",
+        "start_time": 44.26,
+        "end_time": 44.62
+    },
+    {
+        "word": " States.",
+        "start_time": 44.62,
+        "end_time": 45.12
+    },
+    {
+        "word": " All",
+        "start_time": 45.64,
+        "end_time": 46.18
+    },
+    {
+        "word": " or",
+        "start_time": 46.18,
+        "end_time": 46.6
+    },
+    {
+        "word": " any",
+        "start_time": 46.6,
+        "end_time": 46.88
+    },
+    {
+        "word": " of",
+        "start_time": 46.88,
+        "end_time": 47.0
+    },
+    {
+        "word": " which",
+        "start_time": 47.0,
+        "end_time": 47.16
+    },
+    {
+        "word": " articles,",
+        "start_time": 47.16,
+        "end_time": 47.76
+    },
+    {
+        "word": " when",
+        "start_time": 48.06,
+        "end_time": 48.22
+    },
+    {
+        "word": " ratified",
+        "start_time": 48.22,
+        "end_time": 48.7
+    },
+    {
+        "word": " by",
+        "start_time": 48.7,
+        "end_time": 49.02
+    },
+    {
+        "word": " three",
+        "start_time": 49.02,
+        "end_time": 49.28
+    },
+    {
+        "word": "-fourths",
+        "start_time": 49.28,
+        "end_time": 49.58
+    },
+    {
+        "word": " of",
+        "start_time": 49.58,
+        "end_time": 49.74
+    },
+    {
+        "word": " the",
+        "start_time": 49.74,
+        "end_time": 49.86
+    },
+    {
+        "word": " said",
+        "start_time": 49.86,
+        "end_time": 50.16
+    },
+    {
+        "word": " legislatures",
+        "start_time": 50.16,
+        "end_time": 50.74
+    },
+    {
+        "word": " to",
+        "start_time": 50.74,
+        "end_time": 51.28
+    },
+    {
+        "word": " be",
+        "start_time": 51.28,
+        "end_time": 51.46
+    },
+    {
+        "word": " valid",
+        "start_time": 51.46,
+        "end_time": 51.64
+    },
+    {
+        "word": " to",
+        "start_time": 51.64,
+        "end_time": 51.88
+    },
+    {
+        "word": " all",
+        "start_time": 51.88,
+        "end_time": 52.12
+    },
+    {
+        "word": " intents",
+        "start_time": 52.12,
+        "end_time": 52.44
+    },
+    {
+        "word": " and",
+        "start_time": 52.44,
+        "end_time": 52.66
+    },
+    {
+        "word": " purposes",
+        "start_time": 52.66,
+        "end_time": 53.1
+    },
+    {
+        "word": " as",
+        "start_time": 53.1,
+        "end_time": 53.76
+    },
+    {
+        "word": " part",
+        "start_time": 53.76,
+        "end_time": 53.94
+    },
+    {
+        "word": " of",
+        "start_time": 53.94,
+        "end_time": 54.14
+    },
+    {
+        "word": " the",
+        "start_time": 54.14,
+        "end_time": 54.24
+    },
+    {
+        "word": " said",
+        "start_time": 54.24,
+        "end_time": 54.44
+    },
+    {
+        "word": " Constitution.",
+        "start_time": 54.44,
+        "end_time": 55.18
+    },
+    {
+        "word": " These",
+        "start_time": 55.85999999999999,
+        "end_time": 56.379999999999995
+    },
+    {
+        "word": " articles",
+        "start_time": 56.379999999999995,
+        "end_time": 56.9
+    },
+    {
+        "word": " in",
+        "start_time": 56.9,
+        "end_time": 57.1
+    },
+    {
+        "word": " addition",
+        "start_time": 57.1,
+        "end_time": 57.4
+    },
+    {
+        "word": " to",
+        "start_time": 57.4,
+        "end_time": 57.68
+    },
+    {
+        "word": " and",
+        "start_time": 57.68,
+        "end_time": 57.9
+    },
+    {
+        "word": " amendment",
+        "start_time": 57.9,
+        "end_time": 58.16
+    },
+    {
+        "word": " of",
+        "start_time": 58.16,
+        "end_time": 58.36
+    },
+    {
+        "word": " the",
+        "start_time": 58.36,
+        "end_time": 58.5
+    },
+    {
+        "word": " Constitution",
+        "start_time": 58.5,
+        "end_time": 59.02
+    },
+    {
+        "word": " of",
+        "start_time": 59.02,
+        "end_time": 59.22
+    },
+    {
+        "word": " the",
+        "start_time": 59.22,
+        "end_time": 59.38
+    },
+    {
+        "word": " United",
+        "start_time": 59.38,
+        "end_time": 59.7
+    },
+    {
+        "word": " States",
+        "start_time": 59.7,
+        "end_time": 59.96
+    },
+    {
+        "word": " of",
+        "start_time": 59.96,
+        "end_time": 60.12
+    },
+    {
+        "word": " America",
+        "start_time": 60.12,
+        "end_time": 60.58
+    },
+    {
+        "word": " proposed",
+        "start_time": 60.58,
+        "end_time": 60.98
+    },
+    {
+        "word": " by",
+        "start_time": 60.98,
+        "end_time": 61.24
+    },
+    {
+        "word": " Congress",
+        "start_time": 61.24,
+        "end_time": 61.64
+    },
+    {
+        "word": " and",
+        "start_time": 61.64,
+        "end_time": 62.3
+    },
+    {
+        "word": " ratified",
+        "start_time": 62.3,
+        "end_time": 62.74
+    },
+    {
+        "word": " by",
+        "start_time": 62.74,
+        "end_time": 62.98
+    },
+    {
+        "word": " the",
+        "start_time": 62.98,
+        "end_time": 63.18
+    },
+    {
+        "word": " legislatures",
+        "start_time": 63.18,
+        "end_time": 63.62
+    },
+    {
+        "word": " of",
+        "start_time": 63.62,
+        "end_time": 63.8
+    },
+    {
+        "word": " the",
+        "start_time": 63.8,
+        "end_time": 64.0
+    },
+    {
+        "word": " several",
+        "start_time": 64.0,
+        "end_time": 64.24
+    },
+    {
+        "word": " states",
+        "start_time": 64.24,
+        "end_time": 64.74
+    },
+    {
+        "word": " pursuant",
+        "start_time": 64.74,
+        "end_time": 65.62
+    },
+    {
+        "word": " to",
+        "start_time": 65.62,
+        "end_time": 65.82
+    },
+    {
+        "word": " the",
+        "start_time": 65.82,
+        "end_time": 65.98
+    },
+    {
+        "word": " fifth",
+        "start_time": 65.98,
+        "end_time": 66.2
+    },
+    {
+        "word": " article",
+        "start_time": 66.2,
+        "end_time": 66.6
+    },
+    {
+        "word": " of",
+        "start_time": 66.6,
+        "end_time": 66.78
+    },
+    {
+        "word": " the",
+        "start_time": 66.78,
+        "end_time": 66.96
+    },
+    {
+        "word": " original",
+        "start_time": 66.96,
+        "end_time": 67.34
+    },
+    {
+        "word": " Constitution.",
+        "start_time": 67.34,
+        "end_time": 68.16
+    },
+    {
+        "word": " Article",
+        "start_time": 69.62,
+        "end_time": 69.8
+    },
+    {
+        "word": " I.",
+        "start_time": 69.8,
+        "end_time": 70.62
+    },
+    {
+        "word": " After",
+        "start_time": 71.66,
+        "end_time": 71.72
+    },
+    {
+        "word": " the",
+        "start_time": 71.72,
+        "end_time": 71.98
+    },
+    {
+        "word": " first",
+        "start_time": 71.98,
+        "end_time": 72.18
+    },
+    {
+        "word": " enumeration",
+        "start_time": 72.18,
+        "end_time": 72.82
+    },
+    {
+        "word": " required",
+        "start_time": 72.82,
+        "end_time": 73.24
+    },
+    {
+        "word": " by",
+        "start_time": 73.24,
+        "end_time": 73.46
+    },
+    {
+        "word": " the",
+        "start_time": 73.46,
+        "end_time": 73.66
+    },
+    {
+        "word": " first",
+        "start_time": 73.66,
+        "end_time": 73.9
+    },
+    {
+        "word": " article",
+        "start_time": 73.9,
+        "end_time": 74.2
+    },
+    {
+        "word": " of",
+        "start_time": 74.2,
+        "end_time": 74.38
+    },
+    {
+        "word": " the",
+        "start_time": 74.38,
+        "end_time": 74.66
+    },
+    {
+        "word": " Constitution",
+        "start_time": 74.66,
+        "end_time": 75.16
+    },
+    {
+        "word": " there",
+        "start_time": 75.16,
+        "end_time": 75.78
+    },
+    {
+        "word": " shall",
+        "start_time": 75.78,
+        "end_time": 75.92
+    },
+    {
+        "word": " be",
+        "start_time": 75.92,
+        "end_time": 76.08
+    },
+    {
+        "word": " one",
+        "start_time": 76.08,
+        "end_time": 76.34
+    },
+    {
+        "word": " representative",
+        "start_time": 76.34,
+        "end_time": 76.9
+    },
+    {
+        "word": " for",
+        "start_time": 76.9,
+        "end_time": 77.2
+    },
+    {
+        "word": " every",
+        "start_time": 77.2,
+        "end_time": 77.48
+    },
+    {
+        "word": " 30",
+        "start_time": 77.48,
+        "end_time": 77.78
+    },
+    {
+        "word": ",000",
+        "start_time": 77.78,
+        "end_time": 78.54
+    },
+    {
+        "word": " until",
+        "start_time": 78.54,
+        "end_time": 79.02
+    },
+    {
+        "word": " the",
+        "start_time": 79.02,
+        "end_time": 79.24
+    },
+    {
+        "word": " number",
+        "start_time": 79.24,
+        "end_time": 79.42
+    },
+    {
+        "word": " shall",
+        "start_time": 79.42,
+        "end_time": 79.66
+    },
+    {
+        "word": " amount",
+        "start_time": 79.66,
+        "end_time": 79.88
+    },
+    {
+        "word": " to",
+        "start_time": 79.88,
+        "end_time": 80.12
+    },
+    {
+        "word": " 100",
+        "start_time": 80.12,
+        "end_time": 80.64
+    },
+    {
+        "word": " after",
+        "start_time": 80.64,
+        "end_time": 81.34
+    },
+    {
+        "word": " which",
+        "start_time": 81.34,
+        "end_time": 81.6
+    },
+    {
+        "word": " the",
+        "start_time": 81.6,
+        "end_time": 81.82
+    },
+    {
+        "word": " proportion",
+        "start_time": 81.82,
+        "end_time": 82.26
+    },
+    {
+        "word": " shall",
+        "start_time": 82.26,
+        "end_time": 82.42
+    },
+    {
+        "word": " be",
+        "start_time": 82.42,
+        "end_time": 82.64
+    },
+    {
+        "word": " so",
+        "start_time": 82.64,
+        "end_time": 82.86
+    },
+    {
+        "word": " regulated",
+        "start_time": 82.86,
+        "end_time": 83.26
+    },
+    {
+        "word": " by",
+        "start_time": 83.26,
+        "end_time": 83.56
+    },
+    {
+        "word": " Congress",
+        "start_time": 83.56,
+        "end_time": 84.0
+    },
+    {
+        "word": " that",
+        "start_time": 84.0,
+        "end_time": 84.46
+    },
+    {
+        "word": " there",
+        "start_time": 84.46,
+        "end_time": 84.64
+    },
+    {
+        "word": " shall",
+        "start_time": 84.64,
+        "end_time": 84.84
+    },
+    {
+        "word": " be",
+        "start_time": 84.84,
+        "end_time": 85.02
+    },
+    {
+        "word": " not",
+        "start_time": 85.02,
+        "end_time": 85.24
+    },
+    {
+        "word": " less",
+        "start_time": 85.24,
+        "end_time": 85.46
+    },
+    {
+        "word": " than",
+        "start_time": 85.46,
+        "end_time": 85.68
+    },
+    {
+        "word": " 100",
+        "start_time": 85.68,
+        "end_time": 86.18
+    },
+    {
+        "word": " representatives",
+        "start_time": 86.18,
+        "end_time": 86.98
+    },
+    {
+        "word": " nor",
+        "start_time": 86.98,
+        "end_time": 87.54
+    },
+    {
+        "word": " less",
+        "start_time": 87.54,
+        "end_time": 87.78
+    },
+    {
+        "word": " than",
+        "start_time": 87.78,
+        "end_time": 87.98
+    },
+    {
+        "word": " one",
+        "start_time": 87.98,
+        "end_time": 88.24
+    },
+    {
+        "word": " representative",
+        "start_time": 88.24,
+        "end_time": 88.8
+    },
+    {
+        "word": " for",
+        "start_time": 88.8,
+        "end_time": 89.08
+    },
+    {
+        "word": " every",
+        "start_time": 89.08,
+        "end_time": 89.42
+    },
+    {
+        "word": " 40",
+        "start_time": 89.42,
+        "end_time": 89.7
+    },
+    {
+        "word": ",000",
+        "start_time": 89.7,
+        "end_time": 90.18
+    },
+    {
+        "word": " persons",
+        "start_time": 90.18,
+        "end_time": 90.72
+    },
+    {
+        "word": " until",
+        "start_time": 90.72,
+        "end_time": 91.32
+    },
+    {
+        "word": " the",
+        "start_time": 91.32,
+        "end_time": 91.5
+    },
+    {
+        "word": " number",
+        "start_time": 91.5,
+        "end_time": 91.76
+    },
+    {
+        "word": " of",
+        "start_time": 91.76,
+        "end_time": 92.22
+    },
+    {
+        "word": " representatives",
+        "start_time": 92.22,
+        "end_time": 92.62
+    },
+    {
+        "word": " shall",
+        "start_time": 92.62,
+        "end_time": 92.92
+    },
+    {
+        "word": " amount",
+        "start_time": 92.92,
+        "end_time": 93.18
+    },
+    {
+        "word": " to",
+        "start_time": 93.18,
+        "end_time": 93.46
+    },
+    {
+        "word": " 200",
+        "start_time": 93.46,
+        "end_time": 93.98
+    },
+    {
+        "word": " after",
+        "start_time": 93.98,
+        "end_time": 95.02
+    },
+    {
+        "word": " which",
+        "start_time": 95.02,
+        "end_time": 95.32
+    },
+    {
+        "word": " the",
+        "start_time": 95.32,
+        "end_time": 95.56
+    },
+    {
+        "word": " proportion",
+        "start_time": 95.56,
+        "end_time": 95.94
+    },
+    {
+        "word": " shall",
+        "start_time": 95.94,
+        "end_time": 96.18
+    },
+    {
+        "word": " be",
+        "start_time": 96.18,
+        "end_time": 96.44
+    },
+    {
+        "word": " so",
+        "start_time": 96.44,
+        "end_time": 96.66
+    },
+    {
+        "word": " regulated",
+        "start_time": 96.66,
+        "end_time": 97.04
+    },
+    {
+        "word": " by",
+        "start_time": 97.04,
+        "end_time": 97.34
+    },
+    {
+        "word": " Congress",
+        "start_time": 97.34,
+        "end_time": 97.78
+    },
+    {
+        "word": " that",
+        "start_time": 97.78,
+        "end_time": 98.34
+    },
+    {
+        "word": " there",
+        "start_time": 98.34,
+        "end_time": 98.54
+    },
+    {
+        "word": " shall",
+        "start_time": 98.54,
+        "end_time": 98.7
+    },
+    {
+        "word": " not",
+        "start_time": 98.7,
+        "end_time": 98.88
+    },
+    {
+        "word": " be",
+        "start_time": 98.88,
+        "end_time": 99.02
+    },
+    {
+        "word": " less",
+        "start_time": 99.02,
+        "end_time": 99.28
+    },
+    {
+        "word": " than",
+        "start_time": 99.28,
+        "end_time": 99.42
+    },
+    {
+        "word": " 200",
+        "start_time": 99.42,
+        "end_time": 99.84
+    },
+    {
+        "word": " representatives",
+        "start_time": 99.84,
+        "end_time": 100.68
+    },
+    {
+        "word": " nor",
+        "start_time": 100.68,
+        "end_time": 101.3
+    },
+    {
+        "word": " more",
+        "start_time": 101.3,
+        "end_time": 101.52
+    },
+    {
+        "word": " than",
+        "start_time": 101.52,
+        "end_time": 101.72
+    },
+    {
+        "word": " one",
+        "start_time": 101.72,
+        "end_time": 101.96
+    },
+    {
+        "word": " representative",
+        "start_time": 101.96,
+        "end_time": 102.58
+    },
+    {
+        "word": " for",
+        "start_time": 102.58,
+        "end_time": 103.02
+    },
+    {
+        "word": " every",
+        "start_time": 103.02,
+        "end_time": 103.34
+    },
+    {
+        "word": " 50",
+        "start_time": 103.34,
+        "end_time": 103.74
+    },
+    {
+        "word": ",000",
+        "start_time": 103.74,
+        "end_time": 104.16
+    },
+    {
+        "word": " persons.",
+        "start_time": 104.16,
+        "end_time": 104.76
+    },
+    {
+        "word": " Article",
+        "start_time": 105.24,
+        "end_time": 105.76
+    },
+    {
+        "word": " II.",
+        "start_time": 105.76,
+        "end_time": 106.48
+    },
+    {
+        "word": " No",
+        "start_time": 106.8,
+        "end_time": 107.12
+    },
+    {
+        "word": " law",
+        "start_time": 107.12,
+        "end_time": 107.5
+    },
+    {
+        "word": " varying",
+        "start_time": 107.5,
+        "end_time": 108.0
+    },
+    {
+        "word": " the",
+        "start_time": 108.0,
+        "end_time": 108.3
+    },
+    {
+        "word": " compensation",
+        "start_time": 108.3,
+        "end_time": 108.76
+    },
+    {
+        "word": " for",
+        "start_time": 108.76,
+        "end_time": 109.04
+    },
+    {
+        "word": " the",
+        "start_time": 109.04,
+        "end_time": 109.22
+    },
+    {
+        "word": " services",
+        "start_time": 109.22,
+        "end_time": 109.54
+    },
+    {
+        "word": " of",
+        "start_time": 109.54,
+        "end_time": 109.78
+    },
+    {
+        "word": " the",
+        "start_time": 109.78,
+        "end_time": 109.94
+    },
+    {
+        "word": " senators",
+        "start_time": 109.94,
+        "end_time": 110.24
+    },
+    {
+        "word": " and",
+        "start_time": 110.24,
+        "end_time": 110.62
+    },
+    {
+        "word": " representatives",
+        "start_time": 110.62,
+        "end_time": 111.18
+    },
+    {
+        "word": " shall",
+        "start_time": 111.18,
+        "end_time": 111.66
+    },
+    {
+        "word": " take",
+        "start_time": 111.66,
+        "end_time": 111.92
+    },
+    {
+        "word": " effect",
+        "start_time": 111.92,
+        "end_time": 112.34
+    },
+    {
+        "word": " until",
+        "start_time": 112.34,
+        "end_time": 112.8
+    },
+    {
+        "word": " an",
+        "start_time": 112.8,
+        "end_time": 113.02
+    },
+    {
+        "word": " election",
+        "start_time": 113.02,
+        "end_time": 113.28
+    },
+    {
+        "word": " of",
+        "start_time": 113.28,
+        "end_time": 113.6
+    },
+    {
+        "word": " representatives",
+        "start_time": 113.6,
+        "end_time": 114.14
+    },
+    {
+        "word": " shall",
+        "start_time": 114.14,
+        "end_time": 114.56
+    },
+    {
+        "word": " have",
+        "start_time": 114.56,
+        "end_time": 114.78
+    },
+    {
+        "word": " intervened.",
+        "start_time": 114.78,
+        "end_time": 115.18
+    },
+    {
+        "word": " Article",
+        "start_time": 116.50000000000001,
+        "end_time": 117.02000000000001
+    },
+    {
+        "word": " III.",
+        "start_time": 117.02000000000001,
+        "end_time": 117.54
+    },
+    {
+        "word": " Congress",
+        "start_time": 118.0,
+        "end_time": 118.18
+    },
+    {
+        "word": " shall",
+        "start_time": 118.18,
+        "end_time": 118.36
+    },
+    {
+        "word": " make",
+        "start_time": 118.36,
+        "end_time": 118.54
+    },
+    {
+        "word": " no",
+        "start_time": 118.54,
+        "end_time": 118.8
+    },
+    {
+        "word": " law",
+        "start_time": 118.8,
+        "end_time": 118.92
+    },
+    {
+        "word": " respecting",
+        "start_time": 118.92,
+        "end_time": 119.34
+    },
+    {
+        "word": " an",
+        "start_time": 119.34,
+        "end_time": 119.62
+    },
+    {
+        "word": " establishment",
+        "start_time": 119.62,
+        "end_time": 119.96
+    },
+    {
+        "word": " of",
+        "start_time": 119.96,
+        "end_time": 120.24
+    },
+    {
+        "word": " religion",
+        "start_time": 120.24,
+        "end_time": 120.5
+    },
+    {
+        "word": " or",
+        "start_time": 120.5,
+        "end_time": 120.76
+    },
+    {
+        "word": " prohibiting",
+        "start_time": 120.76,
+        "end_time": 121.18
+    },
+    {
+        "word": " the",
+        "start_time": 121.18,
+        "end_time": 121.4
+    },
+    {
+        "word": " free",
+        "start_time": 121.4,
+        "end_time": 121.58
+    },
+    {
+        "word": " exercise",
+        "start_time": 121.58,
+        "end_time": 121.98
+    },
+    {
+        "word": " thereof",
+        "start_time": 121.98,
+        "end_time": 122.54
+    },
+    {
+        "word": " or",
+        "start_time": 122.54,
+        "end_time": 122.96
+    },
+    {
+        "word": " abridging",
+        "start_time": 122.96,
+        "end_time": 123.3
+    },
+    {
+        "word": " the",
+        "start_time": 123.3,
+        "end_time": 123.52
+    },
+    {
+        "word": " freedom",
+        "start_time": 123.52,
+        "end_time": 123.68
+    },
+    {
+        "word": " of",
+        "start_time": 123.68,
+        "end_time": 123.96
+    },
+    {
+        "word": " speech",
+        "start_time": 123.96,
+        "end_time": 124.18
+    },
+    {
+        "word": " or",
+        "start_time": 124.18,
+        "end_time": 124.34
+    },
+    {
+        "word": " of",
+        "start_time": 124.34,
+        "end_time": 124.48
+    },
+    {
+        "word": " the",
+        "start_time": 124.48,
+        "end_time": 124.66
+    },
+    {
+        "word": " press",
+        "start_time": 124.66,
+        "end_time": 124.96
+    },
+    {
+        "word": " or",
+        "start_time": 124.96,
+        "end_time": 125.46
+    },
+    {
+        "word": " the",
+        "start_time": 125.46,
+        "end_time": 125.64
+    },
+    {
+        "word": " right",
+        "start_time": 125.64,
+        "end_time": 125.78
+    },
+    {
+        "word": " of",
+        "start_time": 125.78,
+        "end_time": 125.96
+    },
+    {
+        "word": " the",
+        "start_time": 125.96,
+        "end_time": 126.16
+    },
+    {
+        "word": " people",
+        "start_time": 126.16,
+        "end_time": 126.36
+    },
+    {
+        "word": " peaceably",
+        "start_time": 126.36,
+        "end_time": 126.8
+    },
+    {
+        "word": " to",
+        "start_time": 126.8,
+        "end_time": 127.04
+    },
+    {
+        "word": " assemble",
+        "start_time": 127.04,
+        "end_time": 127.42
+    },
+    {
+        "word": " and",
+        "start_time": 127.42,
+        "end_time": 128.0
+    },
+    {
+        "word": " to",
+        "start_time": 128.0,
+        "end_time": 128.18
+    },
+    {
+        "word": " petition",
+        "start_time": 128.18,
+        "end_time": 128.44
+    },
+    {
+        "word": " the",
+        "start_time": 128.44,
+        "end_time": 128.66
+    },
+    {
+        "word": " government",
+        "start_time": 128.66,
+        "end_time": 128.98
+    },
+    {
+        "word": " for",
+        "start_time": 128.98,
+        "end_time": 129.22
+    },
+    {
+        "word": " a",
+        "start_time": 129.22,
+        "end_time": 129.34
+    },
+    {
+        "word": " redress",
+        "start_time": 129.34,
+        "end_time": 129.66
+    },
+    {
+        "word": " of",
+        "start_time": 129.66,
+        "end_time": 129.88
+    },
+    {
+        "word": " grievances.",
+        "start_time": 129.88,
+        "end_time": 130.56
+    },
+    {
+        "word": " Article",
+        "start_time": 131.58,
+        "end_time": 131.82
+    },
+    {
+        "word": " IV.",
+        "start_time": 131.82,
+        "end_time": 132.32
+    },
+    {
+        "word": " A",
+        "start_time": 132.82,
+        "end_time": 132.92
+    },
+    {
+        "word": " well",
+        "start_time": 132.92,
+        "end_time": 133.18
+    },
+    {
+        "word": "-regulated",
+        "start_time": 133.18,
+        "end_time": 133.64
+    },
+    {
+        "word": " militia",
+        "start_time": 133.64,
+        "end_time": 134.18
+    },
+    {
+        "word": " being",
+        "start_time": 134.18,
+        "end_time": 134.46
+    },
+    {
+        "word": " necessary",
+        "start_time": 134.46,
+        "end_time": 134.92
+    },
+    {
+        "word": " to",
+        "start_time": 134.92,
+        "end_time": 135.14
+    },
+    {
+        "word": " the",
+        "start_time": 135.14,
+        "end_time": 135.38
+    },
+    {
+        "word": " security",
+        "start_time": 135.38,
+        "end_time": 135.68
+    },
+    {
+        "word": " of",
+        "start_time": 135.68,
+        "end_time": 135.9
+    },
+    {
+        "word": " a",
+        "start_time": 135.9,
+        "end_time": 136.0
+    },
+    {
+        "word": " free",
+        "start_time": 136.0,
+        "end_time": 136.18
+    },
+    {
+        "word": " state",
+        "start_time": 136.18,
+        "end_time": 136.5
+    },
+    {
+        "word": " the",
+        "start_time": 136.5,
+        "end_time": 136.92
+    },
+    {
+        "word": " right",
+        "start_time": 136.92,
+        "end_time": 137.1
+    },
+    {
+        "word": " of",
+        "start_time": 137.1,
+        "end_time": 137.28
+    },
+    {
+        "word": " the",
+        "start_time": 137.28,
+        "end_time": 137.46
+    },
+    {
+        "word": " people",
+        "start_time": 137.46,
+        "end_time": 137.6
+    },
+    {
+        "word": " to",
+        "start_time": 137.6,
+        "end_time": 137.86
+    },
+    {
+        "word": " keep",
+        "start_time": 137.86,
+        "end_time": 138.06
+    },
+    {
+        "word": " and",
+        "start_time": 138.06,
+        "end_time": 138.34
+    },
+    {
+        "word": " bear",
+        "start_time": 138.34,
+        "end_time": 138.64
+    },
+    {
+        "word": " arms",
+        "start_time": 138.64,
+        "end_time": 139.08
+    },
+    {
+        "word": " shall",
+        "start_time": 139.08,
+        "end_time": 139.6
+    },
+    {
+        "word": " not",
+        "start_time": 139.6,
+        "end_time": 139.82
+    },
+    {
+        "word": " be",
+        "start_time": 139.82,
+        "end_time": 140.04
+    },
+    {
+        "word": " infringed.",
+        "start_time": 140.04,
+        "end_time": 141.56
+    },
+    {
+        "word": " Article",
+        "start_time": 141.9,
+        "end_time": 141.96
+    },
+    {
+        "word": " V.",
+        "start_time": 141.96,
+        "end_time": 142.58
+    },
+    {
+        "word": " No",
+        "start_time": 143.24,
+        "end_time": 143.24
+    },
+    {
+        "word": " soldier",
+        "start_time": 143.24,
+        "end_time": 143.64
+    },
+    {
+        "word": " shall",
+        "start_time": 143.64,
+        "end_time": 144.0
+    },
+    {
+        "word": " in",
+        "start_time": 144.0,
+        "end_time": 144.18
+    },
+    {
+        "word": " time",
+        "start_time": 144.18,
+        "end_time": 144.4
+    },
+    {
+        "word": " of",
+        "start_time": 144.4,
+        "end_time": 144.66
+    },
+    {
+        "word": " peace",
+        "start_time": 144.66,
+        "end_time": 144.86
+    },
+    {
+        "word": " be",
+        "start_time": 144.86,
+        "end_time": 145.14
+    },
+    {
+        "word": " quartered",
+        "start_time": 145.14,
+        "end_time": 145.5
+    },
+    {
+        "word": " in",
+        "start_time": 145.5,
+        "end_time": 145.56
+    },
+    {
+        "word": " any",
+        "start_time": 145.56,
+        "end_time": 145.78
+    },
+    {
+        "word": " house",
+        "start_time": 145.78,
+        "end_time": 146.1
+    },
+    {
+        "word": " without",
+        "start_time": 146.1,
+        "end_time": 146.36
+    },
+    {
+        "word": " the",
+        "start_time": 146.36,
+        "end_time": 146.62
+    },
+    {
+        "word": " consent",
+        "start_time": 146.62,
+        "end_time": 146.9
+    },
+    {
+        "word": " of",
+        "start_time": 146.9,
+        "end_time": 147.1
+    },
+    {
+        "word": " the",
+        "start_time": 147.1,
+        "end_time": 147.28
+    },
+    {
+        "word": " owner",
+        "start_time": 147.28,
+        "end_time": 147.72
+    },
+    {
+        "word": " nor",
+        "start_time": 147.72,
+        "end_time": 148.16
+    },
+    {
+        "word": " in",
+        "start_time": 148.16,
+        "end_time": 148.36
+    },
+    {
+        "word": " time",
+        "start_time": 148.36,
+        "end_time": 148.54
+    },
+    {
+        "word": " of",
+        "start_time": 148.54,
+        "end_time": 148.8
+    },
+    {
+        "word": " war",
+        "start_time": 148.8,
+        "end_time": 149.1
+    },
+    {
+        "word": " but",
+        "start_time": 149.1,
+        "end_time": 149.44
+    },
+    {
+        "word": " in",
+        "start_time": 149.44,
+        "end_time": 149.6
+    },
+    {
+        "word": " a",
+        "start_time": 149.6,
+        "end_time": 149.74
+    },
+    {
+        "word": " manner",
+        "start_time": 149.74,
+        "end_time": 149.86
+    },
+    {
+        "word": " to",
+        "start_time": 149.86,
+        "end_time": 150.02
+    },
+    {
+        "word": " be",
+        "start_time": 150.02,
+        "end_time": 150.18
+    },
+    {
+        "word": " prescribed",
+        "start_time": 150.18,
+        "end_time": 150.58
+    },
+    {
+        "word": " by",
+        "start_time": 150.58,
+        "end_time": 150.86
+    },
+    {
+        "word": " law.",
+        "start_time": 150.86,
+        "end_time": 151.32
+    },
+    {
+        "word": " Article",
+        "start_time": 151.96,
+        "end_time": 152.28
+    },
+    {
+        "word": " VI.",
+        "start_time": 152.28,
+        "end_time": 153.12
+    },
+    {
+        "word": " The",
+        "start_time": 154.18,
+        "end_time": 154.24
+    },
+    {
+        "word": " right",
+        "start_time": 154.24,
+        "end_time": 154.44
+    },
+    {
+        "word": " of",
+        "start_time": 154.44,
+        "end_time": 154.62
+    },
+    {
+        "word": " the",
+        "start_time": 154.62,
+        "end_time": 154.8
+    },
+    {
+        "word": " people",
+        "start_time": 154.8,
+        "end_time": 154.96
+    },
+    {
+        "word": " to",
+        "start_time": 154.96,
+        "end_time": 155.14
+    },
+    {
+        "word": " be",
+        "start_time": 155.14,
+        "end_time": 155.32
+    },
+    {
+        "word": " secure",
+        "start_time": 155.32,
+        "end_time": 155.6
+    },
+    {
+        "word": " in",
+        "start_time": 155.6,
+        "end_time": 155.78
+    },
+    {
+        "word": " their",
+        "start_time": 155.78,
+        "end_time": 156.0
+    },
+    {
+        "word": " persons,",
+        "start_time": 156.0,
+        "end_time": 156.4
+    },
+    {
+        "word": " houses,",
+        "start_time": 156.56,
+        "end_time": 156.88
+    },
+    {
+        "word": " papers",
+        "start_time": 157.04,
+        "end_time": 157.36
+    },
+    {
+        "word": " and",
+        "start_time": 157.36,
+        "end_time": 157.58
+    },
+    {
+        "word": " effects",
+        "start_time": 157.58,
+        "end_time": 158.18
+    },
+    {
+        "word": " against",
+        "start_time": 158.18,
+        "end_time": 159.04
+    },
+    {
+        "word": " unreasonable",
+        "start_time": 159.04,
+        "end_time": 159.64
+    },
+    {
+        "word": " searches",
+        "start_time": 159.64,
+        "end_time": 160.02
+    },
+    {
+        "word": " and",
+        "start_time": 160.02,
+        "end_time": 160.3
+    },
+    {
+        "word": " seizures",
+        "start_time": 160.3,
+        "end_time": 160.78
+    },
+    {
+        "word": " shall",
+        "start_time": 160.78,
+        "end_time": 161.36
+    },
+    {
+        "word": " not",
+        "start_time": 161.36,
+        "end_time": 161.52
+    },
+    {
+        "word": " be",
+        "start_time": 161.52,
+        "end_time": 161.76
+    },
+    {
+        "word": " violated",
+        "start_time": 161.76,
+        "end_time": 162.26
+    },
+    {
+        "word": " and",
+        "start_time": 162.26,
+        "end_time": 162.96
+    },
+    {
+        "word": " no",
+        "start_time": 162.96,
+        "end_time": 163.16
+    },
+    {
+        "word": " warrants",
+        "start_time": 163.16,
+        "end_time": 163.48
+    },
+    {
+        "word": " shall",
+        "start_time": 163.48,
+        "end_time": 163.7
+    },
+    {
+        "word": " issue",
+        "start_time": 163.7,
+        "end_time": 164.02
+    },
+    {
+        "word": " but",
+        "start_time": 164.02,
+        "end_time": 164.22
+    },
+    {
+        "word": " upon",
+        "start_time": 164.22,
+        "end_time": 164.46
+    },
+    {
+        "word": " probable",
+        "start_time": 164.46,
+        "end_time": 164.9
+    },
+    {
+        "word": " cause",
+        "start_time": 164.9,
+        "end_time": 165.4
+    },
+    {
+        "word": " supported",
+        "start_time": 165.84,
+        "end_time": 166.12
+    },
+    {
+        "word": " by",
+        "start_time": 166.12,
+        "end_time": 166.46
+    },
+    {
+        "word": " oath",
+        "start_time": 166.46,
+        "end_time": 166.74
+    },
+    {
+        "word": " or",
+        "start_time": 166.74,
+        "end_time": 167.04
+    },
+    {
+        "word": " affirmation",
+        "start_time": 167.04,
+        "end_time": 167.74
+    },
+    {
+        "word": " and",
+        "start_time": 167.74,
+        "end_time": 168.42
+    },
+    {
+        "word": " particularly",
+        "start_time": 168.42,
+        "end_time": 169.04
+    },
+    {
+        "word": " describing",
+        "start_time": 169.04,
+        "end_time": 169.56
+    },
+    {
+        "word": " the",
+        "start_time": 169.56,
+        "end_time": 169.82
+    },
+    {
+        "word": " place",
+        "start_time": 169.82,
+        "end_time": 169.98
+    },
+    {
+        "word": " to",
+        "start_time": 169.98,
+        "end_time": 170.14
+    },
+    {
+        "word": " be",
+        "start_time": 170.14,
+        "end_time": 170.36
+    },
+    {
+        "word": " searched",
+        "start_time": 170.36,
+        "end_time": 170.68
+    },
+    {
+        "word": " and",
+        "start_time": 170.68,
+        "end_time": 171.26
+    },
+    {
+        "word": " the",
+        "start_time": 171.26,
+        "end_time": 171.44
+    },
+    {
+        "word": " persons",
+        "start_time": 171.44,
+        "end_time": 171.74
+    },
+    {
+        "word": " or",
+        "start_time": 171.74,
+        "end_time": 171.98
+    },
+    {
+        "word": " things",
+        "start_time": 171.98,
+        "end_time": 172.26
+    },
+    {
+        "word": " to",
+        "start_time": 172.26,
+        "end_time": 172.44
+    },
+    {
+        "word": " be",
+        "start_time": 172.44,
+        "end_time": 172.64
+    },
+    {
+        "word": " seized.",
+        "start_time": 172.64,
+        "end_time": 173.08
+    },
+    {
+        "word": " Article",
+        "start_time": 174.1,
+        "end_time": 174.16
+    },
+    {
+        "word": " VII.",
+        "start_time": 174.16,
+        "end_time": 174.86
+    },
+    {
+        "word": " No",
+        "start_time": 175.7,
+        "end_time": 175.8
+    },
+    {
+        "word": " person",
+        "start_time": 175.8,
+        "end_time": 176.24
+    },
+    {
+        "word": " shall",
+        "start_time": 176.24,
+        "end_time": 176.42
+    },
+    {
+        "word": " be",
+        "start_time": 176.42,
+        "end_time": 176.6
+    },
+    {
+        "word": " held",
+        "start_time": 176.6,
+        "end_time": 176.76
+    },
+    {
+        "word": " to",
+        "start_time": 176.76,
+        "end_time": 176.98
+    },
+    {
+        "word": " answer",
+        "start_time": 176.98,
+        "end_time": 177.3
+    },
+    {
+        "word": " for",
+        "start_time": 177.3,
+        "end_time": 177.54
+    },
+    {
+        "word": " a",
+        "start_time": 177.54,
+        "end_time": 177.7
+    },
+    {
+        "word": " capital",
+        "start_time": 177.7,
+        "end_time": 178.0
+    },
+    {
+        "word": " or",
+        "start_time": 178.0,
+        "end_time": 178.3
+    },
+    {
+        "word": " otherwise",
+        "start_time": 178.3,
+        "end_time": 178.66
+    },
+    {
+        "word": " infamous",
+        "start_time": 178.66,
+        "end_time": 179.18
+    },
+    {
+        "word": " crime",
+        "start_time": 179.18,
+        "end_time": 179.78
+    },
+    {
+        "word": " unless",
+        "start_time": 179.78,
+        "end_time": 180.32
+    },
+    {
+        "word": " on",
+        "start_time": 180.32,
+        "end_time": 180.58
+    },
+    {
+        "word": " a",
+        "start_time": 180.58,
+        "end_time": 180.76
+    },
+    {
+        "word": " presentment",
+        "start_time": 180.76,
+        "end_time": 181.18
+    },
+    {
+        "word": " or",
+        "start_time": 181.18,
+        "end_time": 181.42
+    },
+    {
+        "word": " indictment",
+        "start_time": 181.42,
+        "end_time": 181.92
+    },
+    {
+        "word": " of",
+        "start_time": 181.92,
+        "end_time": 182.08
+    },
+    {
+        "word": " a",
+        "start_time": 182.08,
+        "end_time": 182.2
+    },
+    {
+        "word": " grand",
+        "start_time": 182.2,
+        "end_time": 182.42
+    },
+    {
+        "word": " jury",
+        "start_time": 182.42,
+        "end_time": 182.88
+    },
+    {
+        "word": " except",
+        "start_time": 183.44,
+        "end_time": 183.92
+    },
+    {
+        "word": " in",
+        "start_time": 183.92,
+        "end_time": 184.16
+    },
+    {
+        "word": " cases",
+        "start_time": 184.16,
+        "end_time": 184.44
+    },
+    {
+        "word": " arising",
+        "start_time": 184.44,
+        "end_time": 184.82
+    },
+    {
+        "word": " in",
+        "start_time": 184.82,
+        "end_time": 185.02
+    },
+    {
+        "word": " the",
+        "start_time": 185.02,
+        "end_time": 185.18
+    },
+    {
+        "word": " land",
+        "start_time": 185.18,
+        "end_time": 185.38
+    },
+    {
+        "word": " or",
+        "start_time": 185.38,
+        "end_time": 185.56
+    },
+    {
+        "word": " naval",
+        "start_time": 185.56,
+        "end_time": 185.78
+    },
+    {
+        "word": " forces",
+        "start_time": 185.78,
+        "end_time": 186.22
+    },
+    {
+        "word": " or",
+        "start_time": 186.22,
+        "end_time": 186.4
+    },
+    {
+        "word": " in",
+        "start_time": 186.4,
+        "end_time": 186.54
+    },
+    {
+        "word": " the",
+        "start_time": 186.54,
+        "end_time": 186.68
+    },
+    {
+        "word": " militia",
+        "start_time": 186.68,
+        "end_time": 187.6
+    },
+    {
+        "word": " when",
+        "start_time": 187.6,
+        "end_time": 188.0
+    },
+    {
+        "word": " in",
+        "start_time": 188.0,
+        "end_time": 188.22
+    },
+    {
+        "word": " actual",
+        "start_time": 188.22,
+        "end_time": 188.46
+    },
+    {
+        "word": " service",
+        "start_time": 188.46,
+        "end_time": 188.84
+    },
+    {
+        "word": " in",
+        "start_time": 188.84,
+        "end_time": 189.04
+    },
+    {
+        "word": " time",
+        "start_time": 189.04,
+        "end_time": 189.22
+    },
+    {
+        "word": " of",
+        "start_time": 189.22,
+        "end_time": 189.44
+    },
+    {
+        "word": " war",
+        "start_time": 189.44,
+        "end_time": 189.68
+    },
+    {
+        "word": " or",
+        "start_time": 189.68,
+        "end_time": 189.88
+    },
+    {
+        "word": " public",
+        "start_time": 189.88,
+        "end_time": 190.16
+    },
+    {
+        "word": " danger.",
+        "start_time": 190.16,
+        "end_time": 190.74
+    },
+    {
+        "word": " Nor",
+        "start_time": 191.52,
+        "end_time": 191.74
+    },
+    {
+        "word": " shall",
+        "start_time": 191.74,
+        "end_time": 191.9
+    },
+    {
+        "word": " any",
+        "start_time": 191.9,
+        "end_time": 192.14
+    },
+    {
+        "word": " person",
+        "start_time": 192.14,
+        "end_time": 192.42
+    },
+    {
+        "word": " be",
+        "start_time": 192.42,
+        "end_time": 192.64
+    },
+    {
+        "word": " subject",
+        "start_time": 192.64,
+        "end_time": 192.92
+    },
+    {
+        "word": " for",
+        "start_time": 192.92,
+        "end_time": 193.12
+    },
+    {
+        "word": " the",
+        "start_time": 193.12,
+        "end_time": 193.28
+    },
+    {
+        "word": " same",
+        "start_time": 193.28,
+        "end_time": 193.46
+    },
+    {
+        "word": " offense",
+        "start_time": 193.46,
+        "end_time": 193.82
+    },
+    {
+        "word": " to",
+        "start_time": 193.82,
+        "end_time": 194.0
+    },
+    {
+        "word": " be",
+        "start_time": 194.0,
+        "end_time": 194.18
+    },
+    {
+        "word": " twice",
+        "start_time": 194.18,
+        "end_time": 194.38
+    },
+    {
+        "word": " put",
+        "start_time": 194.38,
+        "end_time": 194.62
+    },
+    {
+        "word": " in",
+        "start_time": 194.62,
+        "end_time": 194.82
+    },
+    {
+        "word": " jeopardy",
+        "start_time": 194.82,
+        "end_time": 195.14
+    },
+    {
+        "word": " of",
+        "start_time": 195.14,
+        "end_time": 195.28
+    },
+    {
+        "word": " life",
+        "start_time": 195.28,
+        "end_time": 195.48
+    },
+    {
+        "word": " or",
+        "start_time": 195.48,
+        "end_time": 195.76
+    },
+    {
+        "word": " limb",
+        "start_time": 195.76,
+        "end_time": 196.06
+    },
+    {
+        "word": " nor",
+        "start_time": 196.06,
+        "end_time": 196.66
+    },
+    {
+        "word": " shall",
+        "start_time": 196.66,
+        "end_time": 196.84
+    },
+    {
+        "word": " be",
+        "start_time": 196.84,
+        "end_time": 197.02
+    },
+    {
+        "word": " compelled",
+        "start_time": 197.02,
+        "end_time": 197.36
+    },
+    {
+        "word": " in",
+        "start_time": 197.36,
+        "end_time": 197.5
+    },
+    {
+        "word": " any",
+        "start_time": 197.5,
+        "end_time": 197.7
+    },
+    {
+        "word": " criminal",
+        "start_time": 197.7,
+        "end_time": 198.04
+    },
+    {
+        "word": " case",
+        "start_time": 198.04,
+        "end_time": 198.28
+    },
+    {
+        "word": " to",
+        "start_time": 198.28,
+        "end_time": 198.4
+    },
+    {
+        "word": " be",
+        "start_time": 198.4,
+        "end_time": 198.54
+    },
+    {
+        "word": " a",
+        "start_time": 198.54,
+        "end_time": 198.64
+    },
+    {
+        "word": " witness",
+        "start_time": 198.64,
+        "end_time": 198.9
+    },
+    {
+        "word": " against",
+        "start_time": 198.9,
+        "end_time": 199.2
+    },
+    {
+        "word": " himself",
+        "start_time": 199.2,
+        "end_time": 199.76
+    },
+    {
+        "word": " nor",
+        "start_time": 199.76,
+        "end_time": 200.44
+    },
+    {
+        "word": " be",
+        "start_time": 200.44,
+        "end_time": 200.66
+    },
+    {
+        "word": " deprived",
+        "start_time": 200.66,
+        "end_time": 201.0
+    },
+    {
+        "word": " of",
+        "start_time": 201.0,
+        "end_time": 201.2
+    },
+    {
+        "word": " life,",
+        "start_time": 201.2,
+        "end_time": 201.5
+    },
+    {
+        "word": " liberty",
+        "start_time": 201.6,
+        "end_time": 201.88
+    },
+    {
+        "word": " or",
+        "start_time": 201.88,
+        "end_time": 202.12
+    },
+    {
+        "word": " property",
+        "start_time": 202.12,
+        "end_time": 202.56
+    },
+    {
+        "word": " without",
+        "start_time": 202.56,
+        "end_time": 203.1
+    },
+    {
+        "word": " due",
+        "start_time": 203.1,
+        "end_time": 203.3
+    },
+    {
+        "word": " process",
+        "start_time": 203.3,
+        "end_time": 203.66
+    },
+    {
+        "word": " of",
+        "start_time": 203.66,
+        "end_time": 203.88
+    },
+    {
+        "word": " law",
+        "start_time": 203.88,
+        "end_time": 204.3
+    },
+    {
+        "word": " nor",
+        "start_time": 204.3,
+        "end_time": 205.1
+    },
+    {
+        "word": " shall",
+        "start_time": 205.1,
+        "end_time": 205.36
+    },
+    {
+        "word": " private",
+        "start_time": 205.36,
+        "end_time": 205.72
+    },
+    {
+        "word": " property",
+        "start_time": 205.72,
+        "end_time": 206.06
+    },
+    {
+        "word": " be",
+        "start_time": 206.06,
+        "end_time": 206.28
+    },
+    {
+        "word": " taken",
+        "start_time": 206.28,
+        "end_time": 206.5
+    },
+    {
+        "word": " for",
+        "start_time": 206.5,
+        "end_time": 206.7
+    },
+    {
+        "word": " public",
+        "start_time": 206.7,
+        "end_time": 206.98
+    },
+    {
+        "word": " use",
+        "start_time": 206.98,
+        "end_time": 207.42
+    },
+    {
+        "word": " without",
+        "start_time": 207.42,
+        "end_time": 207.76
+    },
+    {
+        "word": " just",
+        "start_time": 207.76,
+        "end_time": 208.0
+    },
+    {
+        "word": " compensation.",
+        "start_time": 208.0,
+        "end_time": 208.7
+    },
+    {
+        "word": " Article",
+        "start_time": 210.08,
+        "end_time": 210.62
+    },
+    {
+        "word": " VIII.",
+        "start_time": 210.62,
+        "end_time": 211.16
+    },
+    {
+        "word": " In",
+        "start_time": 211.9,
+        "end_time": 211.9
+    },
+    {
+        "word": " all",
+        "start_time": 211.9,
+        "end_time": 212.14
+    },
+    {
+        "word": " criminal",
+        "start_time": 212.14,
+        "end_time": 212.5
+    },
+    {
+        "word": " prosecutions",
+        "start_time": 212.5,
+        "end_time": 213.14
+    },
+    {
+        "word": " the",
+        "start_time": 213.14,
+        "end_time": 213.4
+    },
+    {
+        "word": " accused",
+        "start_time": 213.4,
+        "end_time": 213.72
+    },
+    {
+        "word": " shall",
+        "start_time": 213.72,
+        "end_time": 213.96
+    },
+    {
+        "word": " enjoy",
+        "start_time": 213.96,
+        "end_time": 214.26
+    },
+    {
+        "word": " the",
+        "start_time": 214.26,
+        "end_time": 214.48
+    },
+    {
+        "word": " right",
+        "start_time": 214.48,
+        "end_time": 214.64
+    },
+    {
+        "word": " to",
+        "start_time": 214.64,
+        "end_time": 214.82
+    },
+    {
+        "word": " a",
+        "start_time": 214.82,
+        "end_time": 215.02
+    },
+    {
+        "word": " speedy",
+        "start_time": 215.02,
+        "end_time": 215.3
+    },
+    {
+        "word": " and",
+        "start_time": 215.3,
+        "end_time": 215.4
+    },
+    {
+        "word": " public",
+        "start_time": 215.4,
+        "end_time": 215.68
+    },
+    {
+        "word": " trial",
+        "start_time": 215.68,
+        "end_time": 216.08
+    },
+    {
+        "word": " by",
+        "start_time": 216.08,
+        "end_time": 216.62
+    },
+    {
+        "word": " an",
+        "start_time": 216.62,
+        "end_time": 216.82
+    },
+    {
+        "word": " impartial",
+        "start_time": 216.82,
+        "end_time": 217.26
+    },
+    {
+        "word": " jury",
+        "start_time": 217.26,
+        "end_time": 217.52
+    },
+    {
+        "word": " of",
+        "start_time": 217.52,
+        "end_time": 217.72
+    },
+    {
+        "word": " the",
+        "start_time": 217.72,
+        "end_time": 217.94
+    },
+    {
+        "word": " state",
+        "start_time": 217.94,
+        "end_time": 218.1
+    },
+    {
+        "word": " and",
+        "start_time": 218.1,
+        "end_time": 218.34
+    },
+    {
+        "word": " district",
+        "start_time": 218.34,
+        "end_time": 218.82
+    },
+    {
+        "word": " wherein",
+        "start_time": 218.82,
+        "end_time": 219.3
+    },
+    {
+        "word": " the",
+        "start_time": 219.3,
+        "end_time": 219.6
+    },
+    {
+        "word": " crime",
+        "start_time": 219.6,
+        "end_time": 219.76
+    },
+    {
+        "word": " shall",
+        "start_time": 219.76,
+        "end_time": 219.96
+    },
+    {
+        "word": " have",
+        "start_time": 219.96,
+        "end_time": 220.1
+    },
+    {
+        "word": " been",
+        "start_time": 220.1,
+        "end_time": 220.32
+    },
+    {
+        "word": " committed",
+        "start_time": 220.32,
+        "end_time": 220.72
+    },
+    {
+        "word": " which",
+        "start_time": 220.72,
+        "end_time": 221.32
+    },
+    {
+        "word": " district",
+        "start_time": 221.32,
+        "end_time": 221.72
+    },
+    {
+        "word": " shall",
+        "start_time": 221.72,
+        "end_time": 221.9
+    },
+    {
+        "word": " have",
+        "start_time": 221.9,
+        "end_time": 222.04
+    },
+    {
+        "word": " been",
+        "start_time": 222.04,
+        "end_time": 222.2
+    },
+    {
+        "word": " previously",
+        "start_time": 222.2,
+        "end_time": 222.66
+    },
+    {
+        "word": " ascertained",
+        "start_time": 222.66,
+        "end_time": 223.24
+    },
+    {
+        "word": " by",
+        "start_time": 223.24,
+        "end_time": 223.48
+    },
+    {
+        "word": " law",
+        "start_time": 223.48,
+        "end_time": 223.8
+    },
+    {
+        "word": " and",
+        "start_time": 223.8,
+        "end_time": 224.48
+    },
+    {
+        "word": " to",
+        "start_time": 224.48,
+        "end_time": 224.6
+    },
+    {
+        "word": " be",
+        "start_time": 224.6,
+        "end_time": 224.8
+    },
+    {
+        "word": " informed",
+        "start_time": 224.8,
+        "end_time": 225.16
+    },
+    {
+        "word": " of",
+        "start_time": 225.16,
+        "end_time": 225.34
+    },
+    {
+        "word": " the",
+        "start_time": 225.34,
+        "end_time": 225.48
+    },
+    {
+        "word": " nature",
+        "start_time": 225.48,
+        "end_time": 225.7
+    },
+    {
+        "word": " and",
+        "start_time": 225.7,
+        "end_time": 226.0
+    },
+    {
+        "word": " cause",
+        "start_time": 226.0,
+        "end_time": 226.18
+    },
+    {
+        "word": " of",
+        "start_time": 226.18,
+        "end_time": 226.38
+    },
+    {
+        "word": " the",
+        "start_time": 226.38,
+        "end_time": 226.6
+    },
+    {
+        "word": " accusation",
+        "start_time": 226.6,
+        "end_time": 227.28
+    },
+    {
+        "word": " to",
+        "start_time": 227.8,
+        "end_time": 228.22
+    },
+    {
+        "word": " be",
+        "start_time": 228.22,
+        "end_time": 228.46
+    },
+    {
+        "word": " confronted",
+        "start_time": 228.46,
+        "end_time": 228.86
+    },
+    {
+        "word": " with",
+        "start_time": 228.86,
+        "end_time": 229.1
+    },
+    {
+        "word": " the",
+        "start_time": 229.1,
+        "end_time": 229.26
+    },
+    {
+        "word": " witnesses",
+        "start_time": 229.26,
+        "end_time": 229.58
+    },
+    {
+        "word": " against",
+        "start_time": 229.58,
+        "end_time": 229.98
+    },
+    {
+        "word": " him",
+        "start_time": 229.98,
+        "end_time": 230.66
+    },
+    {
+        "word": " to",
+        "start_time": 230.66,
+        "end_time": 231.46
+    },
+    {
+        "word": " have",
+        "start_time": 231.46,
+        "end_time": 231.68
+    },
+    {
+        "word": " compulsory",
+        "start_time": 231.68,
+        "end_time": 232.3
+    },
+    {
+        "word": " process",
+        "start_time": 232.3,
+        "end_time": 232.66
+    },
+    {
+        "word": " for",
+        "start_time": 232.66,
+        "end_time": 232.88
+    },
+    {
+        "word": " obtaining",
+        "start_time": 232.88,
+        "end_time": 233.22
+    },
+    {
+        "word": " witnesses",
+        "start_time": 233.22,
+        "end_time": 233.64
+    },
+    {
+        "word": " in",
+        "start_time": 233.64,
+        "end_time": 233.82
+    },
+    {
+        "word": " his",
+        "start_time": 233.82,
+        "end_time": 234.06
+    },
+    {
+        "word": " favor",
+        "start_time": 234.06,
+        "end_time": 234.34
+    },
+    {
+        "word": " and",
+        "start_time": 234.34,
+        "end_time": 234.76
+    },
+    {
+        "word": " to",
+        "start_time": 234.76,
+        "end_time": 234.9
+    },
+    {
+        "word": " have",
+        "start_time": 234.9,
+        "end_time": 235.0
+    },
+    {
+        "word": " the",
+        "start_time": 235.0,
+        "end_time": 235.26
+    },
+    {
+        "word": " assistance",
+        "start_time": 235.26,
+        "end_time": 235.58
+    },
+    {
+        "word": " of",
+        "start_time": 235.58,
+        "end_time": 235.82
+    },
+    {
+        "word": " counsel",
+        "start_time": 235.82,
+        "end_time": 236.14
+    },
+    {
+        "word": " for",
+        "start_time": 236.14,
+        "end_time": 236.32
+    },
+    {
+        "word": " his",
+        "start_time": 236.32,
+        "end_time": 236.54
+    },
+    {
+        "word": " defense.",
+        "start_time": 236.54,
+        "end_time": 237.3
+    },
+    {
+        "word": " Article",
+        "start_time": 237.5,
+        "end_time": 238.06
+    },
+    {
+        "word": " IX.",
+        "start_time": 238.06,
+        "end_time": 238.74
+    },
+    {
+        "word": " In",
+        "start_time": 239.52,
+        "end_time": 239.58
+    },
+    {
+        "word": " suits",
+        "start_time": 239.58,
+        "end_time": 239.9
+    },
+    {
+        "word": " at",
+        "start_time": 239.9,
+        "end_time": 240.18
+    },
+    {
+        "word": " common",
+        "start_time": 240.18,
+        "end_time": 240.46
+    },
+    {
+        "word": " law",
+        "start_time": 240.46,
+        "end_time": 240.72
+    },
+    {
+        "word": " where",
+        "start_time": 240.72,
+        "end_time": 240.94
+    },
+    {
+        "word": " the",
+        "start_time": 240.94,
+        "end_time": 241.16
+    },
+    {
+        "word": " value",
+        "start_time": 241.16,
+        "end_time": 241.38
+    },
+    {
+        "word": " in",
+        "start_time": 241.38,
+        "end_time": 241.68
+    },
+    {
+        "word": " controversy",
+        "start_time": 241.68,
+        "end_time": 242.14
+    },
+    {
+        "word": " shall",
+        "start_time": 242.14,
+        "end_time": 242.38
+    },
+    {
+        "word": " exceed",
+        "start_time": 242.38,
+        "end_time": 242.74
+    },
+    {
+        "word": " twenty",
+        "start_time": 242.74,
+        "end_time": 243.14
+    },
+    {
+        "word": " dollars",
+        "start_time": 243.14,
+        "end_time": 243.52
+    },
+    {
+        "word": " the",
+        "start_time": 243.52,
+        "end_time": 244.1
+    },
+    {
+        "word": " right",
+        "start_time": 244.1,
+        "end_time": 244.3
+    },
+    {
+        "word": " of",
+        "start_time": 244.3,
+        "end_time": 244.6
+    },
+    {
+        "word": " trial",
+        "start_time": 244.6,
+        "end_time": 244.78
+    },
+    {
+        "word": " by",
+        "start_time": 244.78,
+        "end_time": 245.1
+    },
+    {
+        "word": " jury",
+        "start_time": 245.1,
+        "end_time": 245.4
+    },
+    {
+        "word": " shall",
+        "start_time": 245.4,
+        "end_time": 245.64
+    },
+    {
+        "word": " be",
+        "start_time": 245.64,
+        "end_time": 245.9
+    },
+    {
+        "word": " preserved",
+        "start_time": 245.9,
+        "end_time": 246.4
+    },
+    {
+        "word": " and",
+        "start_time": 246.4,
+        "end_time": 246.98
+    },
+    {
+        "word": " no",
+        "start_time": 246.98,
+        "end_time": 247.22
+    },
+    {
+        "word": " fact",
+        "start_time": 247.22,
+        "end_time": 247.46
+    },
+    {
+        "word": " tried",
+        "start_time": 247.46,
+        "end_time": 247.8
+    },
+    {
+        "word": " by",
+        "start_time": 247.8,
+        "end_time": 248.02
+    },
+    {
+        "word": " a",
+        "start_time": 248.02,
+        "end_time": 248.2
+    },
+    {
+        "word": " jury",
+        "start_time": 248.2,
+        "end_time": 248.52
+    },
+    {
+        "word": " shall",
+        "start_time": 248.52,
+        "end_time": 248.94
+    },
+    {
+        "word": " be",
+        "start_time": 248.94,
+        "end_time": 249.18
+    },
+    {
+        "word": " otherwise",
+        "start_time": 249.18,
+        "end_time": 249.56
+    },
+    {
+        "word": " re",
+        "start_time": 249.56,
+        "end_time": 249.9
+    },
+    {
+        "word": "-examined",
+        "start_time": 249.9,
+        "end_time": 250.22
+    },
+    {
+        "word": " in",
+        "start_time": 250.22,
+        "end_time": 250.4
+    },
+    {
+        "word": " any",
+        "start_time": 250.4,
+        "end_time": 250.6
+    },
+    {
+        "word": " court",
+        "start_time": 250.6,
+        "end_time": 250.8
+    },
+    {
+        "word": " of",
+        "start_time": 250.8,
+        "end_time": 250.98
+    },
+    {
+        "word": " the",
+        "start_time": 250.98,
+        "end_time": 251.12
+    },
+    {
+        "word": " United",
+        "start_time": 251.12,
+        "end_time": 251.42
+    },
+    {
+        "word": " States",
+        "start_time": 251.42,
+        "end_time": 252.08
+    },
+    {
+        "word": " than",
+        "start_time": 252.08,
+        "end_time": 252.44
+    },
+    {
+        "word": " according",
+        "start_time": 252.44,
+        "end_time": 252.84
+    },
+    {
+        "word": " to",
+        "start_time": 252.84,
+        "end_time": 253.04
+    },
+    {
+        "word": " the",
+        "start_time": 253.04,
+        "end_time": 253.22
+    },
+    {
+        "word": " rules",
+        "start_time": 253.22,
+        "end_time": 253.5
+    },
+    {
+        "word": " of",
+        "start_time": 253.5,
+        "end_time": 253.68
+    },
+    {
+        "word": " the",
+        "start_time": 253.68,
+        "end_time": 253.88
+    },
+    {
+        "word": " common",
+        "start_time": 253.88,
+        "end_time": 254.06
+    },
+    {
+        "word": " law.",
+        "start_time": 254.06,
+        "end_time": 254.46
+    },
+    {
+        "word": " Article",
+        "start_time": 255.36,
+        "end_time": 255.64
+    },
+    {
+        "word": " X.",
+        "start_time": 255.64,
+        "end_time": 256.12
+    },
+    {
+        "word": " Excessive",
+        "start_time": 256.86,
+        "end_time": 257.28
+    },
+    {
+        "word": " bail",
+        "start_time": 257.28,
+        "end_time": 257.52
+    },
+    {
+        "word": " shall",
+        "start_time": 257.52,
+        "end_time": 257.72
+    },
+    {
+        "word": " not",
+        "start_time": 257.72,
+        "end_time": 257.96
+    },
+    {
+        "word": " be",
+        "start_time": 257.96,
+        "end_time": 258.12
+    },
+    {
+        "word": " required",
+        "start_time": 258.12,
+        "end_time": 258.62
+    },
+    {
+        "word": " nor",
+        "start_time": 258.62,
+        "end_time": 259.18
+    },
+    {
+        "word": " excessive",
+        "start_time": 259.18,
+        "end_time": 259.74
+    },
+    {
+        "word": " fines",
+        "start_time": 259.74,
+        "end_time": 260.08
+    },
+    {
+        "word": " imposed",
+        "start_time": 260.08,
+        "end_time": 260.68
+    },
+    {
+        "word": " nor",
+        "start_time": 260.68,
+        "end_time": 261.12
+    },
+    {
+        "word": " cruel",
+        "start_time": 261.12,
+        "end_time": 261.44
+    },
+    {
+        "word": " and",
+        "start_time": 261.44,
+        "end_time": 261.68
+    },
+    {
+        "word": " unusual",
+        "start_time": 261.68,
+        "end_time": 262.1
+    },
+    {
+        "word": " punishments",
+        "start_time": 262.1,
+        "end_time": 262.62
+    },
+    {
+        "word": " inflicted.",
+        "start_time": 262.62,
+        "end_time": 263.42
+    },
+    {
+        "word": " Article",
+        "start_time": 264.58,
+        "end_time": 264.78
+    },
+    {
+        "word": " XI.",
+        "start_time": 264.78,
+        "end_time": 265.66
+    },
+    {
+        "word": " The",
+        "start_time": 265.88,
+        "end_time": 265.94
+    },
+    {
+        "word": " enumeration",
+        "start_time": 265.94,
+        "end_time": 266.48
+    },
+    {
+        "word": " in",
+        "start_time": 266.48,
+        "end_time": 266.64
+    },
+    {
+        "word": " the",
+        "start_time": 266.64,
+        "end_time": 266.8
+    },
+    {
+        "word": " Constitution",
+        "start_time": 266.8,
+        "end_time": 267.36
+    },
+    {
+        "word": " of",
+        "start_time": 267.36,
+        "end_time": 267.64
+    },
+    {
+        "word": " certain",
+        "start_time": 267.64,
+        "end_time": 267.88
+    },
+    {
+        "word": " rights",
+        "start_time": 267.88,
+        "end_time": 268.28
+    },
+    {
+        "word": " shall",
+        "start_time": 268.28,
+        "end_time": 268.54
+    },
+    {
+        "word": " not",
+        "start_time": 268.54,
+        "end_time": 268.76
+    },
+    {
+        "word": " be",
+        "start_time": 268.76,
+        "end_time": 268.94
+    },
+    {
+        "word": " construed",
+        "start_time": 268.94,
+        "end_time": 269.32
+    },
+    {
+        "word": " to",
+        "start_time": 269.32,
+        "end_time": 269.56
+    },
+    {
+        "word": " deny",
+        "start_time": 269.56,
+        "end_time": 269.82
+    },
+    {
+        "word": " or",
+        "start_time": 269.82,
+        "end_time": 270.14
+    },
+    {
+        "word": " disparage",
+        "start_time": 270.14,
+        "end_time": 270.6
+    },
+    {
+        "word": " others",
+        "start_time": 270.6,
+        "end_time": 270.88
+    },
+    {
+        "word": " retained",
+        "start_time": 270.88,
+        "end_time": 271.3
+    },
+    {
+        "word": " by",
+        "start_time": 271.3,
+        "end_time": 271.5
+    },
+    {
+        "word": " the",
+        "start_time": 271.5,
+        "end_time": 271.7
+    },
+    {
+        "word": " people.",
+        "start_time": 271.7,
+        "end_time": 272.0
+    },
+    {
+        "word": " Article",
+        "start_time": 272.54,
+        "end_time": 272.8
+    },
+    {
+        "word": " XII.",
+        "start_time": 272.8,
+        "end_time": 273.6
+    },
+    {
+        "word": " The",
+        "start_time": 273.96,
+        "end_time": 274.12
+    },
+    {
+        "word": " powers",
+        "start_time": 274.12,
+        "end_time": 274.36
+    },
+    {
+        "word": " not",
+        "start_time": 274.36,
+        "end_time": 274.7
+    },
+    {
+        "word": " delegated",
+        "start_time": 274.7,
+        "end_time": 275.1
+    },
+    {
+        "word": " to",
+        "start_time": 275.1,
+        "end_time": 275.28
+    },
+    {
+        "word": " the",
+        "start_time": 275.28,
+        "end_time": 275.48
+    },
+    {
+        "word": " United",
+        "start_time": 275.48,
+        "end_time": 275.76
+    },
+    {
+        "word": " States",
+        "start_time": 275.76,
+        "end_time": 276.02
+    },
+    {
+        "word": " by",
+        "start_time": 276.02,
+        "end_time": 276.2
+    },
+    {
+        "word": " the",
+        "start_time": 276.2,
+        "end_time": 276.48
+    },
+    {
+        "word": " Constitution",
+        "start_time": 276.48,
+        "end_time": 277.04
+    },
+    {
+        "word": " nor",
+        "start_time": 277.04,
+        "end_time": 277.5
+    },
+    {
+        "word": " prohibited",
+        "start_time": 277.5,
+        "end_time": 277.92
+    },
+    {
+        "word": " by",
+        "start_time": 277.92,
+        "end_time": 278.14
+    },
+    {
+        "word": " it",
+        "start_time": 278.14,
+        "end_time": 278.28
+    },
+    {
+        "word": " to",
+        "start_time": 278.28,
+        "end_time": 278.4
+    },
+    {
+        "word": " the",
+        "start_time": 278.4,
+        "end_time": 278.6
+    },
+    {
+        "word": " states",
+        "start_time": 278.6,
+        "end_time": 278.9
+    },
+    {
+        "word": " are",
+        "start_time": 278.9,
+        "end_time": 279.6
+    },
+    {
+        "word": " reserved",
+        "start_time": 279.6,
+        "end_time": 279.9
+    },
+    {
+        "word": " to",
+        "start_time": 279.9,
+        "end_time": 280.12
+    },
+    {
+        "word": " the",
+        "start_time": 280.12,
+        "end_time": 280.28
+    },
+    {
+        "word": " states",
+        "start_time": 280.28,
+        "end_time": 280.46
+    },
+    {
+        "word": " respectively",
+        "start_time": 280.46,
+        "end_time": 281.14
+    },
+    {
+        "word": " or",
+        "start_time": 281.14,
+        "end_time": 281.74
+    },
+    {
+        "word": " to",
+        "start_time": 281.74,
+        "end_time": 281.86
+    },
+    {
+        "word": " the",
+        "start_time": 281.86,
+        "end_time": 282.04
+    },
+    {
+        "word": " people.",
+        "start_time": 282.04,
+        "end_time": 283.16
+    },
+    {
+        "word": " Attest.",
+        "start_time": 283.8,
+        "end_time": 284.36
+    },
+    {
+        "word": " Frederick",
+        "start_time": 284.72,
+        "end_time": 284.88
+    },
+    {
+        "word": " Augustus",
+        "start_time": 284.88,
+        "end_time": 285.42
+    },
+    {
+        "word": " Mullenberg,",
+        "start_time": 285.42,
+        "end_time": 286.06
+    },
+    {
+        "word": " Speaker",
+        "start_time": 286.42,
+        "end_time": 286.6
+    },
+    {
+        "word": " of",
+        "start_time": 286.6,
+        "end_time": 286.76
+    },
+    {
+        "word": " the",
+        "start_time": 286.76,
+        "end_time": 286.9
+    },
+    {
+        "word": " House",
+        "start_time": 286.9,
+        "end_time": 287.06
+    },
+    {
+        "word": " of",
+        "start_time": 287.06,
+        "end_time": 287.36
+    },
+    {
+        "word": " Representatives",
+        "start_time": 287.36,
+        "end_time": 287.8
+    },
+    {
+        "word": " John",
+        "start_time": 287.8,
+        "end_time": 288.14
+    },
+    {
+        "word": " Adams,",
+        "start_time": 288.14,
+        "end_time": 288.5
+    },
+    {
+        "word": " Vice",
+        "start_time": 288.78,
+        "end_time": 288.96
+    },
+    {
+        "word": " President",
+        "start_time": 288.96,
+        "end_time": 289.34
+    },
+    {
+        "word": " of",
+        "start_time": 289.34,
+        "end_time": 289.52
+    },
+    {
+        "word": " the",
+        "start_time": 289.52,
+        "end_time": 289.68
+    },
+    {
+        "word": " United",
+        "start_time": 289.68,
+        "end_time": 290.0
+    },
+    {
+        "word": " States",
+        "start_time": 290.0,
+        "end_time": 290.42
+    },
+    {
+        "word": " and",
+        "start_time": 290.42,
+        "end_time": 290.66
+    },
+    {
+        "word": " President",
+        "start_time": 290.66,
+        "end_time": 291.02
+    },
+    {
+        "word": " of",
+        "start_time": 291.02,
+        "end_time": 291.22
+    },
+    {
+        "word": " the",
+        "start_time": 291.22,
+        "end_time": 291.4
+    },
+    {
+        "word": " Senate",
+        "start_time": 291.4,
+        "end_time": 291.6
+    },
+    {
+        "word": " John",
+        "start_time": 291.6,
+        "end_time": 291.96
+    },
+    {
+        "word": " Beckley,",
+        "start_time": 291.96,
+        "end_time": 293.0
+    },
+    {
+        "word": " Clerk",
+        "start_time": 293.22,
+        "end_time": 293.36
+    },
+    {
+        "word": " of",
+        "start_time": 293.36,
+        "end_time": 293.52
+    },
+    {
+        "word": " the",
+        "start_time": 293.52,
+        "end_time": 293.64
+    },
+    {
+        "word": " House",
+        "start_time": 293.64,
+        "end_time": 293.82
+    },
+    {
+        "word": " of",
+        "start_time": 293.82,
+        "end_time": 294.38
+    },
+    {
+        "word": " Representatives",
+        "start_time": 294.38,
+        "end_time": 294.66
+    },
+    {
+        "word": " Sam,",
+        "start_time": 294.66,
+        "end_time": 295.7
+    },
+    {
+        "word": " a",
+        "start_time": 296.18,
+        "end_time": 296.26
+    },
+    {
+        "word": " Otis",
+        "start_time": 296.26,
+        "end_time": 296.54
+    },
+    {
+        "word": " Secretary",
+        "start_time": 296.54,
+        "end_time": 296.9
+    },
+    {
+        "word": " of",
+        "start_time": 296.9,
+        "end_time": 297.12
+    },
+    {
+        "word": " the",
+        "start_time": 297.12,
+        "end_time": 297.24
+    },
+    {
+        "word": " Senate.",
+        "start_time": 297.24,
+        "end_time": 297.5
     }
 ]

@@ -1,0 +1,1 @@
+ python3 1_make_audio.py && 2_audio_conversion.py && 3_create-word-data.py && 4_transcript-from-wav.py && 5_csv_to_txt.py && 6_phoneme_mapping.py && 7_pose_data.py && 8_viseme_mapping.py && 9_bear_animation.py
