@@ -36,83 +36,54 @@ def load_json(file_path):
         return json.load(f)
 
 def generate_background_frame(frame_num, frame_size, fps):
-    """Generate a single background frame with gradient animation."""
+    """Generate a single background frame with mesh flow animation."""
     width, height = frame_size
     
-    # Slower animation by reducing the values range
-    progress = (frame_num % fps) / fps
-    offset1 = progress
-    offset2 = progress
-    offset3 = progress
+    # Use sine waves for smoother transitions
+    time = frame_num / fps
+    
+    # Smoother oscillations using sine waves
+    rotation1 = 10 * np.sin(2 * np.pi * time / 5)  # 5s cycle
+    rotation2 = 30 * np.sin(2 * np.pi * time / 12.5)  # 12.5s cycle
+    rotation3 = -40 * np.sin(2 * np.pi * time / 30)  # 30s cycle
     
     svg_template = f'''
-    <svg width="{width}" height="{height}" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="{offset1}" style="stop-color:#FF6565"/>
-                <stop offset="{offset2}" style="stop-color:#B7CF54"/>
-                <stop offset="{offset3}" style="stop-color:#53C1C7"/>
-            </linearGradient>
-        </defs>
-        <rect x="0" y="0" width="{width}" height="{height}" fill="url(#gradient)"/>
+    <svg width="{width}" height="{height}" viewBox="0 0 100 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="100%" height="100%" fill="#FFFFFF"/>
+        <path fill="#FFFF00" fill-opacity="0.7" d="M-100 -100L200 -100L200 50L-100 50Z" transform="rotate({rotation1}, 50, 0)"/>
+        <path fill="#00FFFF" fill-opacity="0.7" d="M-100 -100L200 -100L200 50L-100 50Z" transform="rotate({rotation2}, 50, 0)"/>
+        <path fill="#FF00FF" fill-opacity="0.2" d="M-100 -100L200 -100L200 20L-100 20Z" transform="rotate({rotation3}, 50, 0)"/>
     </svg>
     '''
     
     png_bytes = cairosvg.svg2png(
-        bytestring=svg_template.encode(),  # Changed from svg_content to svg_template
+        bytestring=svg_template.encode(),
         output_width=frame_size[0],
         output_height=frame_size[1]
     )
     return png_bytes
-
-def extend_subtitle_timings(subtitle_data, scroll_duration=4.0):
-    """
-    Extends the duration of subtitles with much slower scrolling.
-    
-    Args:
-        subtitle_data (list): Original subtitle data
-        scroll_duration (float): Minimum duration in seconds for each subtitle
-    """
-    extended_subtitles = []
-    
-    for i, subtitle in enumerate(subtitle_data):
-        new_subtitle = subtitle.copy()
-        
-        # Ensure minimum duration for slower scrolling
-        current_duration = subtitle["end_time"] - subtitle["start_time"]
-        if current_duration < scroll_duration:
-            # Extend the end time while avoiding overlap
-            new_end = subtitle["start_time"] + scroll_duration
-            if i < len(subtitle_data) - 1:
-                next_start = subtitle_data[i + 1]["start_time"]
-                new_end = min(new_end, next_start)
-            new_subtitle["end_time"] = new_end
-            
-        extended_subtitles.append(new_subtitle)
-    
-    return extended_subtitles
 
 def generate_background_frames_parallel(output_path, frame_size, fps, duration, max_workers=None):
     """Generate background frames in parallel."""
     if max_workers is None:
         max_workers = mp.cpu_count()
 
+    # Calculate total number of frames needed for the full duration
     num_frames = int(fps * duration)
-    # We only need to generate one second worth of frames since it's a repeating animation
-    unique_frames = min(num_frames, fps)
     
     temp_frames_dir = Path(output_path).parent / "background_frames"
     
     with temporary_directory(temp_frames_dir) as temp_dir:
-        print(f"Generating {unique_frames} background frames using {max_workers} workers...")
+        print(f"Generating {num_frames} background frames using {max_workers} workers...")
         
         with ProcessPoolExecutor(max_workers=max_workers) as executor:
+            # Generate each frame with its unique frame number
             gen_frame = functools.partial(generate_background_frame, frame_size=frame_size, fps=fps)
             futures = {executor.submit(gen_frame, frame_num): frame_num 
-                      for frame_num in range(unique_frames)}
+                      for frame_num in range(num_frames)}  # Generate all frames
             
             # Process results with progress bar
-            for future in tqdm(as_completed(futures), total=unique_frames, desc="Generating backgrounds"):
+            for future in tqdm(as_completed(futures), total=num_frames, desc="Generating backgrounds"):
                 frame_num = futures[future]
                 png_bytes = future.result()
                 
@@ -187,21 +158,11 @@ def create_smooth_visemes(viseme_images):
     
     return smooth_visemes
 
-def render_frame(frame_number, current_time, viseme_data, subtitle_data, background_frames_dir, 
-                resolution, head_image, blink_half, blink_closed, viseme_images, blinks, fps, font):
-    """Render a single frame."""
-    screen = pygame.Surface(resolution)
-    
-    # Use cached background with cycling
-    cycle_frame = frame_number % fps
-    if cycle_frame in BACKGROUND_CACHE:
-        bg_image = BACKGROUND_CACHE[cycle_frame]
-    else:
-        bg_frame_path = Path(background_frames_dir) / f"frame_{cycle_frame:04d}.png"
-        bg_image = pygame.image.load(str(bg_frame_path))
-        BACKGROUND_CACHE[cycle_frame] = bg_image
-
-    screen.blit(bg_image, (0, 0))
+def render_frame(frame_number, current_time, viseme_data, subtitle_data, resolution, 
+                head_image, blink_half, blink_closed, viseme_images, blinks, fps, font):
+    """Render a single frame with transparent background."""
+    # Create a surface with alpha channel
+    screen = pygame.Surface(resolution, pygame.SRCALPHA)
     
     # Character positioning with subtle movement
     base_x = resolution[0] // 2 - head_image.get_width() // 2
@@ -237,75 +198,18 @@ def render_frame(frame_number, current_time, viseme_data, subtitle_data, backgro
         elif closed <= current_time < half_back:
             screen.blit(blink_half, (head_x, head_y))
     
-    # Find current subtitle
-    subtitle_text = ""
-    for subtitle in subtitle_data:
-        if subtitle["start_time"] <= current_time < subtitle["end_time"]:
-            subtitle_text = subtitle["word"].strip()
-            break
-    
-    if subtitle_text:
-        # Define colors for text
-        text_color = (255, 255, 255)  # White text
-        outline_color = (0, 0, 0)     # Black outline
-        outline_width = 1
-        
-        # Use larger font size for better readability
-        font_size = 144
-        if not hasattr(render_frame, 'subtitle_font'):
-            render_frame.subtitle_font = pygame.font.Font(None, font_size)
-        
-        text_surface = render_frame.subtitle_font.render(subtitle_text, True, text_color)
-        
-        # Calculate x position for slower scrolling
-        total_width = resolution[0] + text_surface.get_width()
-        
-        current_subtitle = next(
-            (s for s in subtitle_data if s["start_time"] <= current_time < s["end_time"]),
-            None
-        )
-        
-        if current_subtitle:
-            # Slower scrolling calculation
-            duration = current_subtitle["end_time"] - current_subtitle["start_time"]
-            progress = (current_time - current_subtitle["start_time"]) / duration
-            
-            # Adjust scroll speed (slower)
-            adjusted_progress = progress * .5
-            x_pos = resolution[0] - (adjusted_progress * total_width)
-            
-            # Position near top of screen
-            y_pos = 100
-            
-            text_rect = text_surface.get_rect(midleft=(x_pos, y_pos))
-            
-            # Draw outline
-            outline_surface = render_frame.subtitle_font.render(subtitle_text, True, outline_color)
-            for dx, dy in [(-3,-3), (-3,3), (3,-3), (3,3), (-3,0), (3,0), (0,-3), (0,3)]:
-                outline_rect = outline_surface.get_rect(
-                    midleft=(text_rect.x + dx * outline_width, 
-                            text_rect.y + dy * outline_width))
-                screen.blit(outline_surface, outline_rect)
-            
-            # Draw main text
-            screen.blit(text_surface, text_rect)
-    
     return screen, current_viseme["mouth_shape"]
 
-def render_animation_parallel(viseme_data, subtitle_data, background_frames_dir, output_video, 
-                            fps, resolution, temp_dir, head_image_path, blink_half_path, 
-                            blink_closed_path, viseme_directory, emotions_directory, audio_file,
-                            max_workers=None):
-    """Render animation frames in parallel with automatic cleanup."""
+def render_animation_parallel(viseme_data, subtitle_data, output_video, fps, resolution, 
+                            temp_dir, head_image_path, blink_half_path, blink_closed_path, 
+                            viseme_directory, emotions_directory, audio_file, max_workers=None):
+    """Render animation frames in parallel."""
     pygame.init()
     
-    # Initialize font
-    font = pygame.font.Font(None, 72)
-    
-    # Load and cache images
-    head_image = pygame.image.load(head_image_path)
-    blink_half = pygame.image.load(blink_half_path)
-    blink_closed = pygame.image.load(blink_closed_path)
+    # Load images
+    head_image = pygame.image.load(head_image_path).convert_alpha()
+    blink_half = pygame.image.load(blink_half_path).convert_alpha()
+    blink_closed = pygame.image.load(blink_closed_path).convert_alpha()
     viseme_images = load_viseme_images(viseme_directory)
     
     total_duration = viseme_data[-1]["end_time"]
@@ -314,8 +218,6 @@ def render_animation_parallel(viseme_data, subtitle_data, background_frames_dir,
     frame_time = 1 / fps
     
     with temporary_directory(temp_dir) as temp_frames_dir:
-        prev_viseme = None
-        
         with ThreadPoolExecutor(max_workers=max_workers) as executor:
             futures = []
             for frame_number in range(total_frames):
@@ -326,7 +228,6 @@ def render_animation_parallel(viseme_data, subtitle_data, background_frames_dir,
                                   current_time,
                                   viseme_data,
                                   subtitle_data,
-                                  background_frames_dir,
                                   resolution,
                                   head_image,
                                   blink_half,
@@ -334,32 +235,32 @@ def render_animation_parallel(viseme_data, subtitle_data, background_frames_dir,
                                   viseme_images,
                                   blinks,
                                   fps,
-                                  font)
+                                  None)  # Font not needed anymore
                 )
             
-            for frame_number, future in enumerate(tqdm(as_completed(futures), total=total_frames, desc="Rendering frames")):
+            for frame_number, future in enumerate(tqdm(as_completed(futures), 
+                                                     total=total_frames, 
+                                                     desc="Rendering frames")):
                 screen, current_viseme = future.result()
                 frame_path = Path(temp_frames_dir) / f"frame_{frame_number:04d}.png"
                 pygame.image.save(screen, str(frame_path))
         
-        # Create output directory if it doesn't exist
-        output_path = Path(output_video)
-        output_path.parent.mkdir(parents=True, exist_ok=True)
+        # Create video with transparency
+        temp_video = str(Path(output_video).with_name('bear_temp.mov'))
+        final_output = str(Path(output_video).with_name('bear_final.mov'))
         
-        # Combine frames into video with higher bitrate for better quality
-        temp_video = output_path.with_name('temp_output.mp4')
+        # Create video with alpha channel
         os.system(f'ffmpeg -y -framerate {fps} -i {temp_frames_dir}/frame_%04d.png '
-                 f'-c:v libx264 -preset slow -crf 18 -pix_fmt yuv420p {temp_video}')
+                 f'-c:v qtrle -pix_fmt argb '
+                 f'{temp_video}')
         
-        # Add audio and create final output
-        final_output = output_path.with_name('final_output.mp4')
-        os.system(f'ffmpeg -y -i {temp_video} -i {audio_file} -c:v copy -c:a aac '
-                 f'-b:a 192k -shortest {final_output}')
+        # Add audio
+        os.system(f'ffmpeg -y -i {temp_video} -i {audio_file} '
+                 f'-c:v copy -c:a aac -b:a 320k '
+                 f'-shortest {final_output}')
         
-        # Clean up temporary video file
-        if temp_video.exists():
-            temp_video.unlink()
-            print(f"Cleaned up temporary video: {temp_video}")
+        if os.path.exists(temp_video):
+            os.remove(temp_video)
         
         print(f"Animation rendered to {final_output}")
 
@@ -396,7 +297,6 @@ if __name__ == "__main__":
     
     # Data files
     viseme_file = data_dir / "viseme_data.json"
-    subtitle_file = data_dir / "word_data.json"  # This was missing
     audio_file = data_dir / "audio/audio.wav"
     
     # Asset files
@@ -413,18 +313,14 @@ if __name__ == "__main__":
     
 if __name__ == "__main__":
     # Animation settings
-    fps = 24
-      # Increased for smoother animation
-    playback_speed = 1  # Normal speed
+    fps = 120  # Increased for smoother animation
+    playback_speed = 1.0
     output_fps = int(fps * playback_speed)
     resolution = (1920, 1080)
     max_workers = mp.cpu_count()
     
     try:
         # Load data
-        subtitle_data = load_json(subtitle_file)
-        # Extend subtitle timings for scrolling
-        subtitle_data = extend_subtitle_timings(subtitle_data, scroll_duration=2.0)
         viseme_data = load_json(viseme_file)        
 
         # Initialize smooth visemes
@@ -444,7 +340,6 @@ if __name__ == "__main__":
 # Render animation
             render_animation_parallel(
                 viseme_data,
-                subtitle_data,
                 background_frames_dir,
                 str(output_video),
                 fps,
