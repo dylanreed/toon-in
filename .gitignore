@@ -22395,3 +22395,13 @@ code/.env
 .venv/pyvenv.cfg
 .venv/share/man/man1/isympy.1
 /.venv
+.toon/.lock
+/.toon
+/.toon
+.DS_Store
+*.mp4
+constitution/constitution-bear_The_Constitution.mp3
+constitution/constitution-bear_The_Constitution.wav
+*.mp3
+*.wav
+*.mp4

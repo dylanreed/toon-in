@@ -25,7 +25,7 @@
         "end_time": 1.522857142857143
     },
     {
-        "mouth_shape": "ee.png",
+        "mouth_shape": "aei.png",
         "start_time": 1.522857142857143,
         "end_time": 1.5771428571428572
     },
@@ -105,7 +105,7 @@
         "end_time": 2.732
     },
     {
-        "mouth_shape": "ee.png",
+        "mouth_shape": "aei.png",
         "start_time": 2.732,
         "end_time": 2.7960000000000003
     },
@@ -205,7 +205,7 @@
         "end_time": 4.59
     },
     {
-        "mouth_shape": "ee.png",
+        "mouth_shape": "aei.png",
         "start_time": 4.59,
         "end_time": 4.62
     },
@@ -215,7 +215,7 @@
         "end_time": 4.6866666666666665
     },
     {
-        "mouth_shape": "ee.png",
+        "mouth_shape": "aei.png",
         "start_time": 4.6866666666666665,
         "end_time": 4.753333333333333
     },
@@ -375,7 +375,7 @@
         "end_time": 6.916
     },
     {
-        "mouth_shape": "ee.png",
+        "mouth_shape": "aei.png",
         "start_time": 6.916,
         "end_time": 6.98
     },
@@ -400,7 +400,7 @@
         "end_time": 7.333333333333333
     },
     {
-        "mouth_shape": "ee.png",
+        "mouth_shape": "aei.png",
         "start_time": 7.333333333333333,
         "end_time": 7.406666666666666
     },
@@ -430,7 +430,7 @@
         "end_time": 7.97
     },
     {
-        "mouth_shape": "ee.png",
+        "mouth_shape": "aei.png",
         "start_time": 7.97,
         "end_time": 8.025
     },
@@ -445,7 +445,7 @@
         "end_time": 8.14
     },
     {
-        "mouth_shape": "ee.png",
+        "mouth_shape": "aei.png",
         "start_time": 8.14,
         "end_time": 8.200000000000001
     },
@@ -585,12 +585,12 @@
         "end_time": 9.911999999999999
     },
     {
-        "mouth_shape": "ee.png",
+        "mouth_shape": "aei.png",
         "start_time": 9.911999999999999,
         "end_time": 9.979999999999999
     },
     {
-        "mouth_shape": "ee.png",
+        "mouth_shape": "aei.png",
         "start_time": 9.98,
         "end_time": 10.056000000000001
     },
@@ -660,7 +660,7 @@
         "end_time": 11.493333333333332
     },
     {
-        "mouth_shape": "ee.png",
+        "mouth_shape": "aei.png",
         "start_time": 11.493333333333332,
         "end_time": 11.559999999999999
     },
@@ -750,7 +750,7 @@
         "end_time": 12.78285714285714
     },
     {
-        "mouth_shape": "ee.png",
+        "mouth_shape": "aei.png",
         "start_time": 12.78285714285714,
         "end_time": 12.831428571428567
     },
@@ -775,7 +775,7 @@
         "end_time": 13.16
     },
     {
-        "mouth_shape": "ee.png",
+        "mouth_shape": "aei.png",
         "start_time": 13.16,
         "end_time": 13.22
     },

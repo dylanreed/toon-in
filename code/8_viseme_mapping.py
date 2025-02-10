@@ -6,8 +6,8 @@ def map_phonemes_to_visemes(phoneme_data):
     """
     phoneme_to_mouth_shape = {
         "AA": "aei.png", "AE": "aei.png", "AH": "aei.png", "AO": "o.png",
-        "EH": "aei.png", "IH": "aei.png", "IY": "ee.png", "UH": "o.png", "UW": "o.png",
-        "AY": "aei.png", "EY": "ee.png", "OW": "o.png", "OY": "o.png",
+        "EH": "aei.png", "IH": "aei.png", "IY": "aei.png", "UH": "o.png", "UW": "o.png",
+        "AY": "aei.png", "EY": "aei.png", "OW": "o.png", "OY": "o.png",
         "F": "fv.png", "V": "fv.png", "B": "bmp.png", "M": "bmp.png", "P": "bmp.png",
         "C": "cdgknstxyz.png", "D": "cdgknstxyz.png", "G": "cdgknstxyz.png",
         "K": "cdgknstxyz.png", "N": "cdgknstxyz.png", "S": "cdgknstxyz.png",
