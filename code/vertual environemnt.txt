@@ -5,7 +5,7 @@ rm -rf .venv
 python3.9 -m venv .venv
 
 # Activate it
-source .venv/bin/activate
+source .toon/bin/activate
 
 # Install numpy first with the specific version
 uv pip install numpy==1.24.3
