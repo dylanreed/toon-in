@@ -22394,3 +22394,4 @@ code/.env
 .venv/lib/python3.9/site-packages/whisper/version.py
 .venv/pyvenv.cfg
 .venv/share/man/man1/isympy.1
+/.venv
