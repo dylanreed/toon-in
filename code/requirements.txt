@@ -1,15 +1,32 @@
+# Core numerical packages
+numpy==1.24.3
+pandas>=2.0.0
+
+# Deep Learning
+torch>=2.0.0,<2.2.0
+torchaudio>=2.0.0,<2.2.0
+openai-whisper>=20231117
+numba>=0.53.1
+llvmlite>=0.36.0
+
+# Audio processing
 pydub>=0.25.1
-torch>=2.1.0
-torchaudio>=2.1.0
-whisper-openai>=1.0.0
+ffmpeg-python>=0.2.0
+
+# Image and video processing
 pygame>=2.5.0
-opencv-python>=4.8.0
+opencv-python>=4.7.0
 cairosvg>=2.7.0
 Pillow>=10.0.0
-pandas>=2.0.0
-numpy>=1.24.0
+
+# HTTP and Data
 requests>=2.31.0
+
+# Progress bars
 tqdm>=4.65.0
+
+# Speech processing
 pocketsphinx>=5.0.0
-ffmpeg-python>=0.2.0
+
+# Environment variables
 python-dotenv>=1.0.0
