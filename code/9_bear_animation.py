@@ -271,11 +271,11 @@ def render_frame(frame_number, current_time, viseme_data, subtitle_data, backgro
             progress = (current_time - current_subtitle["start_time"]) / duration
             
             # Adjust scroll speed (slower)
-            adjusted_progress = progress * 1
+            adjusted_progress = progress * .5
             x_pos = resolution[0] - (adjusted_progress * total_width)
             
             # Position near top of screen
-            y_pos = 80
+            y_pos = 100
             
             text_rect = text_surface.get_rect(midleft=(x_pos, y_pos))
             
