@@ -14,7 +14,7 @@ def map_phonemes_to_visemes(phoneme_data):
         "T": "cdgknstxyz.png", "X": "cdgknstxyz.png", "Y": "cdgknstxyz.png", "Z": "cdgknstxyz.png",
         "L": "l.png", "R": "r.png", "W": "qw.png", "Q": "qw.png",
         "SH": "shch.png", "CH": "shch.png", "JH": "shch.png",
-        "TH": "th.png", "DH": "th.png", "SIL": "aei.png"
+        "TH": "th.png", "DH": "th.png", "SIL": "neutral.png"
     }
 
     viseme_list = []

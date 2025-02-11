@@ -60,7 +60,7 @@ def map_words_to_phonemes(word_data, cmu_dict):
 
 def main():
     # Path to CMU dictionary
-    cmu_dict_path = "/Users/nervous/Documents/GitHub/toon-in/.venv/lib/python3.9/site-packages/pocketsphinx/model/en-us/cmudict-en-us.dict"  # Replace with your actual path
+    cmu_dict_path = "/Users/nervous/Documents/GitHub/toon-in/.toon/lib/python3.9/site-packages/pocketsphinx/model/en-us/cmudict-en-us.dict"  # Replace with your actual path
     cmu_dict = load_cmu_dict(cmu_dict_path)
 
     # Load the word data JSON
