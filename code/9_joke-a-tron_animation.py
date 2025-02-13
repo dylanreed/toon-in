@@ -382,7 +382,7 @@ def main():
     
     # Choose whether to preview or export
     # animation.preview_animation()  # For preview
-    animation.export_video("/Users/nervous/Documents/GitHub/toon-in/output/output.mp4", fps=60)  # For export
+    animation.export_video("/Users/nervous/Documents/GitHub/toon-in/output/joke-a-tron/output.mp4", fps=60)  # For export
 
 if __name__ == "__main__":
     main()

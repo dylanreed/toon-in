@@ -63,7 +63,7 @@ def generate_background_frame(frame_num, frame_size, fps):
     )
     return png_bytes
 
-def generate_background_video(output_path, duration, fps=60, resolution=(1920, 1080), max_workers=None):
+def generate_background_video(output_path, duration, fps=60, resolution=(800, 600), max_workers=None):
     """Generate a video of the background animation."""
     if max_workers is None:
         max_workers = mp.cpu_count()
@@ -106,9 +106,9 @@ def generate_background_video(output_path, duration, fps=60, resolution=(1920, 1
 if __name__ == "__main__":
     # Settings
     output_video = "background.mp4"  # Output video path
-    duration = 14 # Duration in seconds
+    duration = 6 # Duration in seconds
     fps = 60  # Frames per second
-    resolution = (1920, 1080)  # Video resolution
+    resolution = (800, 600)  # Video resolution
     
     # Generate the background video
     generate_background_video(output_video, duration, fps, resolution)
