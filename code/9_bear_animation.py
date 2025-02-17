@@ -367,7 +367,7 @@ class MouthAnimation:
         # Add audio using ffmpeg if available
         if self.audio_path and os.path.exists(self.audio_path):
             print("Adding audio...")
-            temp_video = output_path + ".temp.mp4"
+            temp_video = output_path + "temp.mp4"
             os.rename(output_path, temp_video)
             os.system(f'ffmpeg -i {temp_video} -i {self.audio_path} -c:v copy -c:a aac {output_path}')
             os.remove(temp_video)

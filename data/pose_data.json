@@ -1,1 +1,20 @@
-[]
+[
+    {
+        "pose_folder": "brows",
+        "pose_image": "brows/neutral.png",
+        "pose_start_time": 0.8000000000000007,
+        "pose_end_time": 1.7
+    },
+    {
+        "pose_folder": "brows",
+        "pose_image": "brows/worried.png",
+        "pose_start_time": 2.14,
+        "pose_end_time": 2.78
+    },
+    {
+        "pose_folder": "brows",
+        "pose_image": "brows/quirked.png",
+        "pose_start_time": 3.82,
+        "pose_end_time": 4.48
+    }
+]

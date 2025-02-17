@@ -36,9 +36,9 @@ def parse_transcript_with_poses(transcript, words_timing):
 
         # Dynamically determine pose folder
         if "att_2" in pose:  # Assign pose_2 to att_2
-            pose_folder = "pose_2"
+            pose_folder = "brows"
         else:
-            pose_folder = "pose_1"
+            pose_folder = "brows"
 
         pose_data.append({
             "pose_folder": pose_folder,
