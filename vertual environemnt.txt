@@ -1,8 +1,8 @@
 # Remove the virtual environment
-rm -rf .venv
+rm -rf .toon
 
 # Create a new virtual environment
-python3.9 -m venv .venv
+python3.9 -m venv .toon
 
 # Activate it
 source .toon/bin/activate

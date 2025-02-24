@@ -1,2 +1,0 @@
-file '/Users/nervous/Documents/GitHub/toon-in/output/output.mp4'
-file '/Users/nervous/Documents/GitHub/toon-in/code/background.mp4'

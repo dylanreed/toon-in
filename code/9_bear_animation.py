@@ -106,7 +106,7 @@ class MouthAnimation:
         self.background_image = None
         if background_path:
             self.background_image = pygame.image.load(background_path).convert()
-            self.background_image = pygame.transform.scale(self.background_image, self.window_size)
+            #self.background_image = pygame.transform.scale(self.background_image, self.window_size)
         
         self.animation_data = self.load_animation_data()
         self.pose_data = self.load_pose_data(pose_data_path) if pose_data_path else []
@@ -347,8 +347,8 @@ class MouthAnimation:
         
         for frame in self.animation_data:
             if frame["start_time"] <= current_time <= frame["end_time"]:
-                print(f"Found viseme: {frame['mouth_shape']} at time {current_time}")
-                return frame["mouth_shape"]
+                print(f"Found viseme: {frame['viseme']} at time {current_time}")
+                return frame["viseme"]
                 
         print(f"No viseme found at time {current_time}, using emotion")
         return None
@@ -602,7 +602,7 @@ class MouthAnimation:
 
 def main():
     # Set your window size and paths
-    window_size = (1920, 1080)
+    window_size = (1080, 1920)
     audio_path = "/Users/nervous/Documents/GitHub/toon-in/data/audio/audio.wav"
     background_path = "/Users/nervous/Documents/GitHub/toon-in/assets/background/bear_background.png"
     pose_data_path = "/Users/nervous/Documents/GitHub/toon-in/data/pose_data.json"
@@ -611,7 +611,7 @@ def main():
     animation = MouthAnimation(
         window_size=window_size,
         character_scale=1,  # Adjust this to change character size
-        character_position=(1200, 800),  # Adjust x,y coordinates
+        character_position=(540, 900),  # Adjust x,y coordinates
         flip_vertical=True,  # Set to True to flip the animation vertically
         audio_path=audio_path,
         background_path=background_path,

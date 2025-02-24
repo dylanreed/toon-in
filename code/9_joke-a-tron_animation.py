@@ -265,8 +265,8 @@ class MouthAnimation:
         
         for frame in self.animation_data:
             if frame["start_time"] <= current_time <= frame["end_time"]:
-                print(f"Found viseme: {frame['mouth_shape']} at time {current_time}")
-                return frame["mouth_shape"]
+                print(f"Found viseme: {frame['viseme']} at time {current_time}")
+                return frame["viseme"]
                 
         print(f"No viseme found at time {current_time}, using neutral")
         return "neutral.png"

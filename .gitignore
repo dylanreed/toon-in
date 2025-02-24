@@ -22410,3 +22410,12 @@ constitution/constitution-bear_The_Constitution.wav
 *.wav
 *.mp3
 *.wav
+*.afphoto
+*.afdesign
+/assets/norris/norris_assets/D_dylannotdylan_TOONBOOM
+/assets/norris/norris_assets/D_dylannotdylan_2K
+*.mov
+*.ai
+*.mp3
+*.wav
+/data/audio
