@@ -1,4 +1,6 @@
 import whisper
+import argparse
+from pathlib import Path
 
 def transcribe_and_save(audio_file, model_name="base", transcript_file="transcript.txt"):
     """
@@ -26,7 +28,19 @@ def transcribe_and_save(audio_file, model_name="base", transcript_file="transcri
     except Exception as e:
         print(f"Error saving transcription:{e}")
 
-# Example usage
-audio_path = "/Users/nervous/Documents/GitHub/toon-in/data/audio/audio.wav"  # Path to your audio file
-output_text_file = "/Users/nervous/Documents/GitHub/toon-in/data/clean_transcript.txt"  # Path to save the transcription
-transcribe_and_save(audio_path, transcript_file=output_text_file)
+def main():
+    parser = argparse.ArgumentParser(description='Transcribe audio using Whisper')
+    parser.add_argument('--audio_file', required=False, 
+                        default="/Users/nervous/Documents/GitHub/toon-in/data/audio/dylan/dylan.wav",
+                        help='Path to the audio file to transcribe')
+    parser.add_argument('--model', required=False, default='base',
+                        help='Whisper model to use (e.g., "base", "small", "medium", "large")')
+    parser.add_argument('--output', required=False, 
+                        default="/Users/nervous/Documents/GitHub/toon-in/data/clean_transcript.txt",
+                        help='Path to save the transcription as a text file')
+    args = parser.parse_args()
+    
+    transcribe_and_save(args.audio_file, args.model, args.output)
+
+if __name__ == "__main__":
+    main()

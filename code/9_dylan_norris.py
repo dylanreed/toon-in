@@ -12,7 +12,7 @@ import pygame
 
 # Constants
 FPS = 60
-DEFAULT_WINDOW_SIZE = (1000, 1000)
+DEFAULT_WINDOW_SIZE = (1920, 1080)
 BLINK_DURATION = 0.15
 BLINK_INTERVAL = (2, 6)
 
@@ -428,16 +428,16 @@ class MouthAnimation:
 
 def main():
     # Set your window size and paths
-    window_size = (1000, 1000)
-    audio_path = "data/audio/audio.wav"
-    background_path = "assets/background/norris_background.png"
+    window_size = (1920, 1080)
+    audio_path = "data/audio/dylan/episode_4_dylan.wav"
+    background_path = "assets/background/blank_background.png"
     
     # Create animation instance with custom character scale and position
     animation = MouthAnimation(
         window_size=window_size,
         character_scale=0.2,
-        character_position=(700, 625),
-        flip_vertical=False,
+        character_position=(1300, 625),
+        flip_vertical=True,
         audio_path=audio_path,
         background_path=background_path,
     )

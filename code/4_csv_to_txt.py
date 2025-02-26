@@ -1,4 +1,6 @@
 import csv
+import argparse
+from pathlib import Path
 
 def save_csv_rows_as_txt(input_csv, output_txt):
     """Reads a CSV file and saves each row as text in a .txt file."""
@@ -14,5 +16,17 @@ def save_csv_rows_as_txt(input_csv, output_txt):
     
     print(f"Text saved to {output_txt}")
 
-# Example Usage
-save_csv_rows_as_txt('/Users/nervous/Documents/GitHub/toon-in/input/transcript.csv', '/Users/nervous/Documents/GitHub/toon-in/data/transcript.txt')
+def main():
+    parser = argparse.ArgumentParser(description='Convert CSV to text file')
+    parser.add_argument('--input_csv', required=False, 
+                        default='/Users/nervous/Documents/GitHub/toon-in/input/transcript.csv',
+                        help='Path to the input CSV file')
+    parser.add_argument('--output_txt', required=False, 
+                        default='/Users/nervous/Documents/GitHub/toon-in/data/transcript.txt',
+                        help='Path to save the output text file')
+    args = parser.parse_args()
+    
+    save_csv_rows_as_txt(args.input_csv, args.output_txt)
+
+if __name__ == "__main__":
+    main()

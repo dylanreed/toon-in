@@ -1,4 +1,5 @@
 import os
+import argparse
 import multiprocessing as mp
 from pathlib import Path
 from tqdm import tqdm
@@ -11,7 +12,7 @@ def convert_to_wav(input_file):
         output_file = str(Path(input_file).with_suffix('.wav'))
         
         # Load audio in chunks for memory efficiency
-        audio = AudioSegment.from_file(input_file, format='mp3')
+        audio = AudioSegment.from_file(input_file)
         
         # Process in a memory-efficient way by converting parameters directly
         audio = audio.set_frame_rate(16000).set_channels(1).set_sample_width(2)
@@ -68,8 +69,14 @@ def process_directory(input_dir, max_workers=None):
                 pbar.update(1)
 
 def main():
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(description='Convert audio files to WAV format')
+    parser.add_argument('--audio_dir', required=False, default='data/audio',
+                        help='Directory containing audio files to convert')
+    args = parser.parse_args()
+    
     # Input and output directories
-    input_dir = "/Users/nervous/Documents/GitHub/toon-in/data/audio/"
+    input_dir = Path(args.audio_dir)
     
     # Create output directory if it doesn't exist
     os.makedirs(input_dir, exist_ok=True)

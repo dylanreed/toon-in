@@ -1,11 +1,11 @@
 # Remove the virtual environment
-rm -rf .toon
+rm -rf .venv
 
 # Create a new virtual environment
-python3.9 -m venv .toon
+python3.9 -m venv .venv
 
 # Activate it
-source .toon/bin/activate
+source .venv/bin/activate
 
 # Install numpy first with the specific version
 uv pip install numpy==1.24.3

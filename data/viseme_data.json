@@ -1,3767 +1,1362 @@
 [
     {
-        "viseme": "qw.png",
-        "start_time": 0.9599999999999944,
-        "end_time": 1.0933333333333297
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 1.0933333333333297,
-        "end_time": 1.226666666666665
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 1.226666666666665,
-        "end_time": 1.3600000000000003
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 1.36,
-        "end_time": 1.3900000000000001
-    },
-    {
-        "viseme": "fv.png",
-        "start_time": 1.3900000000000001,
-        "end_time": 1.42
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 1.42,
-        "end_time": 1.5
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 1.5,
-        "end_time": 1.58
-    },
-    {
-        "viseme": "fv.png",
-        "start_time": 1.58,
-        "end_time": 1.62
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 1.62,
-        "end_time": 1.6600000000000001
-    },
-    {
-        "viseme": "fv.png",
-        "start_time": 1.6600000000000001,
-        "end_time": 1.7000000000000002
+        "viseme": "neutral.png",
+        "start_time": 2.100000000000001,
+        "end_time": 2.4600000000000004
     },
     {
         "viseme": "neutral.png",
-        "start_time": 1.7000000000000002,
-        "end_time": 1.7400000000000002
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 1.7400000000000002,
-        "end_time": 1.7800000000000002
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 1.7800000000000002,
-        "end_time": 1.8200000000000003
-    },
-    {
-        "viseme": "th.png",
-        "start_time": 1.82,
-        "end_time": 1.885
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 1.885,
-        "end_time": 1.95
+        "start_time": 2.4600000000000004,
+        "end_time": 2.82
     },
     {
         "viseme": "neutral.png",
-        "start_time": 1.95,
-        "end_time": 2.015
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 2.015,
-        "end_time": 2.08
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 2.08,
-        "end_time": 2.17
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 2.17,
-        "end_time": 2.26
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 2.26,
-        "end_time": 2.37
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 2.37,
-        "end_time": 2.4800000000000004
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 2.48,
-        "end_time": 2.6100000000000003
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 2.6100000000000003,
-        "end_time": 2.74
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 2.74,
-        "end_time": 2.87
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 2.87,
-        "end_time": 3.0
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 3.0,
-        "end_time": 3.04
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 3.04,
-        "end_time": 3.08
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 3.08,
-        "end_time": 3.12
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 3.12,
-        "end_time": 3.184
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 3.184,
-        "end_time": 3.248
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 3.248,
-        "end_time": 3.3120000000000003
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 3.3120000000000003,
-        "end_time": 3.3760000000000003
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 3.3760000000000003,
-        "end_time": 3.4400000000000004
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 3.44,
-        "end_time": 3.505
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 3.505,
-        "end_time": 3.57
+        "start_time": 2.88,
+        "end_time": 2.98
     },
     {
         "viseme": "neutral.png",
-        "start_time": 3.57,
-        "end_time": 3.635
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 3.635,
-        "end_time": 3.6999999999999997
-    },
-    {
-        "viseme": "th.png",
-        "start_time": 3.7,
-        "end_time": 3.77
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 3.77,
-        "end_time": 3.84
+        "start_time": 2.98,
+        "end_time": 3.1
     },
     {
         "viseme": "neutral.png",
-        "start_time": 3.84,
-        "end_time": 3.9099999999999997
+        "start_time": 3.1,
+        "end_time": 3.2
     },
     {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 3.9099999999999997,
-        "end_time": 3.9799999999999995
+        "viseme": "neutral.png",
+        "start_time": 3.2,
+        "end_time": 3.26
     },
     {
-        "viseme": "th.png",
-        "start_time": 3.98,
-        "end_time": 4.026666666666666
+        "viseme": "neutral.png",
+        "start_time": 3.26,
+        "end_time": 3.5
     },
     {
-        "viseme": "aei.png",
-        "start_time": 4.026666666666666,
-        "end_time": 4.073333333333333
+        "viseme": "neutral.png",
+        "start_time": 3.5,
+        "end_time": 4.18
     },
     {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 4.073333333333333,
-        "end_time": 4.12
+        "viseme": "neutral.png",
+        "start_time": 4.74,
+        "end_time": 4.9
     },
     {
-        "viseme": "aei.png",
-        "start_time": 4.12,
-        "end_time": 4.28
+        "viseme": "neutral.png",
+        "start_time": 4.9,
+        "end_time": 5.16
     },
     {
-        "viseme": "l.png",
-        "start_time": 4.28,
-        "end_time": 4.38
+        "viseme": "neutral.png",
+        "start_time": 5.16,
+        "end_time": 5.4
     },
     {
-        "viseme": "aei.png",
-        "start_time": 4.38,
-        "end_time": 4.4799999999999995
+        "viseme": "neutral.png",
+        "start_time": 5.4,
+        "end_time": 5.46
     },
     {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 4.4799999999999995,
-        "end_time": 4.579999999999999
+        "viseme": "neutral.png",
+        "start_time": 5.46,
+        "end_time": 5.62
     },
     {
-        "viseme": "th.png",
-        "start_time": 5.04,
-        "end_time": 5.1
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 5.1,
-        "end_time": 5.159999999999999
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 5.159999999999999,
-        "end_time": 5.219999999999999
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 5.22,
-        "end_time": 5.32
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 5.32,
-        "end_time": 5.42
-    },
-    {
-        "viseme": "fv.png",
-        "start_time": 5.42,
-        "end_time": 5.486666666666666
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 5.486666666666666,
-        "end_time": 5.553333333333333
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 5.553333333333333,
-        "end_time": 5.619999999999999
-    },
-    {
-        "viseme": "bmp.png",
+        "viseme": "neutral.png",
         "start_time": 5.62,
-        "end_time": 5.672
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 5.672,
-        "end_time": 5.723999999999999
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 5.723999999999999,
-        "end_time": 5.775999999999999
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 5.775999999999999,
-        "end_time": 5.8279999999999985
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 5.8279999999999985,
-        "end_time": 5.879999999999998
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 5.88,
-        "end_time": 5.9479999999999995
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 5.9479999999999995,
-        "end_time": 6.015999999999999
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 6.015999999999999,
-        "end_time": 6.083999999999999
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 6.083999999999999,
-        "end_time": 6.151999999999998
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 6.151999999999998,
-        "end_time": 6.219999999999998
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 6.22,
-        "end_time": 6.278181818181818
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 6.278181818181818,
-        "end_time": 6.336363636363637
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 6.336363636363637,
-        "end_time": 6.394545454545455
+        "end_time": 5.8
     },
     {
         "viseme": "neutral.png",
-        "start_time": 6.394545454545455,
-        "end_time": 6.452727272727274
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 6.452727272727274,
-        "end_time": 6.5109090909090925
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 6.5109090909090925,
-        "end_time": 6.569090909090911
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 6.569090909090911,
-        "end_time": 6.62727272727273
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 6.62727272727273,
-        "end_time": 6.685454545454548
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 6.685454545454548,
-        "end_time": 6.743636363636367
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 6.743636363636367,
-        "end_time": 6.801818181818185
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 6.801818181818185,
-        "end_time": 6.860000000000004
+        "start_time": 5.8,
+        "end_time": 5.94
     },
     {
         "viseme": "neutral.png",
-        "start_time": 6.86,
-        "end_time": 6.98
+        "start_time": 5.94,
+        "end_time": 6.16
     },
     {
         "viseme": "neutral.png",
-        "start_time": 6.98,
-        "end_time": 7.1
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 7.1,
-        "end_time": 7.153333333333333
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 7.153333333333333,
-        "end_time": 7.206666666666667
-    },
-    {
-        "viseme": "shch.png",
-        "start_time": 7.206666666666667,
-        "end_time": 7.260000000000001
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 7.26,
-        "end_time": 7.44
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 7.44,
-        "end_time": 7.473333333333334
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 7.473333333333334,
-        "end_time": 7.506666666666667
-    },
-    {
-        "viseme": "fv.png",
-        "start_time": 7.506666666666667,
-        "end_time": 7.54
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 7.54,
-        "end_time": 7.625
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 7.625,
-        "end_time": 7.71
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 7.71,
-        "end_time": 7.795
+        "start_time": 6.32,
+        "end_time": 6.36
     },
     {
         "viseme": "neutral.png",
-        "start_time": 7.795,
-        "end_time": 7.88
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 7.88,
-        "end_time": 7.96
-    },
-    {
-        "viseme": "qw.png",
-        "start_time": 7.96,
-        "end_time": 8.04
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 8.04,
-        "end_time": 8.12
-    },
-    {
-        "viseme": "fv.png",
-        "start_time": 8.12,
-        "end_time": 8.2
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 8.2,
-        "end_time": 8.28
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 8.7,
-        "end_time": 8.8
-    },
-    {
-        "viseme": "th.png",
-        "start_time": 8.8,
-        "end_time": 8.845
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 8.845,
-        "end_time": 8.89
+        "start_time": 6.36,
+        "end_time": 6.54
     },
     {
         "viseme": "neutral.png",
-        "start_time": 8.89,
-        "end_time": 8.935
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 8.935,
-        "end_time": 8.98
-    },
-    {
-        "viseme": "shch.png",
-        "start_time": 8.98,
-        "end_time": 9.06
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 9.06,
-        "end_time": 9.14
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 9.14,
-        "end_time": 9.23
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 9.23,
-        "end_time": 9.32
-    },
-    {
-        "viseme": "qw.png",
-        "start_time": 9.32,
-        "end_time": 9.38
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 9.38,
-        "end_time": 9.440000000000001
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 9.440000000000001,
-        "end_time": 9.500000000000002
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 9.500000000000002,
-        "end_time": 9.560000000000002
+        "start_time": 6.54,
+        "end_time": 6.68
     },
     {
         "viseme": "neutral.png",
-        "start_time": 9.560000000000002,
-        "end_time": 9.620000000000003
-    },
-    {
-        "viseme": "fv.png",
-        "start_time": 9.620000000000003,
-        "end_time": 9.680000000000003
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 9.680000000000003,
-        "end_time": 9.740000000000004
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 9.740000000000004,
-        "end_time": 9.800000000000004
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 9.86,
-        "end_time": 9.926666666666666
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 9.926666666666666,
-        "end_time": 9.993333333333332
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 9.993333333333332,
-        "end_time": 10.059999999999999
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 10.06,
-        "end_time": 10.14
-    },
-    {
-        "viseme": "th.png",
-        "start_time": 10.14,
-        "end_time": 10.175
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 10.175,
-        "end_time": 10.21
+        "start_time": 6.68,
+        "end_time": 7.12
     },
     {
         "viseme": "neutral.png",
-        "start_time": 10.21,
-        "end_time": 10.245000000000001
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 10.245000000000001,
-        "end_time": 10.280000000000001
-    },
-    {
-        "viseme": "neutral.png",
-        "start_time": 10.28,
-        "end_time": 10.39
-    },
-    {
-        "viseme": "neutral.png",
-        "start_time": 10.39,
-        "end_time": 10.5
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 10.5,
-        "end_time": 10.54
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 10.54,
-        "end_time": 10.579999999999998
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 10.579999999999998,
-        "end_time": 10.619999999999997
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 10.619999999999997,
-        "end_time": 10.659999999999997
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 10.659999999999997,
-        "end_time": 10.699999999999996
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 10.699999999999996,
-        "end_time": 10.739999999999995
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 10.74,
-        "end_time": 10.850000000000001
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 10.850000000000001,
-        "end_time": 10.96
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 10.96,
-        "end_time": 10.996
-    },
-    {
-        "viseme": "r.png",
-        "start_time": 10.996,
-        "end_time": 11.032
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 11.032,
-        "end_time": 11.068
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 11.068,
-        "end_time": 11.104
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 11.104,
-        "end_time": 11.139999999999999
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 11.14,
-        "end_time": 11.215
-    },
-    {
-        "viseme": "r.png",
-        "start_time": 11.215,
-        "end_time": 11.29
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 11.29,
-        "end_time": 11.364999999999998
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 11.364999999999998,
-        "end_time": 11.439999999999998
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 11.44,
-        "end_time": 11.48
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 11.48,
-        "end_time": 11.520000000000001
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 11.520000000000001,
-        "end_time": 11.560000000000002
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 11.56,
-        "end_time": 11.74
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 11.74,
-        "end_time": 11.776
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 11.776,
-        "end_time": 11.812
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 11.812,
-        "end_time": 11.847999999999999
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 11.847999999999999,
-        "end_time": 11.883999999999999
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 11.883999999999999,
-        "end_time": 11.919999999999998
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 11.92,
-        "end_time": 11.98
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 11.98,
-        "end_time": 12.04
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 12.04,
-        "end_time": 12.12
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 12.12,
-        "end_time": 12.2
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 12.2,
-        "end_time": 12.3
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 12.3,
-        "end_time": 12.400000000000002
-    },
-    {
-        "viseme": "th.png",
-        "start_time": 12.4,
-        "end_time": 12.5
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 12.5,
-        "end_time": 12.6
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 12.6,
-        "end_time": 12.72
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 12.72,
-        "end_time": 12.840000000000002
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 12.840000000000002,
-        "end_time": 12.960000000000003
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 13.32,
-        "end_time": 13.385
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 13.385,
-        "end_time": 13.45
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 13.45,
-        "end_time": 13.514999999999999
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 13.514999999999999,
-        "end_time": 13.579999999999998
-    },
-    {
-        "viseme": "th.png",
-        "start_time": 13.58,
-        "end_time": 13.67
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 13.67,
+        "start_time": 13.54,
         "end_time": 13.76
     },
     {
-        "viseme": "bmp.png",
-        "start_time": 13.76,
-        "end_time": 13.8075
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 13.8075,
-        "end_time": 13.854999999999999
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 13.854999999999999,
-        "end_time": 13.902499999999998
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 13.902499999999998,
-        "end_time": 13.949999999999998
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 13.949999999999998,
-        "end_time": 13.997499999999997
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 13.997499999999997,
-        "end_time": 14.044999999999996
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 14.044999999999996,
-        "end_time": 14.092499999999996
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 14.092499999999996,
-        "end_time": 14.139999999999995
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 14.14,
-        "end_time": 14.202857142857143
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 14.202857142857143,
-        "end_time": 14.265714285714285
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 14.265714285714285,
-        "end_time": 14.328571428571427
-    },
-    {
-        "viseme": "r.png",
-        "start_time": 14.328571428571427,
-        "end_time": 14.39142857142857
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 14.39142857142857,
-        "end_time": 14.454285714285712
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 14.454285714285712,
-        "end_time": 14.517142857142854
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 14.517142857142854,
-        "end_time": 14.579999999999997
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 14.58,
-        "end_time": 14.68
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 14.68,
-        "end_time": 14.78
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 14.78,
-        "end_time": 14.879999999999999
-    },
-    {
-        "viseme": "fv.png",
-        "start_time": 14.88,
-        "end_time": 14.956666666666667
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 14.956666666666667,
-        "end_time": 15.033333333333333
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 15.033333333333333,
-        "end_time": 15.11
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 15.11,
-        "end_time": 15.186666666666666
-    },
-    {
-        "viseme": "shch.png",
-        "start_time": 15.186666666666666,
-        "end_time": 15.263333333333332
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 15.263333333333332,
-        "end_time": 15.339999999999998
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 15.74,
-        "end_time": 15.8
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 15.8,
-        "end_time": 15.86
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 15.86,
-        "end_time": 15.92
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 15.92,
-        "end_time": 15.98
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 15.98,
-        "end_time": 16.04
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 16.04,
-        "end_time": 16.099999999999998
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 16.099999999999998,
-        "end_time": 16.159999999999997
-    },
-    {
-        "viseme": "fv.png",
-        "start_time": 16.159999999999997,
-        "end_time": 16.219999999999995
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 16.219999999999995,
-        "end_time": 16.279999999999994
-    },
-    {
-        "viseme": "r.png",
-        "start_time": 16.28,
-        "end_time": 16.373333333333335
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 16.373333333333335,
-        "end_time": 16.46666666666667
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 16.46666666666667,
-        "end_time": 16.560000000000002
+        "viseme": "neutral.png",
+        "start_time": 13.86,
+        "end_time": 14.02
     },
     {
         "viseme": "neutral.png",
-        "start_time": 16.56,
-        "end_time": 16.619999999999997
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 16.619999999999997,
-        "end_time": 16.679999999999996
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 16.679999999999996,
-        "end_time": 16.739999999999995
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 16.74,
-        "end_time": 16.806666666666665
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 16.806666666666665,
-        "end_time": 16.87333333333333
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 16.87333333333333,
-        "end_time": 16.939999999999998
+        "start_time": 14.02,
+        "end_time": 14.18
     },
     {
         "viseme": "neutral.png",
-        "start_time": 16.94,
-        "end_time": 17.36
+        "start_time": 14.34,
+        "end_time": 14.36
     },
     {
         "viseme": "neutral.png",
-        "start_time": 17.36,
-        "end_time": 17.72
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 17.72,
-        "end_time": 17.814999999999998
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 17.814999999999998,
-        "end_time": 17.909999999999997
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 17.909999999999997,
-        "end_time": 18.004999999999995
+        "start_time": 14.36,
+        "end_time": 14.7
     },
     {
         "viseme": "neutral.png",
-        "start_time": 18.004999999999995,
-        "end_time": 18.099999999999994
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 18.1,
-        "end_time": 18.233333333333334
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 18.233333333333334,
-        "end_time": 18.366666666666667
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 18.366666666666667,
-        "end_time": 18.5
+        "start_time": 14.7,
+        "end_time": 15.200000000000001
     },
     {
         "viseme": "neutral.png",
-        "start_time": 18.5,
-        "end_time": 18.88
+        "start_time": 18.8,
+        "end_time": 19.04
     },
     {
         "viseme": "neutral.png",
-        "start_time": 18.88,
-        "end_time": 19.08
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 19.08,
-        "end_time": 19.18
-    },
-    {
-        "viseme": "th.png",
-        "start_time": 19.18,
-        "end_time": 19.28
+        "start_time": 19.06,
+        "end_time": 19.22
     },
     {
         "viseme": "neutral.png",
-        "start_time": 19.28,
-        "end_time": 19.380000000000003
+        "start_time": 19.22,
+        "end_time": 19.36
     },
     {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 19.58,
+        "viseme": "neutral.png",
+        "start_time": 19.36,
+        "end_time": 19.5
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 19.68,
         "end_time": 19.68
     },
     {
-        "viseme": "o.png",
+        "viseme": "neutral.png",
         "start_time": 19.68,
-        "end_time": 19.78
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 19.78,
-        "end_time": 19.83
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 19.83,
-        "end_time": 19.879999999999995
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 19.88,
-        "end_time": 19.946666666666665
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 19.946666666666665,
-        "end_time": 20.013333333333332
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 20.013333333333332,
-        "end_time": 20.08
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 20.08,
-        "end_time": 20.189999999999998
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 20.189999999999998,
-        "end_time": 20.299999999999997
-    },
-    {
-        "viseme": "th.png",
-        "start_time": 20.3,
-        "end_time": 20.346666666666668
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 20.346666666666668,
-        "end_time": 20.393333333333334
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 20.393333333333334,
-        "end_time": 20.44
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 20.44,
-        "end_time": 20.48
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 20.48,
-        "end_time": 20.560000000000002
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 20.560000000000002,
-        "end_time": 20.64
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 20.64,
-        "end_time": 20.78
-    },
-    {
-        "viseme": "fv.png",
-        "start_time": 20.78,
-        "end_time": 20.866666666666667
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 20.866666666666667,
-        "end_time": 20.953333333333333
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 20.953333333333333,
-        "end_time": 21.04
-    },
-    {
-        "viseme": "th.png",
-        "start_time": 21.96,
-        "end_time": 22.04
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 22.04,
-        "end_time": 22.119999999999997
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 22.12,
-        "end_time": 22.18
-    },
-    {
-        "viseme": "th.png",
-        "start_time": 22.18,
-        "end_time": 22.24
+        "end_time": 20.76
     },
     {
         "viseme": "neutral.png",
-        "start_time": 22.24,
-        "end_time": 22.299999999999997
-    },
-    {
-        "viseme": "th.png",
-        "start_time": 22.3,
-        "end_time": 22.346666666666668
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 22.346666666666668,
-        "end_time": 22.393333333333334
+        "start_time": 20.76,
+        "end_time": 20.76
     },
     {
         "viseme": "neutral.png",
-        "start_time": 22.393333333333334,
-        "end_time": 22.44
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 22.44,
-        "end_time": 22.64
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 22.64,
-        "end_time": 22.693333333333335
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 22.693333333333335,
-        "end_time": 22.74666666666667
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 22.74666666666667,
-        "end_time": 22.800000000000004
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 22.8,
-        "end_time": 22.880000000000003
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 22.880000000000003,
-        "end_time": 22.96
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 22.96,
-        "end_time": 23.012
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 23.012,
-        "end_time": 23.064
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 23.064,
-        "end_time": 23.116
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 23.116,
-        "end_time": 23.168
+        "start_time": 24.78,
+        "end_time": 25.12
     },
     {
         "viseme": "neutral.png",
-        "start_time": 23.168,
-        "end_time": 23.22
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 23.22,
-        "end_time": 23.275
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 23.275,
-        "end_time": 23.33
-    },
-    {
-        "viseme": "neutral.png",
-        "start_time": 23.33,
-        "end_time": 23.384999999999998
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 23.384999999999998,
-        "end_time": 23.439999999999998
-    },
-    {
-        "viseme": "qw.png",
-        "start_time": 23.44,
-        "end_time": 23.493333333333336
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 23.493333333333336,
-        "end_time": 23.54666666666667
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 23.54666666666667,
-        "end_time": 23.600000000000005
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 23.6,
-        "end_time": 23.82
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 23.82,
-        "end_time": 23.865000000000002
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 23.865000000000002,
-        "end_time": 23.910000000000004
-    },
-    {
-        "viseme": "shch.png",
-        "start_time": 23.910000000000004,
-        "end_time": 23.955000000000005
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 23.955000000000005,
-        "end_time": 24.000000000000007
-    },
-    {
-        "viseme": "r.png",
-        "start_time": 24.0,
-        "end_time": 24.072
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 24.072,
-        "end_time": 24.144
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 24.144,
-        "end_time": 24.215999999999998
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 24.215999999999998,
-        "end_time": 24.287999999999997
-    },
-    {
-        "viseme": "neutral.png",
-        "start_time": 24.287999999999997,
-        "end_time": 24.359999999999996
-    },
-    {
-        "viseme": "fv.png",
-        "start_time": 24.74,
-        "end_time": 24.806666666666665
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 24.806666666666665,
-        "end_time": 24.87333333333333
-    },
-    {
-        "viseme": "r.png",
-        "start_time": 24.87333333333333,
-        "end_time": 24.939999999999998
-    },
-    {
-        "viseme": "th.png",
-        "start_time": 24.94,
-        "end_time": 25.04
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 25.04,
-        "end_time": 25.14
-    },
-    {
-        "viseme": "l.png",
         "start_time": 25.14,
-        "end_time": 25.177142857142858
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 25.177142857142858,
-        "end_time": 25.214285714285715
+        "end_time": 25.32
     },
     {
         "viseme": "neutral.png",
-        "start_time": 25.214285714285715,
-        "end_time": 25.251428571428573
+        "start_time": 25.32,
+        "end_time": 25.46
     },
     {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 25.251428571428573,
-        "end_time": 25.28857142857143
+        "viseme": "neutral.png",
+        "start_time": 25.46,
+        "end_time": 25.62
     },
     {
-        "viseme": "aei.png",
-        "start_time": 25.28857142857143,
-        "end_time": 25.325714285714287
+        "viseme": "neutral.png",
+        "start_time": 25.62,
+        "end_time": 25.84
     },
     {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 25.325714285714287,
-        "end_time": 25.362857142857145
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 25.362857142857145,
-        "end_time": 25.400000000000002
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 25.4,
-        "end_time": 25.52
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 25.52,
-        "end_time": 25.64
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 25.64,
-        "end_time": 25.76
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 25.78,
-        "end_time": 25.96
-    },
-    {
-        "viseme": "r.png",
-        "start_time": 25.96,
+        "viseme": "neutral.png",
+        "start_time": 25.84,
         "end_time": 26.0
     },
     {
-        "viseme": "ee.png",
+        "viseme": "neutral.png",
         "start_time": 26.0,
-        "end_time": 26.04
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 26.04,
         "end_time": 26.08
     },
     {
-        "viseme": "fv.png",
+        "viseme": "neutral.png",
         "start_time": 26.08,
-        "end_time": 26.139999999999997
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 26.139999999999997,
-        "end_time": 26.199999999999996
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 26.199999999999996,
-        "end_time": 26.259999999999994
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 26.259999999999994,
-        "end_time": 26.319999999999993
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 26.319999999999993,
-        "end_time": 26.379999999999992
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 26.379999999999992,
-        "end_time": 26.43999999999999
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 26.43999999999999,
-        "end_time": 26.49999999999999
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 26.5,
-        "end_time": 26.58
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 26.58,
-        "end_time": 26.659999999999997
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 26.659999999999997,
-        "end_time": 26.739999999999995
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 26.74,
-        "end_time": 26.85
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 26.85,
-        "end_time": 26.96
+        "end_time": 26.28
     },
     {
         "viseme": "neutral.png",
-        "start_time": 26.96,
-        "end_time": 27.14
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 27.14,
-        "end_time": 27.19818181818182
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 27.19818181818182,
-        "end_time": 27.256363636363638
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 27.256363636363638,
-        "end_time": 27.314545454545456
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 27.314545454545456,
-        "end_time": 27.372727272727275
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 27.372727272727275,
-        "end_time": 27.430909090909093
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 27.430909090909093,
-        "end_time": 27.489090909090912
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 27.489090909090912,
-        "end_time": 27.54727272727273
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 27.54727272727273,
-        "end_time": 27.60545454545455
-    },
-    {
-        "viseme": "fv.png",
-        "start_time": 27.60545454545455,
-        "end_time": 27.663636363636368
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 27.663636363636368,
-        "end_time": 27.721818181818186
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 27.721818181818186,
-        "end_time": 27.780000000000005
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 28.220000000000002,
-        "end_time": 28.42
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 28.42,
-        "end_time": 28.46
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 28.46,
-        "end_time": 28.5
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 28.5,
-        "end_time": 28.54
-    },
-    {
-        "viseme": "r.png",
-        "start_time": 28.54,
-        "end_time": 28.58
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 28.58,
-        "end_time": 28.619999999999997
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 28.619999999999997,
-        "end_time": 28.659999999999997
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 28.659999999999997,
-        "end_time": 28.699999999999996
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 28.7,
-        "end_time": 28.810000000000002
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 28.810000000000002,
-        "end_time": 28.92
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 28.92,
-        "end_time": 28.952
-    },
-    {
-        "viseme": "r.png",
-        "start_time": 28.952,
-        "end_time": 28.984
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 28.984,
-        "end_time": 29.016000000000002
-    },
-    {
-        "viseme": "fv.png",
-        "start_time": 29.016000000000002,
-        "end_time": 29.048000000000002
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 29.048000000000002,
-        "end_time": 29.080000000000002
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 29.08,
-        "end_time": 29.15
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 29.15,
-        "end_time": 29.22
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 29.22,
-        "end_time": 29.29
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 29.29,
-        "end_time": 29.36
+        "start_time": 26.28,
+        "end_time": 26.42
     },
     {
         "viseme": "neutral.png",
-        "start_time": 29.36,
-        "end_time": 29.94
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 29.94,
-        "end_time": 29.986666666666668
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 29.986666666666668,
-        "end_time": 30.033333333333335
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 30.033333333333335,
-        "end_time": 30.080000000000002
-    },
-    {
-        "viseme": "th.png",
-        "start_time": 30.08,
-        "end_time": 30.146666666666665
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 30.146666666666665,
-        "end_time": 30.21333333333333
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 30.21333333333333,
-        "end_time": 30.279999999999998
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 30.28,
-        "end_time": 30.326666666666668
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 30.326666666666668,
-        "end_time": 30.373333333333335
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 30.373333333333335,
-        "end_time": 30.42
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 30.42,
-        "end_time": 30.51
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 30.51,
-        "end_time": 30.6
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 30.6,
-        "end_time": 30.700000000000003
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 30.700000000000003,
-        "end_time": 30.800000000000004
-    },
-    {
-        "viseme": "r.png",
-        "start_time": 30.8,
-        "end_time": 30.846666666666668
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 30.846666666666668,
-        "end_time": 30.893333333333334
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 30.893333333333334,
-        "end_time": 30.94
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 30.94,
-        "end_time": 30.986666666666668
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 30.986666666666668,
-        "end_time": 31.033333333333335
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 31.033333333333335,
-        "end_time": 31.080000000000002
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 31.08,
-        "end_time": 31.169999999999998
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 31.169999999999998,
-        "end_time": 31.259999999999998
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 31.259999999999998,
-        "end_time": 31.349999999999998
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 31.349999999999998,
-        "end_time": 31.439999999999998
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 31.72,
-        "end_time": 31.779999999999998
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 31.779999999999998,
-        "end_time": 31.839999999999996
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 31.839999999999996,
-        "end_time": 31.899999999999995
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 31.9,
-        "end_time": 32.14
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 32.14,
-        "end_time": 32.18666666666667
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 32.18666666666667,
-        "end_time": 32.233333333333334
-    },
-    {
-        "viseme": "fv.png",
-        "start_time": 32.233333333333334,
-        "end_time": 32.28
-    },
-    {
-        "viseme": "th.png",
-        "start_time": 32.28,
-        "end_time": 32.346666666666664
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 32.346666666666664,
-        "end_time": 32.41333333333333
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 32.41333333333333,
-        "end_time": 32.47999999999999
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 32.54,
-        "end_time": 32.64
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 32.64,
-        "end_time": 32.68
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 32.68,
-        "end_time": 32.72
-    },
-    {
-        "viseme": "fv.png",
-        "start_time": 32.72,
-        "end_time": 32.76
-    },
-    {
-        "viseme": "th.png",
-        "start_time": 32.76,
-        "end_time": 32.839999999999996
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 32.839999999999996,
-        "end_time": 32.919999999999995
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 32.919999999999995,
-        "end_time": 32.99999999999999
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 33.0,
-        "end_time": 33.15
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 33.15,
-        "end_time": 33.3
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 33.3,
-        "end_time": 33.346666666666664
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 33.346666666666664,
-        "end_time": 33.39333333333333
-    },
-    {
-        "viseme": "shch.png",
-        "start_time": 33.39333333333333,
-        "end_time": 33.44
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 33.44,
-        "end_time": 33.56
+        "start_time": 26.42,
+        "end_time": 26.72
     },
     {
         "viseme": "neutral.png",
-        "start_time": 33.56,
-        "end_time": 33.60666666666667
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 33.60666666666667,
-        "end_time": 33.653333333333336
-    },
-    {
-        "viseme": "fv.png",
-        "start_time": 33.653333333333336,
-        "end_time": 33.7
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 33.7,
-        "end_time": 33.752
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 33.752,
-        "end_time": 33.804
-    },
-    {
-        "viseme": "qw.png",
-        "start_time": 33.804,
-        "end_time": 33.856
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 33.856,
-        "end_time": 33.908
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 33.908,
-        "end_time": 33.96
-    },
-    {
-        "viseme": "r.png",
-        "start_time": 33.96,
-        "end_time": 34.0
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 34.0,
-        "end_time": 34.04
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 34.04,
-        "end_time": 34.08
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 34.08,
-        "end_time": 34.24
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 34.24,
-        "end_time": 34.300000000000004
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 34.300000000000004,
-        "end_time": 34.36000000000001
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 34.36000000000001,
-        "end_time": 34.42000000000001
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 34.44,
-        "end_time": 34.53333333333333
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 34.53333333333333,
-        "end_time": 34.626666666666665
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 34.626666666666665,
-        "end_time": 34.72
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 34.72,
-        "end_time": 35.02
-    },
-    {
-        "viseme": "qw.png",
-        "start_time": 35.02,
-        "end_time": 35.06
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 35.06,
-        "end_time": 35.1
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 35.1,
-        "end_time": 35.14
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 35.14,
-        "end_time": 35.230000000000004
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 35.230000000000004,
-        "end_time": 35.32000000000001
-    },
-    {
-        "viseme": "th.png",
-        "start_time": 35.32,
-        "end_time": 35.373333333333335
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 35.373333333333335,
-        "end_time": 35.42666666666667
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 35.42666666666667,
-        "end_time": 35.480000000000004
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 35.48,
-        "end_time": 35.56999999999999
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 35.56999999999999,
-        "end_time": 35.66
-    },
-    {
-        "viseme": "r.png",
-        "start_time": 35.66,
-        "end_time": 35.708
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 35.708,
-        "end_time": 35.756
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 35.756,
-        "end_time": 35.804
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 35.804,
-        "end_time": 35.852000000000004
+        "start_time": 26.72,
+        "end_time": 27.02
     },
     {
         "viseme": "neutral.png",
-        "start_time": 35.852000000000004,
-        "end_time": 35.900000000000006
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 35.9,
-        "end_time": 35.938
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 35.938,
-        "end_time": 35.976
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 35.976,
-        "end_time": 36.013999999999996
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 36.013999999999996,
-        "end_time": 36.05199999999999
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 36.05199999999999,
-        "end_time": 36.08999999999999
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 36.08999999999999,
-        "end_time": 36.127999999999986
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 36.127999999999986,
-        "end_time": 36.16599999999998
-    },
-    {
-        "viseme": "shch.png",
-        "start_time": 36.16599999999998,
-        "end_time": 36.20399999999998
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 36.20399999999998,
-        "end_time": 36.241999999999976
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 36.241999999999976,
-        "end_time": 36.27999999999997
+        "start_time": 27.02,
+        "end_time": 27.22
     },
     {
         "viseme": "neutral.png",
-        "start_time": 36.28,
-        "end_time": 36.38666666666667
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 36.38666666666667,
-        "end_time": 36.49333333333334
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 36.49333333333334,
-        "end_time": 36.60000000000001
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 36.6,
-        "end_time": 36.64666666666667
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 36.64666666666667,
-        "end_time": 36.693333333333335
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 36.693333333333335,
-        "end_time": 36.74
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 36.74,
-        "end_time": 36.78666666666667
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 36.78666666666667,
-        "end_time": 36.833333333333336
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 36.833333333333336,
-        "end_time": 36.88
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 36.88,
-        "end_time": 37.040000000000006
-    },
-    {
-        "viseme": "r.png",
-        "start_time": 37.040000000000006,
-        "end_time": 37.2
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 37.2,
-        "end_time": 37.300000000000004
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 37.300000000000004,
-        "end_time": 37.400000000000006
-    },
-    {
-        "viseme": "r.png",
-        "start_time": 37.400000000000006,
-        "end_time": 37.50000000000001
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 37.64,
-        "end_time": 37.69
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 37.69,
-        "end_time": 37.739999999999995
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 37.739999999999995,
-        "end_time": 37.78999999999999
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 37.78999999999999,
-        "end_time": 37.83999999999999
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 37.84,
-        "end_time": 37.98
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 37.98,
-        "end_time": 38.019999999999996
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 38.019999999999996,
-        "end_time": 38.059999999999995
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 38.059999999999995,
-        "end_time": 38.099999999999994
-    },
-    {
-        "viseme": "r.png",
-        "start_time": 38.099999999999994,
-        "end_time": 38.13999999999999
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 38.13999999999999,
-        "end_time": 38.17999999999999
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 38.17999999999999,
-        "end_time": 38.21999999999999
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 38.21999999999999,
-        "end_time": 38.25999999999999
-    },
-    {
-        "viseme": "r.png",
-        "start_time": 38.26,
-        "end_time": 38.315999999999995
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 38.315999999999995,
-        "end_time": 38.37199999999999
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 38.37199999999999,
-        "end_time": 38.42799999999999
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 38.42799999999999,
-        "end_time": 38.48399999999999
+        "start_time": 27.22,
+        "end_time": 27.4
     },
     {
         "viseme": "neutral.png",
-        "start_time": 38.48399999999999,
-        "end_time": 38.539999999999985
+        "start_time": 27.4,
+        "end_time": 27.88
     },
     {
-        "viseme": "r.png",
-        "start_time": 38.54,
-        "end_time": 38.62
+        "viseme": "neutral.png",
+        "start_time": 31.739999999999995,
+        "end_time": 32.3
     },
     {
-        "viseme": "o.png",
+        "viseme": "neutral.png",
+        "start_time": 34.3,
+        "end_time": 34.68
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 34.68,
+        "end_time": 34.98
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 35.04,
+        "end_time": 35.32
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 35.34,
+        "end_time": 35.56
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 35.56,
+        "end_time": 35.78
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 35.78,
+        "end_time": 36.16
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 36.24,
+        "end_time": 36.82
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 36.82,
+        "end_time": 37.12
+    },
+    {
+        "viseme": "neutral.png",
         "start_time": 38.62,
-        "end_time": 38.699999999999996
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 38.699999999999996,
-        "end_time": 38.779999999999994
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 38.779999999999994,
-        "end_time": 38.85999999999999
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 38.85999999999999,
-        "end_time": 38.93999999999999
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 38.93999999999999,
-        "end_time": 39.01999999999999
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 39.48,
-        "end_time": 39.6
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 39.6,
-        "end_time": 39.650000000000006
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 39.650000000000006,
-        "end_time": 39.7
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 39.7,
-        "end_time": 39.82
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 39.82,
-        "end_time": 39.870000000000005
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 39.870000000000005,
-        "end_time": 39.92
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 39.92,
-        "end_time": 39.97
+        "end_time": 39.18
     },
     {
         "viseme": "neutral.png",
-        "start_time": 39.97,
-        "end_time": 40.019999999999996
+        "start_time": 40.16,
+        "end_time": 40.72
     },
     {
-        "viseme": "fv.png",
-        "start_time": 40.02,
-        "end_time": 40.086666666666666
+        "viseme": "neutral.png",
+        "start_time": 41.3,
+        "end_time": 41.8
     },
     {
-        "viseme": "o.png",
-        "start_time": 40.086666666666666,
-        "end_time": 40.15333333333333
+        "viseme": "neutral.png",
+        "start_time": 41.88,
+        "end_time": 42.02
     },
     {
-        "viseme": "r.png",
-        "start_time": 40.15333333333333,
-        "end_time": 40.21999999999999
+        "viseme": "neutral.png",
+        "start_time": 42.02,
+        "end_time": 42.28
     },
     {
-        "viseme": "aei.png",
-        "start_time": 40.22,
-        "end_time": 40.36
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 40.36,
-        "end_time": 40.406666666666666
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 40.406666666666666,
-        "end_time": 40.45333333333333
-    },
-    {
-        "viseme": "fv.png",
-        "start_time": 40.45333333333333,
-        "end_time": 40.5
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 40.5,
-        "end_time": 40.58
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 40.58,
-        "end_time": 40.66
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 40.66,
-        "end_time": 40.739999999999995
-    },
-    {
-        "viseme": "r.png",
-        "start_time": 40.739999999999995,
-        "end_time": 40.81999999999999
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 40.81999999999999,
-        "end_time": 40.89999999999999
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 41.44,
-        "end_time": 41.50666666666667
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 41.50666666666667,
-        "end_time": 41.57333333333334
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 41.57333333333334,
-        "end_time": 41.64000000000001
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 41.64,
-        "end_time": 41.705
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 41.705,
-        "end_time": 41.769999999999996
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 41.769999999999996,
-        "end_time": 41.834999999999994
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 41.834999999999994,
-        "end_time": 41.89999999999999
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 41.9,
-        "end_time": 41.964
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 41.964,
-        "end_time": 42.028
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 42.028,
-        "end_time": 42.092
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 42.092,
-        "end_time": 42.156
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 42.156,
-        "end_time": 42.22
-    },
-    {
-        "viseme": "qw.png",
+        "viseme": "neutral.png",
         "start_time": 42.28,
-        "end_time": 42.32
+        "end_time": 42.46
     },
     {
-        "viseme": "aei.png",
-        "start_time": 42.32,
-        "end_time": 42.36
+        "viseme": "neutral.png",
+        "start_time": 42.46,
+        "end_time": 42.66
     },
     {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 42.36,
-        "end_time": 42.4
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 42.4,
-        "end_time": 42.52
-    },
-    {
-        "viseme": "r.png",
-        "start_time": 42.52,
-        "end_time": 42.56666666666667
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 42.56666666666667,
-        "end_time": 42.61333333333334
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 42.61333333333334,
-        "end_time": 42.660000000000004
-    },
-    {
-        "viseme": "cdgknstxyz.png",
+        "viseme": "neutral.png",
         "start_time": 42.66,
-        "end_time": 42.715999999999994
-    },
-    {
-        "viseme": "r.png",
-        "start_time": 42.715999999999994,
-        "end_time": 42.77199999999999
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 42.77199999999999,
-        "end_time": 42.82799999999999
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 42.82799999999999,
-        "end_time": 42.883999999999986
+        "end_time": 42.9
     },
     {
         "viseme": "neutral.png",
-        "start_time": 42.883999999999986,
-        "end_time": 42.93999999999998
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 42.94,
-        "end_time": 43.04
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 43.04,
-        "end_time": 43.14
-    },
-    {
-        "viseme": "qw.png",
-        "start_time": 43.14,
-        "end_time": 43.193333333333335
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 43.193333333333335,
-        "end_time": 43.24666666666667
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 43.24666666666667,
-        "end_time": 43.300000000000004
+        "start_time": 42.9,
+        "end_time": 43.1
     },
     {
         "viseme": "neutral.png",
-        "start_time": 43.3,
-        "end_time": 43.36
+        "start_time": 43.32,
+        "end_time": 43.32
     },
     {
-        "viseme": "ee.png",
-        "start_time": 43.36,
-        "end_time": 43.42
+        "viseme": "neutral.png",
+        "start_time": 43.34,
+        "end_time": 43.5
     },
     {
-        "viseme": "fv.png",
-        "start_time": 43.42,
-        "end_time": 43.480000000000004
+        "viseme": "neutral.png",
+        "start_time": 43.5,
+        "end_time": 43.66
     },
     {
-        "viseme": "aei.png",
-        "start_time": 43.480000000000004,
-        "end_time": 43.540000000000006
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 43.540000000000006,
-        "end_time": 43.60000000000001
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 43.60000000000001,
-        "end_time": 43.66000000000001
-    },
-    {
-        "viseme": "ee.png",
+        "viseme": "neutral.png",
         "start_time": 43.66,
-        "end_time": 43.708888888888886
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 43.708888888888886,
-        "end_time": 43.757777777777775
-    },
-    {
-        "viseme": "fv.png",
-        "start_time": 43.757777777777775,
-        "end_time": 43.806666666666665
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 43.806666666666665,
-        "end_time": 43.855555555555554
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 43.855555555555554,
-        "end_time": 43.904444444444444
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 43.904444444444444,
-        "end_time": 43.95333333333333
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 43.95333333333333,
-        "end_time": 44.00222222222222
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 44.00222222222222,
-        "end_time": 44.05111111111111
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 44.05111111111111,
-        "end_time": 44.1
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 44.1,
-        "end_time": 44.21
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 44.21,
         "end_time": 44.32
     },
     {
-        "viseme": "bmp.png",
+        "viseme": "neutral.png",
         "start_time": 44.32,
-        "end_time": 44.43
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 44.43,
-        "end_time": 44.54
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 44.54,
-        "end_time": 44.57142857142857
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 44.57142857142857,
-        "end_time": 44.60285714285714
-    },
-    {
-        "viseme": "r.png",
-        "start_time": 44.60285714285714,
-        "end_time": 44.63428571428571
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 44.63428571428571,
-        "end_time": 44.66571428571428
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 44.66571428571428,
-        "end_time": 44.69714285714285
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 44.69714285714285,
-        "end_time": 44.72857142857142
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 44.72857142857142,
-        "end_time": 44.75999999999999
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 44.76,
-        "end_time": 44.83333333333333
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 44.83333333333333,
-        "end_time": 44.90666666666666
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 44.90666666666666,
-        "end_time": 44.97999999999999
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 44.98,
-        "end_time": 45.035999999999994
-    },
-    {
-        "viseme": "r.png",
-        "start_time": 45.035999999999994,
-        "end_time": 45.09199999999999
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 45.09199999999999,
-        "end_time": 45.14799999999999
-    },
-    {
-        "viseme": "th.png",
-        "start_time": 45.14799999999999,
-        "end_time": 45.203999999999986
+        "end_time": 44.48
     },
     {
         "viseme": "neutral.png",
-        "start_time": 45.203999999999986,
-        "end_time": 45.259999999999984
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 45.76,
-        "end_time": 45.815
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 45.815,
-        "end_time": 45.87
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 45.87,
-        "end_time": 45.925
+        "start_time": 44.48,
+        "end_time": 44.58
     },
     {
         "viseme": "neutral.png",
-        "start_time": 45.925,
-        "end_time": 45.98
-    },
-    {
-        "viseme": "th.png",
-        "start_time": 45.98,
-        "end_time": 46.09
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 46.09,
-        "end_time": 46.2
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 46.2,
-        "end_time": 46.23428571428572
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 46.23428571428572,
-        "end_time": 46.268571428571434
+        "start_time": 44.58,
+        "end_time": 44.78
     },
     {
         "viseme": "neutral.png",
-        "start_time": 46.268571428571434,
-        "end_time": 46.30285714285715
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 46.30285714285715,
-        "end_time": 46.337142857142865
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 46.337142857142865,
-        "end_time": 46.37142857142858
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 46.37142857142858,
-        "end_time": 46.405714285714296
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 46.405714285714296,
-        "end_time": 46.44000000000001
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 46.52,
-        "end_time": 46.62
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 46.62,
-        "end_time": 46.672
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 46.672,
-        "end_time": 46.724
-    },
-    {
-        "viseme": "qw.png",
-        "start_time": 46.724,
-        "end_time": 46.775999999999996
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 46.775999999999996,
-        "end_time": 46.827999999999996
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 46.827999999999996,
-        "end_time": 46.879999999999995
-    },
-    {
-        "viseme": "qw.png",
-        "start_time": 46.88,
-        "end_time": 46.913333333333334
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 46.913333333333334,
-        "end_time": 46.946666666666665
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 46.946666666666665,
-        "end_time": 46.98
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 46.98,
-        "end_time": 47.01333333333333
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 47.01333333333333,
-        "end_time": 47.04666666666666
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 47.04666666666666,
-        "end_time": 47.07999999999999
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 47.08,
-        "end_time": 47.18
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 47.18,
-        "end_time": 47.28
-    },
-    {
-        "viseme": "r.png",
-        "start_time": 47.28,
-        "end_time": 47.31333333333333
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 47.31333333333333,
-        "end_time": 47.346666666666664
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 47.346666666666664,
-        "end_time": 47.379999999999995
-    },
-    {
-        "viseme": "qw.png",
-        "start_time": 47.38,
-        "end_time": 47.42
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 47.42,
-        "end_time": 47.46
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 47.46,
-        "end_time": 47.5
-    },
-    {
-        "viseme": "th.png",
-        "start_time": 47.5,
-        "end_time": 47.61
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 47.61,
-        "end_time": 47.72
-    },
-    {
-        "viseme": "qw.png",
-        "start_time": 47.72,
-        "end_time": 47.82
+        "start_time": 44.78,
+        "end_time": 45.02
     },
     {
         "viseme": "neutral.png",
-        "start_time": 47.82,
-        "end_time": 47.92
-    },
-    {
-        "viseme": "r.png",
-        "start_time": 47.92,
-        "end_time": 47.972
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 47.972,
-        "end_time": 48.024
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 48.024,
-        "end_time": 48.076
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 48.076,
-        "end_time": 48.128
+        "start_time": 45.02,
+        "end_time": 47.86
     },
     {
         "viseme": "neutral.png",
-        "start_time": 48.128,
-        "end_time": 48.18
+        "start_time": 47.86,
+        "end_time": 48.52
     },
     {
-        "viseme": "ee.png",
-        "start_time": 48.8,
-        "end_time": 48.87
+        "viseme": "neutral.png",
+        "start_time": 48.52,
+        "end_time": 48.96
     },
     {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 48.87,
-        "end_time": 48.94
+        "viseme": "neutral.png",
+        "start_time": 49.5,
+        "end_time": 50.2
     },
     {
-        "viseme": "qw.png",
-        "start_time": 48.94,
-        "end_time": 48.983333333333334
+        "viseme": "neutral.png",
+        "start_time": 50.78,
+        "end_time": 51.12
     },
     {
-        "viseme": "aei.png",
-        "start_time": 48.983333333333334,
-        "end_time": 49.02666666666667
+        "viseme": "neutral.png",
+        "start_time": 51.12,
+        "end_time": 51.22
     },
     {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 49.02666666666667,
-        "end_time": 49.07000000000001
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 49.07000000000001,
-        "end_time": 49.113333333333344
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 49.113333333333344,
-        "end_time": 49.15666666666668
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 49.15666666666668,
-        "end_time": 49.20000000000002
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 49.2,
-        "end_time": 49.248000000000005
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 49.248000000000005,
-        "end_time": 49.29600000000001
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 49.29600000000001,
-        "end_time": 49.34400000000001
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 49.34400000000001,
-        "end_time": 49.39200000000001
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 49.39200000000001,
-        "end_time": 49.44000000000001
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 49.44,
-        "end_time": 49.54
-    },
-    {
-        "viseme": "qw.png",
-        "start_time": 49.54,
-        "end_time": 49.60666666666667
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 49.60666666666667,
-        "end_time": 49.67333333333334
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 49.67333333333334,
-        "end_time": 49.74000000000001
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 49.74,
-        "end_time": 49.84
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 49.84,
-        "end_time": 49.94
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 49.94,
-        "end_time": 49.967999999999996
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 49.967999999999996,
-        "end_time": 49.995999999999995
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 49.995999999999995,
-        "end_time": 50.023999999999994
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 50.023999999999994,
-        "end_time": 50.05199999999999
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 50.05199999999999,
-        "end_time": 50.07999999999999
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 50.12,
-        "end_time": 50.15333333333333
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 50.15333333333333,
-        "end_time": 50.18666666666666
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 50.18666666666666,
-        "end_time": 50.21999999999999
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 50.22,
-        "end_time": 50.3
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 50.3,
-        "end_time": 50.379999999999995
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 50.38,
-        "end_time": 50.44
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 50.44,
-        "end_time": 50.5
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 50.5,
-        "end_time": 50.56
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 50.56,
-        "end_time": 50.620000000000005
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 50.620000000000005,
-        "end_time": 50.68000000000001
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 50.68,
-        "end_time": 50.82
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 50.82,
-        "end_time": 50.96
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 50.96,
-        "end_time": 51.004
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 51.004,
-        "end_time": 51.047999999999995
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 51.047999999999995,
-        "end_time": 51.09199999999999
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 51.09199999999999,
-        "end_time": 51.13599999999999
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 51.13599999999999,
-        "end_time": 51.179999999999986
-    },
-    {
-        "viseme": "th.png",
+        "viseme": "neutral.png",
         "start_time": 51.22,
-        "end_time": 51.266666666666666
+        "end_time": 51.44
     },
     {
-        "viseme": "aei.png",
-        "start_time": 51.266666666666666,
-        "end_time": 51.31333333333333
+        "viseme": "neutral.png",
+        "start_time": 51.44,
+        "end_time": 51.66
     },
     {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 51.31333333333333,
-        "end_time": 51.36
+        "viseme": "neutral.png",
+        "start_time": 51.66,
+        "end_time": 51.9
     },
     {
-        "viseme": "aei.png",
-        "start_time": 51.36,
-        "end_time": 51.52
-    },
-    {
-        "viseme": "r.png",
-        "start_time": 51.52,
-        "end_time": 51.55428571428572
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 51.55428571428572,
-        "end_time": 51.588571428571434
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 51.588571428571434,
-        "end_time": 51.62285714285715
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 51.62285714285715,
-        "end_time": 51.657142857142865
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 51.657142857142865,
-        "end_time": 51.69142857142858
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 51.69142857142858,
-        "end_time": 51.7257142857143
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 51.7257142857143,
-        "end_time": 51.76000000000001
-    },
-    {
-        "viseme": "th.png",
-        "start_time": 51.76,
-        "end_time": 51.82666666666667
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 51.82666666666667,
-        "end_time": 51.89333333333334
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 51.89333333333334,
-        "end_time": 51.96000000000001
-    },
-    {
-        "viseme": "th.png",
-        "start_time": 51.96,
+        "viseme": "neutral.png",
+        "start_time": 51.9,
         "end_time": 52.06
     },
     {
-        "viseme": "aei.png",
+        "viseme": "neutral.png",
         "start_time": 52.06,
-        "end_time": 52.16
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 52.16,
-        "end_time": 52.19
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 52.19,
-        "end_time": 52.22
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 52.22,
-        "end_time": 52.25
-    },
-    {
-        "viseme": "r.png",
-        "start_time": 52.25,
-        "end_time": 52.28
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 52.28,
-        "end_time": 52.31
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 52.31,
-        "end_time": 52.34
-    },
-    {
-        "viseme": "th.png",
-        "start_time": 52.34,
-        "end_time": 52.42666666666667
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 52.42666666666667,
-        "end_time": 52.513333333333335
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 52.513333333333335,
-        "end_time": 52.6
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 52.6,
-        "end_time": 52.8
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 52.8,
-        "end_time": 52.844
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 52.844,
-        "end_time": 52.888000000000005
-    },
-    {
-        "viseme": "shch.png",
-        "start_time": 52.888000000000005,
-        "end_time": 52.93200000000001
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 52.93200000000001,
-        "end_time": 52.97600000000001
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 52.97600000000001,
-        "end_time": 53.02000000000002
-    },
-    {
-        "viseme": "th.png",
-        "start_time": 53.02,
-        "end_time": 53.11
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 53.11,
-        "end_time": 53.2
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 53.2,
-        "end_time": 53.25
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 53.25,
-        "end_time": 53.3
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 53.3,
-        "end_time": 53.349999999999994
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 53.349999999999994,
-        "end_time": 53.39999999999999
+        "end_time": 52.32
     },
     {
         "viseme": "neutral.png",
-        "start_time": 53.4,
-        "end_time": 53.46666666666667
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 53.46666666666667,
-        "end_time": 53.53333333333334
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 53.53333333333334,
-        "end_time": 53.60000000000001
-    },
-    {
-        "viseme": "r.png",
-        "start_time": 53.6,
-        "end_time": 53.655
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 53.655,
-        "end_time": 53.71
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 53.71,
-        "end_time": 53.765
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 53.765,
-        "end_time": 53.82
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 53.82,
-        "end_time": 53.875
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 53.875,
-        "end_time": 53.93
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 53.93,
-        "end_time": 53.985
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 53.985,
-        "end_time": 54.04
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 54.04,
-        "end_time": 54.1475
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 54.1475,
-        "end_time": 54.255
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 54.255,
-        "end_time": 54.362500000000004
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 54.362500000000004,
-        "end_time": 54.470000000000006
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 54.470000000000006,
-        "end_time": 54.57750000000001
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 54.57750000000001,
-        "end_time": 54.68500000000001
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 54.68500000000001,
-        "end_time": 54.79250000000001
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 54.79250000000001,
-        "end_time": 54.90000000000001
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 54.9,
-        "end_time": 55.15
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 55.15,
-        "end_time": 55.4
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 55.4,
-        "end_time": 55.76
-    },
-    {
-        "viseme": "th.png",
-        "start_time": 55.76,
-        "end_time": 55.82
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 55.82,
-        "end_time": 55.88
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 55.88,
-        "end_time": 55.940000000000005
-    },
-    {
-        "viseme": "qw.png",
-        "start_time": 55.94,
-        "end_time": 55.99333333333333
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 55.99333333333333,
-        "end_time": 56.04666666666667
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 56.04666666666667,
-        "end_time": 56.1
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 56.1,
-        "end_time": 56.17
-    },
-    {
-        "viseme": "fv.png",
-        "start_time": 56.17,
-        "end_time": 56.24
-    },
-    {
-        "viseme": "th.png",
-        "start_time": 56.24,
-        "end_time": 56.35
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 56.35,
-        "end_time": 56.46
-    },
-    {
-        "viseme": "r.png",
-        "start_time": 56.46,
-        "end_time": 56.50666666666667
-    },
-    {
-        "viseme": "o.png",
-        "start_time": 56.50666666666667,
-        "end_time": 56.553333333333335
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 56.553333333333335,
-        "end_time": 56.6
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 56.6,
-        "end_time": 56.64666666666667
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 56.64666666666667,
-        "end_time": 56.693333333333335
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 56.693333333333335,
-        "end_time": 56.74
-    },
-    {
-        "viseme": "qw.png",
-        "start_time": 56.74,
-        "end_time": 56.81333333333333
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 56.81333333333333,
-        "end_time": 56.88666666666666
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 56.88666666666666,
-        "end_time": 56.959999999999994
-    },
-    {
-        "viseme": "th.png",
-        "start_time": 56.96,
-        "end_time": 57.05
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 57.05,
-        "end_time": 57.14
-    },
-    {
-        "viseme": "bmp.png",
-        "start_time": 57.14,
-        "end_time": 57.185
-    },
-    {
-        "viseme": "l.png",
-        "start_time": 57.185,
-        "end_time": 57.230000000000004
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 57.230000000000004,
-        "end_time": 57.275000000000006
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 57.275000000000006,
-        "end_time": 57.32000000000001
-    },
-    {
-        "viseme": "aei.png",
-        "start_time": 57.68,
-        "end_time": 57.71333333333333
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 57.71333333333333,
-        "end_time": 57.74666666666666
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 57.74666666666666,
-        "end_time": 57.779999999999994
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 57.78,
-        "end_time": 57.81
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 57.81,
-        "end_time": 57.84
-    },
-    {
-        "viseme": "qw.png",
-        "start_time": 57.84,
-        "end_time": 57.885000000000005
-    },
-    {
-        "viseme": "ee.png",
-        "start_time": 57.885000000000005,
-        "end_time": 57.93000000000001
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 57.93000000000001,
-        "end_time": 57.97500000000001
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 57.97500000000001,
-        "end_time": 58.02000000000001
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 58.02,
-        "end_time": 58.07333333333334
+        "start_time": 52.32,
+        "end_time": 52.52
     },
     {
         "viseme": "neutral.png",
-        "start_time": 58.07333333333334,
-        "end_time": 58.12666666666667
-    },
-    {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 58.12666666666667,
-        "end_time": 58.18000000000001
+        "start_time": 52.52,
+        "end_time": 52.72
     },
     {
         "viseme": "neutral.png",
-        "start_time": 58.18000000000001,
-        "end_time": 58.23333333333334
+        "start_time": 52.72,
+        "end_time": 52.82
     },
     {
-        "viseme": "ee.png",
-        "start_time": 58.23333333333334,
-        "end_time": 58.286666666666676
+        "viseme": "neutral.png",
+        "start_time": 52.82,
+        "end_time": 53.24
     },
     {
-        "viseme": "l.png",
-        "start_time": 58.286666666666676,
-        "end_time": 58.34000000000001
+        "viseme": "neutral.png",
+        "start_time": 53.24,
+        "end_time": 54.0
     },
     {
-        "viseme": "fv.png",
-        "start_time": 58.34,
-        "end_time": 58.395
+        "viseme": "neutral.png",
+        "start_time": 54.0,
+        "end_time": 55.38
     },
     {
-        "viseme": "r.png",
-        "start_time": 58.395,
-        "end_time": 58.45
+        "viseme": "neutral.png",
+        "start_time": 55.38,
+        "end_time": 55.62
     },
     {
-        "viseme": "aei.png",
-        "start_time": 58.45,
-        "end_time": 58.505
+        "viseme": "neutral.png",
+        "start_time": 55.62,
+        "end_time": 57.08
     },
     {
-        "viseme": "bmp.png",
-        "start_time": 58.505,
-        "end_time": 58.56
+        "viseme": "neutral.png",
+        "start_time": 57.08,
+        "end_time": 57.76
     },
     {
-        "viseme": "th.png",
-        "start_time": 58.56,
-        "end_time": 58.66666666666667
+        "viseme": "neutral.png",
+        "start_time": 57.76,
+        "end_time": 57.92
     },
     {
-        "viseme": "ee.png",
-        "start_time": 58.66666666666667,
-        "end_time": 58.77333333333334
+        "viseme": "neutral.png",
+        "start_time": 57.92,
+        "end_time": 58.64
     },
     {
-        "viseme": "r.png",
-        "start_time": 58.77333333333334,
-        "end_time": 58.88000000000001
+        "viseme": "neutral.png",
+        "start_time": 73.76,
+        "end_time": 74.18
     },
     {
-        "viseme": "qw.png",
-        "start_time": 59.6,
-        "end_time": 59.64666666666667
+        "viseme": "neutral.png",
+        "start_time": 74.22,
+        "end_time": 74.66
     },
     {
-        "viseme": "aei.png",
-        "start_time": 59.64666666666667,
-        "end_time": 59.693333333333335
+        "viseme": "neutral.png",
+        "start_time": 74.66,
+        "end_time": 75.08
     },
     {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 59.693333333333335,
-        "end_time": 59.74
+        "viseme": "neutral.png",
+        "start_time": 77.78,
+        "end_time": 78.42
     },
     {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 59.74,
-        "end_time": 59.790000000000006
+        "viseme": "neutral.png",
+        "start_time": 78.42,
+        "end_time": 78.72
     },
     {
-        "viseme": "o.png",
-        "start_time": 59.790000000000006,
-        "end_time": 59.84
+        "viseme": "neutral.png",
+        "start_time": 79.46,
+        "end_time": 80.1
     },
     {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 59.84,
-        "end_time": 59.88
+        "viseme": "neutral.png",
+        "start_time": 80.1,
+        "end_time": 80.1
     },
     {
-        "viseme": "o.png",
-        "start_time": 59.88,
-        "end_time": 59.92
+        "viseme": "neutral.png",
+        "start_time": 80.1,
+        "end_time": 80.3
     },
     {
-        "viseme": "l.png",
-        "start_time": 59.92,
-        "end_time": 59.973333333333336
+        "viseme": "neutral.png",
+        "start_time": 80.3,
+        "end_time": 80.46
     },
     {
-        "viseme": "aei.png",
-        "start_time": 59.973333333333336,
-        "end_time": 60.02666666666667
+        "viseme": "neutral.png",
+        "start_time": 80.46,
+        "end_time": 80.58
     },
     {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 60.02666666666667,
-        "end_time": 60.080000000000005
+        "viseme": "neutral.png",
+        "start_time": 80.58,
+        "end_time": 80.96
     },
     {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 60.08,
-        "end_time": 60.17
+        "viseme": "neutral.png",
+        "start_time": 80.96,
+        "end_time": 81.26
     },
     {
-        "viseme": "o.png",
-        "start_time": 60.17,
-        "end_time": 60.260000000000005
+        "viseme": "neutral.png",
+        "start_time": 81.26,
+        "end_time": 81.34
     },
     {
-        "viseme": "r.png",
-        "start_time": 60.26,
-        "end_time": 60.32
+        "viseme": "neutral.png",
+        "start_time": 81.34,
+        "end_time": 81.46
     },
     {
-        "viseme": "ee.png",
-        "start_time": 60.32,
-        "end_time": 60.38
+        "viseme": "neutral.png",
+        "start_time": 81.46,
+        "end_time": 81.68
     },
     {
-        "viseme": "cdgknstxyz.png",
-        "start_time": 60.38,
-        "end_time": 60.440000000000005
+        "viseme": "neutral.png",
+        "start_time": 81.68,
+        "end_time": 81.84
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 81.84,
+        "end_time": 81.96
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 81.96,
+        "end_time": 82.12
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 82.12,
+        "end_time": 82.32
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 82.32,
+        "end_time": 83.04
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 83.04,
+        "end_time": 83.48
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 83.48,
+        "end_time": 83.82
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 83.82,
+        "end_time": 84.02
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 84.02,
+        "end_time": 84.56
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 84.66,
+        "end_time": 84.98
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 84.98,
+        "end_time": 85.3
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 85.3,
+        "end_time": 85.58
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 85.94,
+        "end_time": 86.14
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 86.14,
+        "end_time": 86.56
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 86.56,
+        "end_time": 86.96
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 86.96,
+        "end_time": 87.3
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 87.3,
+        "end_time": 87.84
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 87.84,
+        "end_time": 88.52
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 88.52,
+        "end_time": 88.72
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 88.72,
+        "end_time": 88.96
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 88.96,
+        "end_time": 89.2
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 89.2,
+        "end_time": 89.34
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 89.34,
+        "end_time": 89.72
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 89.76,
+        "end_time": 90.24
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 90.24,
+        "end_time": 90.48
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 90.48,
+        "end_time": 90.92
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 90.92,
+        "end_time": 91.38
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 91.38,
+        "end_time": 91.7
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 91.7,
+        "end_time": 92.28
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 92.28,
+        "end_time": 92.6
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 92.6,
+        "end_time": 92.72
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 92.72,
+        "end_time": 92.98
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 92.98,
+        "end_time": 93.3
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 93.3,
+        "end_time": 93.64
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 93.64,
+        "end_time": 94.08
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 94.08,
+        "end_time": 94.92
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 94.92,
+        "end_time": 96.52
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 96.52,
+        "end_time": 97.24
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 97.24,
+        "end_time": 97.56
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 97.56,
+        "end_time": 98.16
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 99.67999999999999,
+        "end_time": 100.24
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 100.24,
+        "end_time": 100.66
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 101.4,
+        "end_time": 101.98
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 101.98,
+        "end_time": 102.34
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 102.34,
+        "end_time": 102.58
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 102.58,
+        "end_time": 103.0
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 103.0,
+        "end_time": 103.42
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 103.42,
+        "end_time": 103.68
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 103.68,
+        "end_time": 103.98
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 103.98,
+        "end_time": 104.26
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 104.26,
+        "end_time": 104.46
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 104.46,
+        "end_time": 104.74
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 104.74,
+        "end_time": 104.96
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 104.96,
+        "end_time": 105.1
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 105.1,
+        "end_time": 105.32
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 105.32,
+        "end_time": 105.56
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 105.56,
+        "end_time": 105.86
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 105.86,
+        "end_time": 106.36
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 106.82,
+        "end_time": 107.06
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 107.06,
+        "end_time": 107.18
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 107.18,
+        "end_time": 107.98
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 107.98,
+        "end_time": 108.34
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 108.34,
+        "end_time": 108.74
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 108.74,
+        "end_time": 109.26
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 109.26,
+        "end_time": 109.34
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 109.34,
+        "end_time": 109.44
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 109.44,
+        "end_time": 109.54
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 109.54,
+        "end_time": 109.76
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 109.76,
+        "end_time": 110.02
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 110.02,
+        "end_time": 110.3
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 110.3,
+        "end_time": 110.44
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 110.44,
+        "end_time": 110.56
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 110.56,
+        "end_time": 110.66
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 110.66,
+        "end_time": 110.82
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 110.82,
+        "end_time": 111.0
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 111.0,
+        "end_time": 111.32
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 111.52,
+        "end_time": 111.74
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 111.74,
+        "end_time": 111.96
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 111.96,
+        "end_time": 112.18
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 112.18,
+        "end_time": 112.58
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 112.64,
+        "end_time": 112.86
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 112.86,
+        "end_time": 113.08
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 113.08,
+        "end_time": 113.18
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 113.18,
+        "end_time": 114.24
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 114.24,
+        "end_time": 114.54
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 114.54,
+        "end_time": 114.82
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 114.82,
+        "end_time": 115.06
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 115.08,
+        "end_time": 115.26
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 115.26,
+        "end_time": 115.38
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 115.38,
+        "end_time": 115.54
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 115.54,
+        "end_time": 115.78
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 115.78,
+        "end_time": 116.14
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 116.14,
+        "end_time": 116.52
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 116.52,
+        "end_time": 116.62
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 116.62,
+        "end_time": 116.78
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 116.84,
+        "end_time": 117.14
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 117.14,
+        "end_time": 117.72
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 117.72,
+        "end_time": 119.72
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 119.72,
+        "end_time": 120.04
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 120.04,
+        "end_time": 120.94
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 120.94,
+        "end_time": 121.58
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 121.58,
+        "end_time": 122.18
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 122.18,
+        "end_time": 122.72
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 123.0,
+        "end_time": 123.38
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 123.38,
+        "end_time": 124.18
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 124.18,
+        "end_time": 124.32
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 125.28,
+        "end_time": 125.8
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 127.13999999999999,
+        "end_time": 127.74
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 127.74,
+        "end_time": 128.6
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 128.6,
+        "end_time": 128.94
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 128.96,
+        "end_time": 129.26
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 129.26,
+        "end_time": 129.52
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 129.52,
+        "end_time": 129.96
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 129.96,
+        "end_time": 130.18
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 130.18,
+        "end_time": 130.6
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 130.6,
+        "end_time": 131.34
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 131.34,
+        "end_time": 131.94
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 131.94,
+        "end_time": 132.22
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 132.34,
+        "end_time": 132.6
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 132.6,
+        "end_time": 132.82
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 132.88,
+        "end_time": 133.24
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 133.24,
+        "end_time": 133.56
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 133.56,
+        "end_time": 134.16
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 134.16,
+        "end_time": 134.78
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 134.78,
+        "end_time": 135.4
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 135.4,
+        "end_time": 136.0
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 136.0,
+        "end_time": 136.86
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 136.86,
+        "end_time": 137.12
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 137.12,
+        "end_time": 137.38
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 137.38,
+        "end_time": 137.76
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 137.76,
+        "end_time": 138.36
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 138.36,
+        "end_time": 138.84
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 138.84,
+        "end_time": 139.3
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 139.3,
+        "end_time": 140.14
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 140.14,
+        "end_time": 141.42
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 141.42,
+        "end_time": 141.62
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 141.62,
+        "end_time": 141.86
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 141.86,
+        "end_time": 142.08
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 142.08,
+        "end_time": 142.34
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 142.34,
+        "end_time": 142.62
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 143.02,
+        "end_time": 143.18
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 143.18,
+        "end_time": 143.48
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 143.48,
+        "end_time": 143.9
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 143.9,
+        "end_time": 144.22
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 144.22,
+        "end_time": 145.02
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 145.02,
+        "end_time": 145.18
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 145.22,
+        "end_time": 145.4
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 145.4,
+        "end_time": 145.7
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 145.7,
+        "end_time": 145.96
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 145.96,
+        "end_time": 146.3
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 146.3,
+        "end_time": 146.78
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 146.78,
+        "end_time": 147.02
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 147.02,
+        "end_time": 147.24
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 147.24,
+        "end_time": 147.44
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 147.44,
+        "end_time": 147.66
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 147.66,
+        "end_time": 147.96
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 147.96,
+        "end_time": 148.14
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 148.14,
+        "end_time": 148.42
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 148.42,
+        "end_time": 149.26
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 149.26,
+        "end_time": 149.5
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 149.5,
+        "end_time": 150.02
+    },
+    {
+        "viseme": "neutral.png",
+        "start_time": 150.02,
+        "end_time": 150.34
     }
 ]
