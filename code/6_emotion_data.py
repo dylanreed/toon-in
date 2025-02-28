@@ -80,7 +80,7 @@ if __name__ == "__main__":
     base_dir = Path(__file__).parent.parent
     
     # File paths
-    transcript_file = base_dir / "data/transcript.txt"
+    transcript_file = base_dir / "input/transcript.txt"
     words_timing_file = base_dir / "data/word_data.json"
     output_file = base_dir / "data/emotion_data.json"
 

@@ -1,17 +1,122 @@
 [
     {
-        "viseme": "neutral.png",
-        "start_time": 0.0,
-        "end_time": 1.38
+        "viseme": "th.png",
+        "start_time": 0.9999999999999998,
+        "end_time": 1.1099999999999999
     },
     {
         "viseme": "neutral.png",
-        "start_time": 1.38,
-        "end_time": 1.56
+        "start_time": 1.1099999999999999,
+        "end_time": 1.22
     },
     {
-        "viseme": "neutral.png",
-        "start_time": 1.56,
-        "end_time": 1.94
+        "viseme": "cdgknstxyz.png",
+        "start_time": 1.22,
+        "end_time": 1.33
+    },
+    {
+        "viseme": "ee.png",
+        "start_time": 1.33,
+        "end_time": 1.4400000000000002
+    },
+    {
+        "viseme": "th.png",
+        "start_time": 1.44,
+        "end_time": 1.4733333333333334
+    },
+    {
+        "viseme": "ee.png",
+        "start_time": 1.4733333333333334,
+        "end_time": 1.5066666666666668
+    },
+    {
+        "viseme": "r.png",
+        "start_time": 1.5066666666666668,
+        "end_time": 1.5400000000000003
+    },
+    {
+        "viseme": "aei.png",
+        "start_time": 1.54,
+        "end_time": 1.76
+    },
+    {
+        "viseme": "cdgknstxyz.png",
+        "start_time": 1.96,
+        "end_time": 2.0
+    },
+    {
+        "viseme": "aei.png",
+        "start_time": 2.0,
+        "end_time": 2.04
+    },
+    {
+        "viseme": "cdgknstxyz.png",
+        "start_time": 2.04,
+        "end_time": 2.08
+    },
+    {
+        "viseme": "cdgknstxyz.png",
+        "start_time": 2.08,
+        "end_time": 2.1228571428571428
+    },
+    {
+        "viseme": "ee.png",
+        "start_time": 2.1228571428571428,
+        "end_time": 2.1657142857142855
+    },
+    {
+        "viseme": "cdgknstxyz.png",
+        "start_time": 2.1657142857142855,
+        "end_time": 2.208571428571428
+    },
+    {
+        "viseme": "cdgknstxyz.png",
+        "start_time": 2.208571428571428,
+        "end_time": 2.251428571428571
+    },
+    {
+        "viseme": "o.png",
+        "start_time": 2.251428571428571,
+        "end_time": 2.2942857142857136
+    },
+    {
+        "viseme": "r.png",
+        "start_time": 2.2942857142857136,
+        "end_time": 2.3371428571428563
+    },
+    {
+        "viseme": "cdgknstxyz.png",
+        "start_time": 2.3371428571428563,
+        "end_time": 2.379999999999999
+    },
+    {
+        "viseme": "bmp.png",
+        "start_time": 2.38,
+        "end_time": 2.453333333333333
+    },
+    {
+        "viseme": "ee.png",
+        "start_time": 2.453333333333333,
+        "end_time": 2.5266666666666664
+    },
+    {
+        "viseme": "cdgknstxyz.png",
+        "start_time": 2.5266666666666664,
+        "end_time": 2.5999999999999996
+    },
+    {
+        "viseme": "cdgknstxyz.png",
+        "start_time": 2.6,
+        "end_time": 2.6799999999999997
+    },
+    {
+        "viseme": "o.png",
+        "start_time": 2.6799999999999997,
+        "end_time": 2.76
+    },
+    {
+        "viseme": "aei.png",
+        "start_time": 2.76,
+        "end_time": 3.02
     }
 ]

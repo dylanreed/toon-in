@@ -44,7 +44,7 @@ def main():
     
     # Set default paths based on base directory if not provided
     if args.audio_file is None:
-        args.audio_file = str(base_dir / "data/audio/dylan/dylan.wav")
+        args.audio_file = str(base_dir / "data/audio/steve/steve.wav")
     
     if args.output is None:
         args.output = str(base_dir / "data/clean_transcript.txt")

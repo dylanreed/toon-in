@@ -90,14 +90,14 @@ if __name__ == "__main__":
             phoneme_data = json.load(json_file)
     except Exception as e:
         print(f"Error loading phoneme data: {e}")
-        print("Creating sample phoneme data")
+        #print("Creating sample phoneme data")
         # Create minimal phoneme data if file not found
-        phoneme_data = [
-            {"phoneme": "HH", "start_time": 0.0, "end_time": 0.1},
-            {"phoneme": "AH", "start_time": 0.1, "end_time": 0.2},
-            {"phoneme": "L", "start_time": 0.2, "end_time": 0.3},
-            {"phoneme": "OW", "start_time": 0.3, "end_time": 0.4}
-        ]
+        #phoneme_data = [
+        #    {"phoneme": "HH", "start_time": 0.0, "end_time": 0.1},
+        #    {"phoneme": "AH", "start_time": 0.1, "end_time": 0.2},
+        #    {"phoneme": "L", "start_time": 0.2, "end_time": 0.3},
+        #    {"phoneme": "OW", "start_time": 0.3, "end_time": 0.4}
+        #]
 
     # Map phonemes to visemes
     viseme_data = map_phonemes_to_visemes(phoneme_data)

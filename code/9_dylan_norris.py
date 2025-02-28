@@ -17,7 +17,7 @@ import threading
 
 # Constants
 FPS = 60
-DEFAULT_WINDOW_SIZE = (1920, 1080)
+DEFAULT_WINDOW_SIZE = (1080, 1350)
 BLINK_DURATION = 0.15
 BLINK_INTERVAL = (2, 6)
 
@@ -619,7 +619,7 @@ class MouthAnimation:
 
 def main():
     # Parse command line arguments
-    parser = argparse.ArgumentParser(description='Generate animation for Dylan dylan')
+    parser = argparse.ArgumentParser(description='Generate animation for dylan dylan')
     parser.add_argument('--audio_path', type=str, default="data/audio/dylan/dylan.wav",
                       help='Path to the audio file')
     parser.add_argument('--background_path', type=str, default="assets/background/blank_background.png",
@@ -631,14 +631,14 @@ def main():
     args = parser.parse_args()
     
     # Set your window size and paths
-    window_size = (1920, 1080)
+    window_size = (1080, 1350)
     
     # Create animation instance with custom character scale and position
     animation = MouthAnimation(
         window_size=window_size,
         character_scale=0.2,
-        character_position=(1300, 625),
-        flip_vertical=True,
+        character_position=(540, 1000),
+        flip_vertical=False,
         audio_path=args.audio_path,
         background_path=args.background_path,
     )

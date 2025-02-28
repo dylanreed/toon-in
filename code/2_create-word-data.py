@@ -6,6 +6,30 @@ import argparse
 from pathlib import Path
 import whisper
 
+def clean_word_data(word_data):
+    """
+    Clean words by removing leading/trailing spaces and 
+    convert all words to uppercase for CMU dictionary compatibility
+    """
+    cleaned_data = []
+    
+    for entry in word_data:
+        original_word = entry['word']
+        # First strip spaces and unwanted characters
+        cleaned_word = original_word.strip()
+        # Then convert to uppercase for CMU dictionary
+        uppercase_word = cleaned_word.lower()
+        
+        if original_word != uppercase_word:
+            print(f"Processed: '{original_word}' -> '{uppercase_word}'")
+        
+        cleaned_data.append({
+            "word": uppercase_word,
+            "start_time": entry['start_time'],
+            "end_time": entry['end_time']
+        })
+    
+    return cleaned_data
 def main():
     parser = argparse.ArgumentParser(description='Create word-level timing data using Whisper')
     parser.add_argument('--audio_file', required=False, 
@@ -48,6 +72,7 @@ def main():
         print(f"Error transcribing audio: {e}")
         # Create some minimal default data to allow pipeline to continue
         default_data = [{"word": "test", "start_time": 0.0, "end_time": 1.0}]
+        default_data = clean_word_data(default_data)  # Clean even the default data
         with open(output_path, "w", encoding="utf-8") as json_file:
             json.dump(default_data, json_file, indent=4, ensure_ascii=False)
         print(f"Created minimal default word data at: {output_path}")
@@ -89,11 +114,23 @@ def main():
         print("Warning: No word data found. Creating dummy data.")
         word_data = [{"word": "dummy", "start_time": 0.0, "end_time": 1.0}]
     
+    # Clean the word data to remove unwanted characters and spaces
+    print("\nCleaning word data...")
+    word_data = clean_word_data(word_data)
+    
     # Export word data to a JSON file
     try:
         with open(output_path, "w", encoding="utf-8") as json_file:
             json.dump(word_data, json_file, indent=4, ensure_ascii=False)
         print(f"Word data saved to: {output_path}")
+        print(f"Total words: {len(word_data)}")
+        print("Sample of processed words:")
+        for i, entry in enumerate(word_data[:5]):
+            if i >= len(word_data):
+                break
+            print(f"  {i+1}. '{entry['word']}' ({entry['start_time']:.2f}s - {entry['end_time']:.2f}s)")
+        if len(word_data) > 5:
+            print(f"  ...and {len(word_data) - 5} more words")
     except Exception as e:
         print(f"Error saving word data: {e}")
         # Try saving to a different location

@@ -32,7 +32,10 @@ def create_fallback_dict():
         "TEST": ["T", "EH", "S", "T"],
         "TRANSCRIPT": ["T", "R", "AE", "N", "S", "K", "R", "IH", "P", "T"],
         "FOR": ["F", "AO", "R"],
-        "ANIMATION": ["AE", "N", "AH", "M", "EY", "SH", "AH", "N"]
+        "ANIMATION": ["AE", "N", "AH", "M", "EY", "SH", "AH", "N"],
+        "WELCOME": ["W", "EH", "L", "K", "AH", "M"],
+        "TO": ["T", "UW"],
+        "NERVOUS": ["N", "ER", "V", "AH", "S"]
     }
     print("Created fallback dictionary with common words.")
     return fallback
@@ -42,9 +45,8 @@ def map_words_to_phonemes(word_data, cmu_dict):
     unmatched_words = []
 
     for word_entry in word_data:
-
-        # Normalize the word
-        word = word_entry['word'].lower().strip("()[]0123456789.,!?\"' ").strip()
+        # FIX: Strip all whitespace characters from the word
+        word = word_entry['word'].lower().strip("()[]0123456789.,!?\"' \t\n\r").strip()
         # Convert to uppercase for CMU dict lookup
         word_upper = word.upper()
         
@@ -54,13 +56,29 @@ def map_words_to_phonemes(word_data, cmu_dict):
 
         # Try exact match or variant match
         phonemes = cmu_dict.get(word_upper) or next(
-            (v for k, v in cmu_dict.items() if k.startswith(word_upper + "(")), ['SIL']
+            (v for k, v in cmu_dict.items() if k.startswith(word_upper + "(")), None
         )
 
+        # If still no match, try manually handling punctuation and special cases
+        if not phonemes and word_upper.endswith('!!!'):
+            word_upper = word_upper.rstrip('!')
+            phonemes = cmu_dict.get(word_upper)
+
         # Log if the word is not found
-        if phonemes == ['SIL']:
+        if not phonemes:
             unmatched_words.append(word)
-            print(f"Word '{word}' not found in CMU dictionary. Using fallback 'SIL'.")
+            print(f"Word '{word}' not found in CMU dictionary. Using fallback.")
+            
+            # Provide better fallbacks for common words
+            if word_upper == "WELCOME":
+                phonemes = ["W", "EH", "L", "K", "AH", "M"]
+            elif word_upper == "TO":
+                phonemes = ["T", "UW"]
+            elif word_upper == "NERVOUS":
+                phonemes = ["N", "ER", "V", "AH", "S"]
+            else:
+                # Default fallback - use at least one non-silence phoneme
+                phonemes = ["AH"]
 
         # Distribute duration across phonemes
         phoneme_duration = word_duration / len(phonemes) if phonemes else 0
@@ -89,16 +107,26 @@ def main():
     # Set base directory and paths
     base_dir = Path(__file__).parent.parent
     
-    # Try multiple locations for CMU dictionary
+    # Try multiple locations for CMU dictionary, including Python 3.10 path
     possible_dict_paths = [
-        base_dir / ".toon/lib/python3.9/site-packages/pocketsphinx/model/en-us/cmudict-en-us.dict",
-        base_dir / ".venv/lib/python3.9/site-packages/pocketsphinx/model/en-us/cmudict-en-us.dict",
-        base_dir / ".venv/lib/python3.11/site-packages/pocketsphinx/model/en-us/cmudict-en-us.dict",
-        base_dir / "cmudict-en-us.dict",  # In case it's in the base directory
+        #base_dir / ".venv/lib/python3.10/site-packages/pocketsphinx/model/en-us/cmudict-en-us.dict",
+        #base_dir / ".toon/lib/python3.9/site-packages/pocketsphinx/model/en-us/cmudict-en-us.dict",
+        #base_dir / ".venv/lib/python3.9/site-packages/pocketsphinx/model/en-us/cmudict-en-us.dict",
+        #base_dir / ".venv/lib/python3.11/site-packages/pocketsphinx/model/en-us/cmudict-en-us.dict",
+        base_dir / "/Users/nervous/Documents/GitHub/toon-in/cmudict-en-us.dict",  # In case it's in the base directory
     ]
+
+    # Try to find any CMU dict file in the .venv directory
+    venv_dir = base_dir / ".venv"
+    if venv_dir.exists():
+        for root, dirs, files in os.walk(str(venv_dir)):
+            for file in files:
+                if file == "cmudict-en-us.dict":
+                    possible_dict_paths.append(Path(root) / file)
     
     cmu_dict = None
     for dict_path in possible_dict_paths:
+        print(f"Checking for dictionary at: {dict_path}")
         if dict_path.exists():
             print(f"Found CMU dictionary at: {dict_path}")
             cmu_dict = load_cmu_dict(dict_path)
@@ -118,11 +146,9 @@ def main():
         print(f"Error loading word data: {e}")
         print("Creating sample word data for testing")
         word_data = [
-            {"word": "hello", "start_time": 0.0, "end_time": 0.5},
-            {"word": "this", "start_time": 0.5, "end_time": 0.8},
-            {"word": "is", "start_time": 0.8, "end_time": 1.0},
-            {"word": "a", "start_time": 1.0, "end_time": 1.2},
-            {"word": "test", "start_time": 1.2, "end_time": 1.8}
+            {"word": "welcome", "start_time": 0.0, "end_time": 0.5},
+            {"word": "to", "start_time": 0.5, "end_time": 0.8},
+            {"word": "nervous", "start_time": 0.8, "end_time": 1.0}
         ]
 
     # Map words to phonemes

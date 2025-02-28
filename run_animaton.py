@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import os
 import sys
 import subprocess
@@ -52,11 +51,11 @@ def ensure_directories():
         print(f"Ensured directory exists: {directory}")
         
     # Create a simple test transcript CSV if none exists
-    transcript_csv = BASE_DIR / "input" / "transcript.csv"
-    if not transcript_csv.exists():
-        print(f"Creating sample transcript CSV at {transcript_csv}")
-        with open(transcript_csv, 'w') as f:
-            f.write("text\nHello, this is a test transcript for animation.")
+    #transcript_csv = BASE_DIR / "input" / "transcript.csv"
+    #if not transcript_csv.exists():
+    #    print(f"Creating sample transcript CSV at {transcript_csv}")
+    #    with open(transcript_csv, 'w') as f:
+    #        f.write("text\nHello, this is a test transcript for animation.")
 
 def select_voice():
     """Let user select which character voice to use"""
@@ -130,13 +129,13 @@ def run_animation_pipeline():
     
     # Set file paths based on character
     audio_path = f"data/audio/{character}/{character}.wav"
-    output_video = f"output/{character}/{character}_episode_4_output.mp4"
+    output_video = f"output/{character}/{character}_output.mp4"
     animation_script = f"code/9_{character}_norris.py"
     
     # Define absolute paths
     audio_mp3 = BASE_DIR / f"data/audio/{character}/{character}.mp3"
     audio_wav = BASE_DIR / f"data/audio/{character}/{character}.wav"
-    transcript_txt = BASE_DIR / "data/transcript.txt"
+    transcript_txt = BASE_DIR / "input/transcript.txt"
     word_data_json = BASE_DIR / "data/word_data.json"
     
     # STEP 1: Generate audio from transcript
@@ -175,13 +174,6 @@ def run_animation_pipeline():
     print_header(3, "Generate transcript from audio")
     run_command(f"python {BASE_DIR}/code/3_transcript-from-wav.py --audio_file {audio_wav} --output {transcript_txt}")
     
-    # STEP 4: Convert CSV to TXT if necessary
-    print_header(4, "Convert CSV to TXT if needed")
-    if (BASE_DIR / "input" / "transcript.csv").exists():
-        run_command(f"python {BASE_DIR}/code/4_csv_to_txt.py --output_txt {transcript_txt}")
-    else:
-        print("No CSV file found, using transcript from audio")
-    
     # STEP 5: Create word timing data
     print_header(5, "Create word timing data")
     run_command(f"python {BASE_DIR}/code/2_create-word-data.py --audio_file {audio_wav} --output {word_data_json}")
@@ -200,7 +192,7 @@ def run_animation_pipeline():
     
     # STEP 6: Map phonemes
     print_header(6, "Map phonemes")
-    run_command(f"python {BASE_DIR}/code/5_phoneme_mapping.py")
+    run_command(f"python {BASE_DIR}/code/manual_phonemes.py")
     
     # STEP 7: Generate Viseme data
     print_header(7, "Generate viseme data")

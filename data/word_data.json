@@ -1,17 +1,42 @@
 [
     {
-        "word": " Welcome",
-        "start_time": 0.0,
-        "end_time": 1.38
+        "word": "howdy",
+        "start_time": 0.9999999999999998,
+        "end_time": 1.44
     },
     {
-        "word": " to",
-        "start_time": 1.38,
-        "end_time": 1.56
+        "word": "there",
+        "start_time": 1.44,
+        "end_time": 1.54
     },
     {
-        "word": " Nervus!",
-        "start_time": 1.56,
-        "end_time": 1.94
+        "word": "folks,",
+        "start_time": 1.54,
+        "end_time": 1.76
+    },
+    {
+        "word": "does",
+        "start_time": 1.96,
+        "end_time": 2.08
+    },
+    {
+        "word": "discord",
+        "start_time": 2.08,
+        "end_time": 2.38
+    },
+    {
+        "word": "make",
+        "start_time": 2.38,
+        "end_time": 2.6
+    },
+    {
+        "word": "you",
+        "start_time": 2.6,
+        "end_time": 2.76
+    },
+    {
+        "word": "nervous?",
+        "start_time": 2.76,
+        "end_time": 3.02
     }
 ]
