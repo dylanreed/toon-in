@@ -19,14 +19,19 @@ def save_csv_rows_as_txt(input_csv, output_txt):
 def main():
     parser = argparse.ArgumentParser(description='Convert CSV to text file')
     parser.add_argument('--input_csv', required=False, 
-                        default='/Users/nervous/Documents/GitHub/toon-in/input/transcript.csv',
+                        default=None,
                         help='Path to the input CSV file')
     parser.add_argument('--output_txt', required=False, 
-                        default='/Users/nervous/Documents/GitHub/toon-in/data/transcript.txt',
+                        default=None,
                         help='Path to save the output text file')
     args = parser.parse_args()
     
+    base_dir = Path(__file__).parent.parent
+    
+    if args.input_csv is None:
+        args.input_csv = str(base_dir / "input/transcript.csv")
+    
+    if args.output_txt is None:
+        args.output_txt = str(base_dir / "data/transcript.txt")
+    
     save_csv_rows_as_txt(args.input_csv, args.output_txt)
-
-if __name__ == "__main__":
-    main()

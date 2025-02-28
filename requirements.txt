@@ -1,0 +1,58 @@
+# Core numerical packages
+numpy==1.24.3
+pandas>=2.0.0
+
+# Deep Learning
+torch>=2.0.0,<2.2.0
+torchaudio>=2.0.0,<2.2.0
+openai-whisper>=20231117
+numba>=0.53.1
+llvmlite>=0.36.0
+
+# Audio processing
+pydub>=0.25.1
+ffmpeg-python>=0.2.0
+soundfile>=0.12.1
+
+# Image and video processing
+pygame>=2.5.0
+opencv-python>=4.7.0
+cairosvg>=2.7.0
+Pillow>=10.0.0
+
+# HTTP and Data
+requests>=2.31.0
+
+# Progress bars
+tqdm>=4.65.0
+
+# Speech processing
+pocketsphinx>=5.0.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Command-line argument parsing
+argparse>=1.4.0
+
+# Path handling
+pathlib>=1.0.1
+
+# Threading and concurrency
+concurrent.futures; python_version < '3.8'
+
+# Temp file management
+tempfile; python_version < '3.8'
+
+# File system operations
+shutil; python_version < '3.8'
+
+# Regular expressions for text parsing
+re; python_version < '3.8'
+
+# JSON handling
+json; python_version < '3.8'
+
+# System functions
+os; python_version < '3.8'
+sys; python_version < '3.8'

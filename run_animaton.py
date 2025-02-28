@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 import pandas as pd
 
 # Base directory setup
-BASE_DIR = Path(__file__).parent.parent
+BASE_DIR = Path(__file__).parent
 
 def print_header(step_num, description):
     """Print a formatted header for each step"""
@@ -131,7 +131,7 @@ def run_animation_pipeline():
     # Set file paths based on character
     audio_path = f"data/audio/{character}/{character}.wav"
     output_video = f"output/{character}/{character}_episode_4_output.mp4"
-    animation_script = f"code/9_{character}_norris.py" if character == "dylan" else "code/9_steve_norris.py"
+    animation_script = f"code/9_{character}_norris.py"
     
     # Define absolute paths
     audio_mp3 = BASE_DIR / f"data/audio/{character}/{character}.mp3"
@@ -202,12 +202,22 @@ def run_animation_pipeline():
     print_header(6, "Map phonemes")
     run_command(f"python {BASE_DIR}/code/5_phoneme_mapping.py")
     
-    # STEP 7: Generate emotion data
-    print_header(7, "Generate emotion data")
+    # STEP 7: Generate Viseme data
+    print_header(7, "Generate viseme data")
+    # Check if we have proper viseme mapping script for the character
+    character_viseme_script = f"{BASE_DIR}/code/8_{character}_viseme_mapping.py"
+    if os.path.exists(character_viseme_script):
+        run_command(f"python {character_viseme_script}")
+    else:
+        # Use the default script
+        run_command(f"python {BASE_DIR}/code/8_norris_viseme_mapping.py")
+    
+    # STEP 8: Generate emotion data
+    print_header(8, "Generate emotion data")
     run_command(f"python {BASE_DIR}/code/6_emotion_data.py")
     
-    # STEP 8: Generate pose data
-    print_header(8, "Generate pose data")
+    # STEP 9: Generate pose data
+    print_header(9, "Generate pose data")
     run_command(f"python {BASE_DIR}/code/7_pose_data.py")
     
     # Verify all required files exist for animation
@@ -215,12 +225,17 @@ def run_animation_pipeline():
         print(f"Error: Audio file not found at {audio_wav}")
         sys.exit(1)
     
+    viseme_data_json = BASE_DIR / "data/viseme_data.json"
+    if not viseme_data_json.exists():
+        print(f"Error: Viseme data file not found at {viseme_data_json}")
+        sys.exit(1)
+    
     # Ensure output directory exists
     output_video_path = Path(output_video)
     output_video_path.parent.mkdir(exist_ok=True, parents=True)
     
-    # STEP 9: Run animation
-    print_header(9, "Run animation")
+    # STEP 10: Run animation
+    print_header(10, "Run animation")
     animation_cmd = f"python {BASE_DIR}/{animation_script}"
     animation_cmd += f" --audio_path {audio_wav}"
     animation_cmd += f" --output_path {output_video}"

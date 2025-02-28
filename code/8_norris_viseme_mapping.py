@@ -55,7 +55,11 @@ def map_phonemes_to_visemes(phoneme_data):
         "TH": "th.png",   # as in "thin"
         "DH": "th.png",   # as in "this"
         
-        "SIL": "neutral.png"  # silence
+        "SIL": "neutral.png",  # silence
+        "ER": "r.png",    # as in "bird"
+        "HH": "th.png",   # as in "he"
+        "NG": "cdgknstxyz.png", # as in "sing"
+        "ZH": "shch.png"  # as in "vision"
     }
 
     viseme_list = []
@@ -63,7 +67,8 @@ def map_phonemes_to_visemes(phoneme_data):
         phoneme = entry['phoneme']
         # Default to neutral.png instead of aei.png for unknown phonemes
         mouth_shape = phoneme_to_mouth_shape.get(phoneme, "neutral.png")
-
+        
+        # Add the mapping to output
         viseme_list.append({
             "viseme": mouth_shape,
             "start_time": entry['start_time'],
@@ -79,8 +84,20 @@ if __name__ == "__main__":
     
     # Load phoneme data from the JSON file
     phoneme_data_path = base_dir / "data/phoneme_data.json"
-    with open(phoneme_data_path, "r", encoding="utf-8") as json_file:
-        phoneme_data = json.load(json_file)
+    
+    try:
+        with open(phoneme_data_path, "r", encoding="utf-8") as json_file:
+            phoneme_data = json.load(json_file)
+    except Exception as e:
+        print(f"Error loading phoneme data: {e}")
+        print("Creating sample phoneme data")
+        # Create minimal phoneme data if file not found
+        phoneme_data = [
+            {"phoneme": "HH", "start_time": 0.0, "end_time": 0.1},
+            {"phoneme": "AH", "start_time": 0.1, "end_time": 0.2},
+            {"phoneme": "L", "start_time": 0.2, "end_time": 0.3},
+            {"phoneme": "OW", "start_time": 0.3, "end_time": 0.4}
+        ]
 
     # Map phonemes to visemes
     viseme_data = map_phonemes_to_visemes(phoneme_data)
@@ -91,3 +108,4 @@ if __name__ == "__main__":
         json.dump(viseme_data, json_file, indent=4)
 
     print(f"Viseme data has been exported to {viseme_data_path}")
+    print(f"Generated {len(viseme_data)} viseme entries from {len(phoneme_data)} phonemes")

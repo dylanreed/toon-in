@@ -2,6 +2,7 @@ import re
 import json
 import os
 import sys
+from pathlib import Path
 
 def load_file(file_path):
     """Load text or JSON file content."""
@@ -56,17 +57,19 @@ def save_pose_data(pose_data, output_file):
     print(f"Pose data saved to: {output_file}")
 
 if __name__ == "__main__":
+    base_dir = Path(__file__).parent.parent
+    
     # File paths
-    transcript_file = "/Users/nervous/Documents/GitHub/toon-in/data/transcript.txt"
-    words_timing_file = "/Users/nervous/Documents/GitHub/toon-in/data/word_data.json"
-    output_file = "/Users/nervous/Documents/GitHub/toon-in/data/pose_data.json"
+    transcript_file = base_dir / "data/transcript.txt"
+    words_timing_file = base_dir / "data/word_data.json"
+    output_file = base_dir / "data/pose_data.json"
 
     # Load input files
-    transcript = load_file(transcript_file)
-    words_timing = load_file(words_timing_file)
+    transcript = load_file(str(transcript_file))
+    words_timing = load_file(str(words_timing_file))
 
-    # Parse poses from the transcript
+    # Parse poses/emotions from the transcript
     pose_data = parse_transcript_with_poses(transcript, words_timing)
 
-    # Save the pose data
-    save_pose_data(pose_data, output_file)
+    # Save the pose/emotion data
+    save_pose_data(pose_data, str(output_file))

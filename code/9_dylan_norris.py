@@ -5,10 +5,15 @@ import time
 import random
 import numpy as np
 import cv2
+import argparse
 from enum import Enum
 from typing import Dict, Tuple, List, Optional 
 from pathlib import Path  
 import pygame
+import tempfile
+import shutil
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import threading
 
 # Constants
 FPS = 60
@@ -136,11 +141,11 @@ class MouthAnimation:
     def _load_assets(self):
         """Load all image assets with proper error handling"""
         # Load body image
-        self.body_image = self.load_image(self.base_dir / "assets/norris/body.png")
+        self.body_image = self.load_image(self.base_dir / "assets/dylan/body.png")
         
         # Load visemes - updated with specific viseme set
         self.viseme_images = {}
-        viseme_path = self.base_dir / "assets/norris/visemes"
+        viseme_path = self.base_dir / "assets/dylan/visemes"
         viseme_files = [
             "ee.png",
             "bmp.png",
@@ -162,7 +167,7 @@ class MouthAnimation:
         
         # Load blink images - updated for four-stage blink
         self.blink_images = {}
-        blink_path = self.base_dir / "assets/norris/blink"
+        blink_path = self.base_dir / "assets/dylan/blink"
         for filename in ["open.png", "half.png", "third.png", "closed.png"]:
             self.blink_images[filename] = self.load_image(blink_path / filename)
 
@@ -219,7 +224,6 @@ class MouthAnimation:
         placeholder.blit(text, text_rect)
         return placeholder
 
-        
     def _blend_surfaces(self, surface1: pygame.Surface, surface2: pygame.Surface, 
                        blend_factor: float) -> pygame.Surface:
         """
@@ -426,11 +430,208 @@ class MouthAnimation:
                 temp_video.unlink()
                 print("Audio added successfully")
 
+    def export_video_threaded(self, output_path: str = "output.mp4", fps: int = FPS, num_threads: int = 4):
+        """Export animation to video file using multiple threads for faster processing"""
+        print(f"Starting multi-threaded video export with {num_threads} threads...")
+        
+        # Ensure output directory exists
+        output_path = Path(output_path)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        
+        # Create temp directory for frame storage
+        temp_dir = Path(tempfile.mkdtemp())
+        print(f"Created temporary directory: {temp_dir}")
+        
+        try:
+            duration = self.audio_length if self.audio_length > 0 else max(
+                frame["end_time"] for frame in self.animation_data
+            )
+            
+            frame_count = int(duration * fps)
+            
+            # Split into chunks
+            chunk_size = (frame_count + num_threads - 1) // num_threads
+            chunks = [(i * chunk_size, min((i + 1) * chunk_size, frame_count)) 
+                    for i in range(num_threads)]
+            
+            # Thread-local storage for viseme morphing
+            thread_local = threading.local()
+            
+            # Function to process a chunk and save frames to disk
+            def process_chunk(start_idx, end_idx, thread_id):
+                # Create thread-local animation state
+                thread_local.blink_state = BlinkState()
+                thread_local.movement = Movement()
+                thread_local.surface = pygame.Surface(self.window_size, pygame.SRCALPHA)
+                thread_local.previous_viseme = "neutral.png"
+                thread_local.previous_viseme_time = 0
+                
+                # Initialize states for consistency
+                if start_idx > 0:
+                    for i in range(0, start_idx, max(1, fps // 10)):
+                        simulated_time = i / fps
+                        thread_local.blink_state.update(simulated_time)
+                        thread_local.movement.get_offset(simulated_time)
+                
+                processed_frames = 0
+                for i in range(start_idx, end_idx):
+                    current_time = i / fps
+                    
+                    # Get animation elements
+                    viseme = self.get_current_viseme(current_time)
+                    blink = thread_local.blink_state.update(current_time)
+                    
+                    # Clear surface
+                    thread_local.surface.fill((0, 0, 0, 0))
+                    
+                    # Draw background if exists
+                    if self.background_image:
+                        thread_local.surface.blit(self.background_image, (0, 0))
+                    
+                    # Get movement offset
+                    offset_x, offset_y, movement_scale = thread_local.movement.get_offset(current_time)
+                    total_scale = self.character_scale * movement_scale
+                    
+                    # Draw body
+                    if self.body_image:
+                        scaled_body = self._scale_and_flip_image(self.body_image, total_scale)
+                        self._blit_centered(thread_local.surface, scaled_body, offset_x, offset_y)
+                    
+                    # Handle viseme morphing in thread-local context
+                    if viseme in self.viseme_images:
+                        # Simplified morphing for threaded rendering
+                        if viseme != thread_local.previous_viseme:
+                            transition_time = current_time - thread_local.previous_viseme_time
+                            if transition_time < self.morph_duration:
+                                # Calculate blend factor
+                                blend_factor = transition_time / self.morph_duration
+                                
+                                # Get surfaces
+                                prev_surf = self.viseme_images[thread_local.previous_viseme]
+                                curr_surf = self.viseme_images[viseme]
+                                
+                                # Create morphed surface
+                                morphed = self._blend_surfaces(prev_surf, curr_surf, blend_factor)
+                                scaled_viseme = self._scale_and_flip_image(morphed, total_scale)
+                            else:
+                                thread_local.previous_viseme = viseme
+                                thread_local.previous_viseme_time = current_time
+                                scaled_viseme = self._scale_and_flip_image(self.viseme_images[viseme], total_scale)
+                        else:
+                            scaled_viseme = self._scale_and_flip_image(self.viseme_images[viseme], total_scale)
+                            
+                        self._blit_centered(thread_local.surface, scaled_viseme, offset_x, offset_y)
+                    
+                    # Draw blink overlay
+                    if blink in self.blink_images:
+                        scaled_blink = self._scale_and_flip_image(self.blink_images[blink], total_scale)
+                        self._blit_centered(thread_local.surface, scaled_blink, offset_x, offset_y)
+                    
+                    # Convert and save frame
+                    frame_data = pygame.surfarray.array3d(thread_local.surface)
+                    frame_data = cv2.cvtColor(frame_data, cv2.COLOR_RGB2BGR)
+                    frame_data = np.transpose(frame_data, (1, 0, 2))
+                    
+                    # Save frame to disk with padded index for sorting
+                    frame_path = temp_dir / f"frame_{i:010d}.png"
+                    cv2.imwrite(str(frame_path), frame_data)
+                    
+                    processed_frames += 1
+                    
+                    # Progress reporting - show more frequent updates
+                    if processed_frames % (fps // 2) == 0:
+                        percent_done = ((i - start_idx + 1) / (end_idx - start_idx)) * 100
+                        print(f"Thread {thread_id}: {percent_done:.1f}% complete - " +
+                              f"frame {i}/{end_idx-1} ({i/fps:.1f}s/{duration:.1f}s)")
+                
+                return processed_frames
+            
+            # Process chunks in parallel
+            print(f"Starting parallel processing with {num_threads} threads...")
+            with ThreadPoolExecutor(max_workers=num_threads) as executor:
+                futures = {
+                    executor.submit(process_chunk, start, end, i): i 
+                    for i, (start, end) in enumerate(chunks)
+                }
+                
+                # Wait for all to complete and get total frames
+                total_processed = 0
+                for future in as_completed(futures):
+                    thread_id = futures[future]
+                    try:
+                        frames_processed = future.result()
+                        total_processed += frames_processed
+                        print(f"Thread {thread_id} completed, processed {frames_processed} frames")
+                    except Exception as e:
+                        print(f"Thread {thread_id} failed with error: {e}")
+                
+                print(f"Processed {total_processed} frames across {num_threads} threads")
+            
+            # Write frames to video in correct order
+            print("Creating video from processed frames...")
+            fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+            out = cv2.VideoWriter(str(output_path), fourcc, fps, self.window_size)
+            
+            # Get all frame files and sort them
+            frame_files = sorted(temp_dir.glob("frame_*.png"))
+            
+            # Progress tracking for frame writing
+            total_frames = len(frame_files)
+            for i, frame_file in enumerate(frame_files):
+                frame_data = cv2.imread(str(frame_file))
+                if frame_data is not None:
+                    out.write(frame_data)
+                else:
+                    print(f"Warning: Failed to read frame {frame_file}")
+                
+                # Show progress for writing frames
+                if i % (total_frames // 10) == 0:
+                    print(f"Writing frames to video: {i}/{total_frames} ({i/total_frames*100:.1f}%)")
+            
+            out.release()
+            print(f"Video exported to {output_path}")
+            
+            # Add audio if available
+            if self.audio_path:
+                audio_path = Path(self.audio_path)
+                if not audio_path.is_absolute():
+                    audio_path = self.base_dir / audio_path
+                if audio_path.exists():
+                    print("Adding audio...")
+                    temp_video = output_path.with_name(output_path.stem + "_temp" + output_path.suffix)
+                    output_path.rename(temp_video)
+                    os.system(f'ffmpeg -i {temp_video} -i {audio_path} -c:v copy -c:a aac {output_path}')
+                    temp_video.unlink()
+                    print("Audio added successfully")
+        
+        except Exception as e:
+            print(f"Error during video export: {e}")
+            raise
+        
+        finally:
+            # Clean up temp files
+            try:
+                print(f"Cleaning up temporary files in {temp_dir}")
+                shutil.rmtree(temp_dir)
+            except Exception as e:
+                print(f"Warning: Failed to clean up temp directory: {e}")
+
+
 def main():
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(description='Generate animation for Dylan dylan')
+    parser.add_argument('--audio_path', type=str, default="data/audio/dylan/dylan.wav",
+                      help='Path to the audio file')
+    parser.add_argument('--background_path', type=str, default="assets/background/blank_background.png",
+                      help='Path to the background image')
+    parser.add_argument('--output_path', type=str, default="output/dylan/dylan.mp4",
+                      help='Path to save the output video')
+    parser.add_argument('--threaded', action='store_true', help='Use threaded rendering for faster export')
+    parser.add_argument('--num_threads', type=int, default=4, help='Number of threads to use for export')
+    args = parser.parse_args()
+    
     # Set your window size and paths
     window_size = (1920, 1080)
-    audio_path = "data/audio/dylan/episode_4_dylan.wav"
-    background_path = "assets/background/blank_background.png"
     
     # Create animation instance with custom character scale and position
     animation = MouthAnimation(
@@ -438,13 +639,19 @@ def main():
         character_scale=0.2,
         character_position=(1300, 625),
         flip_vertical=True,
-        audio_path=audio_path,
-        background_path=background_path,
+        audio_path=args.audio_path,
+        background_path=args.background_path,
     )
     
-    # Choose whether to preview or export
-    animation.preview_animation()
-    #animation.export_video("output/norris/output.mp4", fps=60)
+    # Use the threaded export if requested, otherwise use normal export
+    if args.threaded:
+        animation.export_video_threaded(
+            args.output_path, 
+            fps=60,
+            num_threads=args.num_threads
+        )
+    else:
+        animation.export_video(args.output_path, fps=60)
 
 if __name__ == "__main__":
     main()

@@ -31,16 +31,22 @@ def transcribe_and_save(audio_file, model_name="base", transcript_file="transcri
 def main():
     parser = argparse.ArgumentParser(description='Transcribe audio using Whisper')
     parser.add_argument('--audio_file', required=False, 
-                        default="/Users/nervous/Documents/GitHub/toon-in/data/audio/dylan/dylan.wav",
+                        default=None,
                         help='Path to the audio file to transcribe')
     parser.add_argument('--model', required=False, default='base',
                         help='Whisper model to use (e.g., "base", "small", "medium", "large")')
     parser.add_argument('--output', required=False, 
-                        default="/Users/nervous/Documents/GitHub/toon-in/data/clean_transcript.txt",
+                        default=None,
                         help='Path to save the transcription as a text file')
     args = parser.parse_args()
     
+    base_dir = Path(__file__).parent.parent
+    
+    # Set default paths based on base directory if not provided
+    if args.audio_file is None:
+        args.audio_file = str(base_dir / "data/audio/dylan/dylan.wav")
+    
+    if args.output is None:
+        args.output = str(base_dir / "data/clean_transcript.txt")
+    
     transcribe_and_save(args.audio_file, args.model, args.output)
-
-if __name__ == "__main__":
-    main()

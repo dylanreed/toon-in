@@ -14,4 +14,4 @@ uv pip install numpy==1.24.3
 uv pip install torch==2.0.1 torchaudio==2.0.2
 
 # Then install the rest
-uv pip install -r code/requirements.txt
+uv pip install -r requirements.txt

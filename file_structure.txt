@@ -1,0 +1,47 @@
+File Architecture
+
+-toon-in
+run_animation.py
+    assets
+        -backgrounds
+        -norris
+            -blink
+            -emotions
+            -feet
+            -pose
+            -visemes
+        -body.png
+    code
+        -0_make_audio.py
+        -1_audio_conversion.py
+        -2_create_word_data.py
+        -3_transcript_from_wav
+        -4_csv_to_txt.py
+        -5_phoneme_mapping.py
+        -6_emotions_data.py
+        -7_pose_data.py
+        -8_norris_viseme_mapping.py
+        -9_steve_norris.py
+        -9_dylan_norris.py
+    data
+        -word_data.json
+        -clean_transcript.txt
+        -transcript.txt
+        -phoneme_data.json
+        -pose_data.json
+        -viseme_data.json
+        dylan
+            audio
+                -(output from 0_make_audio.py).mp3
+                -(output from 1_audio_conversion.py).wav
+        steve
+            audio
+                -(output from 0_make_audio.py).mp3
+                -(output from 1_audio_conversion.py).wav
+    input
+        -transcript.csv
+    output
+        dylan
+            -(output from 9_dylan_norris.py)dylan{date}.mp4
+        steve
+            (output from 9_steve_norris.py)steve{date}.mp4
